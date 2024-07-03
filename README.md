@@ -3,29 +3,35 @@
 Overview
 This repository contains flashcards for various topics that are commonly asked in coding interviews. The flashcards are hosted on Quizlet and can be accessed using the links provided above.
 
+BLOCKCHAIN FLASHCARDS
+[BLOCKCHAIN FLASHCARDS](https://quizlet.com/927445501/blockchain-flash-cards/)
+
 CLOUD PROVIDER FLASHCARDS
 [CLOUD PROVIDER FLASHCARDS](https://quizlet.com/927337000/cloud-services-coding-interview-flash-cards/?new)
 
 DATABASES FLASHCARDS
-[DATABASES FLASHCARDS]()
+[DATABASES FLASHCARDS](https://quizlet.com/927446706/databases-flash-cards/)
 
 DESIGN PATTERNS FLASHCARDS
 [DESIGN PATTERNS FLASHCARDS](https://quizlet.com/927337480/design-patterns-coding-interview-flash-cards/?new)
 
 DEVOPS FLASHCARDS
-[DESIGN PATTERNS FLASHCARDS]()
+[DEVOPS PATTERNS FLASHCARDS](https://quizlet.com/927457153/devops-flash-cards/)
 
 FRAMEWORKS FLASHCARDS
-[FRAMEWORKS FLASHCARDS]()
+[FRAMEWORKS FLASHCARDS](https://quizlet.com/927458923/frameworks-flash-cards/?)
+
+GRAPHICS FLASHCARDS
+[GRAPHICS FLASHCARDS](https://quizlet.com/927459460/graphics-flash-cards/)
 
 LANGUAGES FLASHCARDS
 [LANGUAGES FLASHCARDS]()
 
 SECURITY FLASHCARDS
-[SECURITY FLASHCARDS](https://quizlet.com/927336460/security-coding-interview-flash-cards/?new)
+[SECURITY FLASHCARDS](https://quizlet.com/927459715/security-flash-cards/)
 
 TESTING FLASHCARDS
-[TESTING FLASHCARDS]()
+[TESTING FLASHCARDS](https://quizlet.com/927461508/testing-flash-cards)
 
 TOOLS FLASHCARDS
 [TOOLS FLASHCARDS]()
@@ -33,7 +39,9 @@ TOOLS FLASHCARDS
 ALL FLASHCARDS
 [ALL FLASHCARDS](https://quizlet.com/user/mollybeachj/folders/studycards?funnelUUID=dbb5bf7c-26ff-43d7-84c6-2e8c946327b8)
 
-
+For Algorithms, Data Structures, and Patterns
+[ALGORITHMS, DATA STRUCTURES, AND PATTERNS](https://github.com/mollybeach/polliwog/tree/masters)
+ write a flowchart to decide which pattern to use to solve a leetcode 
 
 ## To Create New Flashcard Set on Quizlet
 ```
@@ -65,11 +73,18 @@ studycards/
 │   ├── Azure/
 │   ├── GCP/
 │   └── CloudProviders.txt
+├── Blockchain/
+│   ├── Ethereum/
+│   ├── SmartContracts/
+│   ├── DeFi/
+│   ├── Blockchain Security/
+│   └── Blockchain.txt
 ├── Databases/
 │   ├── AWS/
 │   ├── MongoDB/
 │   ├── MySQL/
 │   ├── PostgreSQL/
+│   ├── GraphQL/
 │   └── Databases.txt
 ├── DesignPatterns/
 │   ├── Adapter/
@@ -97,11 +112,23 @@ studycards/
 │   │   ├── Chef/
 │   │   ├── Puppet/
 │   │   └── ConfigurationManagement.txt
+│   ├── Containerization/
+│   │   ├── Docker/
+│   │   ├── Kubernetes/
+│   │   └── Containerization.txt
 │   ├── ContinuousIntegration/
 │   │   ├── CircleCI/
 │   │   ├── Jenkins/
 │   │   ├── TravisCI/
 │   │   └── ContinuousIntegration.txt
+│   ├── Methodologies /
+│   │   ├── Agile/
+│   │   ├── Kanban/
+│   │   ├── Lean/
+│   │   ├── PairProgramming/
+│   │   ├── CodeReview/
+│   │   ├── Scrum/
+│   │   └── Methodologies.txt
 │   ├── Monitoring/
 │   │   ├── Datadog/
 │   │   ├── NewRelic/
@@ -118,6 +145,10 @@ studycards/
 │   ├── Django/
 │   ├── React/
 │   └── Frameworks.txt
+├── Graphics/
+│   ├── Three.js/
+│   ├── Unity/
+│   └── Graphics.txt
 ├── Languages/
 │   ├── C++/
 │   ├── Java/

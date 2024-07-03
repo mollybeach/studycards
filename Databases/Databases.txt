@@ -1,31 +1,102 @@
-AWS
-Q) Name 7 Core AWS Services A)
-CloudFront, EC2 Elastic Compute Cloud, IAM Identity and Access Management, Lambda, RDS Relational Database Service, S3 Simple Storage Service, and VPC Virtual Private Cloud.
-Q)  EC2 Elastic Compute Cloud A)  A web service that provides resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers. 
-Q) S3 Simple Storage Service A)  An object storage service that offers industry-leading scalability, data availability, security, and performance. It allows you to store and retrieve any amount of data from anywhere on the web.
-Q) RDS Relational Database Service A) A managed relational database service that supports MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server, as well as Amazon Aurora, a high-performance managed relational database.
-Q) VPC Virtual Private Cloud A)  A service that lets you launch AWS resources in a logically isolated virtual network that you define. You have complete control over your virtual networking environment.
-Q)  IAM Identity and Access Management A) A web service that helps you securely control access to
-AWS services and resources for your users.
-Q) Lambda A)  A compute service that lets you run code without provisioning or managing servers.
-Lambda executes your code only when needed and scales automatically.
-Q) CloudFront A) A content delivery network CDN service that securely delivers data, videos, applications, and APis to customers globally with low latency and high transfer speeds.
-Q)   Elasticity A) The ability to scale computing resources up or down easily, automatically adjusting capacity as computing requirements change.
-Q) High Availability  A) The ability to keep services operational during various fault conditions and ensuring minimal service disruption or downtime.
-Q) The ability to handle increasing loads by adding resources either horizontally adding more machines or vertically adding more power to existing machines.
-Q) Fault Tolerance  A) The capability to continue operating even if some components of the system fail.
-5. Region vs. Availability Zone  A) A Region is a geographical area that consists of two or more Availability Zones, which are isolated locations within data center regions to provide redundancy and reduce latency.
-Security & Management
-Q)  Security Group  A) Acts as a virtual firewall for your EC2 instances to control inbound and outbound traffic.
-Q) Key Pair  A) Used in EC2 to securely connect to your instances.
-Q) Route 53  A) A scalable and highly available Domain Name System DNS web service.
-Q) CloudWatch  A) A monitoring service for AWS cloud resources and the applications you run on AWS.
-Q) CloudTrail  A) A service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
-Q) Elastic Beanstalk  A) An easyuse service for deploying and scaling web applications and services developed with Java, NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
-Q) CloudFormation  A) A service that gives developers and businesses an easy way to create a collection of related AWS and third A)party resources, provision and manage them in an orderly and predictable fashion.
-Cost Management
-Q) Reserved Instances  A) Provide you with a significant discount compared to On-Demand instance pricing and provide a capacity reservation when used in a specific Availability Zone.
-Q) Spot Instances  A) Allow you to bid on unused EC2 capacity and run those instances for as long as your bid exceeds the current spot price. 
+Databases
+Q) What are databases and how are they used in software development?
+A) Databases are organized collections of data that store, retrieve, and manage information for software applications. They are used in software development to store structured data, enable data manipulation, and support data-driven applications.
+Q) What are the key components of a database?
+A) The key components of a database include:
+• Tables: Structures that store data in rows and columns
+• Columns: Fields that define the attributes of the data
+• Rows: Records that represent individual data entries
+• Indexes: Data structures that optimize query performance
+• Relationships: Connections between tables that define data dependencies
+Q) What are the different types of databases?
+A) The different types of databases include:
+• Relational Databases: Store data in tables with predefined schemas and support SQL queries
+• NoSQL Databases: Store data in flexible, schema-less formats and support non-relational data models
+• Document Databases: Store data in JSON-like documents and support nested data structures
+• Key-Value Stores: Store data as key-value pairs and support simple data retrieval
+• Graph Databases: Store data as nodes and edges to represent relationships between entities
+Q) Name some popular relational database management systems RDBMS.
+A) Some popular RDBMS include:
+• MySQL: Open-source database management system known for its speed and ease of use
+• PostgreSQL: Open-source database management system known for its reliability and extensibility
+• Oracle Database: Commercial database management system with advanced features and scalability
+• Microsoft SQL Server: Commercial database management system with integration with Microsoft products
+
+CRUD OPERATIONS
+Q) What do the 4 CRUD operations stand for? A)
+• Create: Adding new data to the database.
+• Read: Retrieving data from the database.
+• Update: Modifying existing data in the database.
+• Delete: Removing data from the database.
+Q) What does a Read CRUD operation do? A)
+• A Read operation retrieves data from the database without modifying it.
+• It's commonly used to display information to users or fetch specific records.
+Q) What does a Create CRUD operation do? A)
+• A Create operation adds new data to the database.
+• It's used to insert new records or entities into the database.
+Q) What does an Update CRUD operation do? A)
+• An Update operation modifies existing data in the database.
+• It's used to change the values of specific fields in a record or update multiple records at once.
+Q) What does a Delete CRUD operation do? A)
+• A Delete operation removes data from the database.
+Q) How are CRUD operations typically mapped to HTTP methods? A)
+• Create: POST
+• Read: GET
+• Update: PUT or PATCH
+• Delete: DELETE
+
+AWS Databases
+Q) What is Amazon RDS?
+A) Amazon RDS (Relational Database Service) is a managed database service that makes it easy to set up, operate, and scale relational databases in the cloud. It supports popular database engines such as MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.
+Q) What are the key features of Amazon RDS?
+A) The key features of Amazon RDS include:
+• Automated backups: RDS automatically backs up your database and allows you to restore to any point in time within the retention period.
+• Scalability: RDS allows you to easily scale your database instance up or down based on your application's needs.
+• High availability: RDS provides multi-AZ deployments for high availability and failover support.
+• Monitoring and metrics: RDS provides monitoring and metrics through Amazon CloudWatch to help you track the performance of your database.
+• Security: RDS supports encryption at rest and in transit to help protect your data.
+Q) How do you use/launch Amazon RDS?
+A) To use/launch Amazon RDS, follow these steps:
+• Sign in to the AWS Management Console and navigate to the RDS dashboard.
+• Click on "Create database" and select the database engine, instance type, and other configuration options.
+• Configure the database settings, such as the database name, username, and password.
+• Choose the storage type, backup options, and security settings for the database.
+• Review and launch the database instance, and monitor the status in the RDS dashboard.
+Q) What is Amazon Aurora?
+A) Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud. It is designed for high performance, scalability, and availability, with features such as automatic failover, read replicas, and storage auto-scaling.
+Q) What are the key features of Amazon Aurora?
+A) The key features of Amazon Aurora include:
+• Performance: Amazon Aurora is designed for high performance and low latency, with up to five times the throughput of standard MySQL databases.
+• Scalability: Amazon Aurora can automatically scale storage capacity up to 64TB and compute capacity to handle increasing workloads.
+• High availability: Amazon Aurora provides multi-AZ deployments for high availability and automatic failover support.
+• Backups and snapshots: Amazon Aurora automatically backs up your database and allows you to create snapshots for point-in-time recovery.
+• Global databases: Amazon Aurora supports global databases for cross-region replication and low-latency access to data.
+Q) How do you use/launch Amazon Aurora?
+A) To use/launch Amazon Aurora, follow these steps:
+• Sign in to the AWS Management Console and navigate to the RDS dashboard.
+• Click on "Create database" and select Amazon Aurora as the database engine.
+• Choose the edition (MySQL or PostgreSQL), instance type, and other configuration options.
+• Configure the database settings, such as the database name, username, and password.
+• Choose the storage type, backup options, and security settings for the database.
+• Review and launch the Amazon Aurora instance, and monitor the status in the RDS dashboard.
+Q) What is Amazon DynamoDB?
+A) Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. It is designed for applications that require low latency and high throughput, such as gaming, IoT, and mobile apps.
+Q) What are the key features of Amazon DynamoDB?
+A) The key features of Amazon DynamoDB include:
+• Performance: Amazon DynamoDB provides single-digit millisecond latency for read and write operations, making it ideal for high-performance applications.
+• Scalability: Amazon DynamoDB can automatically scale to handle millions of requests per second and petabytes of data.
+• Flexible data model: Amazon DynamoDB supports key-value and document data models, allowing you to store and retrieve data in a flexible and efficient manner.
+• Security: Amazon DynamoDB supports encryption at rest and in transit, as well as fine-grained access control through IAM policies.
+• Global tables: Amazon DynamoDB supports global tables for cross-region replication and low-latency access to data.
+Q) How do you use/launch Amazon DynamoDB?
+A) To use/launch Amazon DynamoDB, follow these steps:
+• Sign in to the AWS Management Console and navigate to the DynamoDB dashboard.
+• Click on "Create table" and configure the table settings, such as the table name, primary key, and provisioned capacity.
+• Define the table schema, including the attributes and data types for the table.
+• Configure the read and write capacity units for the table to handle the expected workload.
+• Review and create the table, and monitor the status in the DynamoDB dashboard.
+Q) When should you use Amazon RDS vs. Amazon Aurora vs. Amazon DynamoDB?
+A) You should use Amazon RDS when you need a managed relational database service with support for popular database engines such as MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB. Amazon Aurora is ideal for high-performance, scalable, and available relational databases that require low latency and automatic failover. Amazon DynamoDB is best suited for applications that require fast and predictable performance with seamless scalability, such as gaming, IoT, and mobile apps.
 
 MongoDB
 Q) What is MongoDB? A) MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It is a popular choice for applications that require high performance, scalability, and flexibility.
@@ -44,25 +115,14 @@ Q) What is an index in MongoDB? A) An index in MongoDB is a data structure that 
 Q) What is sharding in MongoDB? A) Sharding in MongoDB is a method of distributing data across multiple servers to improve scalability and performance. Sharding allows MongoDB to horizontally scale by partitioning data into smaller chunks called shards and distributing them across multiple servers. This helps distribute the load and support growing data volumes.
 Q) What is replication in MongoDB? A) Replication in MongoDB is the process of synchronizing data across multiple servers to ensure high availability and data durability. MongoDB uses replica sets, which are groups of servers that maintain copies of the same data. If a primary server fails, one of the secondary servers can be promoted to primary to ensure continuous operation.
 Q) What is the difference between MongoDB and SQL databases? A) MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, while SQL databases store data in tables with a predefined schema. MongoDB is designed for scalability and flexibility, while SQL databases are optimized for complex queries and transactions. MongoDB uses a document-oriented data model, while SQL databases use a relational data model.
-Q) What are some common use cases for MongoDB? A) Common use cases for MongoDB include:
-• Content Management Systems: MongoDB is well-suited for storing and managing content, such as articles, images, and videos.
-• Real-Time Analytics: MongoDB can handle large volumes of data and support real-time analytics for monitoring and reporting.
-• Mobile Applications: MongoDB is a popular choice for mobile app development due to its flexibility and scalability.
-• Internet of Things (IoT): MongoDB can store and process data from IoT devices, such as sensors and smart devices.
-• E-Commerce Platforms: MongoDB can handle high traffic and large product catalogs for e-commerce websites.
 Q) How do you connect to MongoDB? A) You can connect to MongoDB using the mongo shell, a command-line interface for interacting with MongoDB. You can also connect to MongoDB using a programming language-specific driver, such as the MongoDB Node.js driver for JavaScript applications or the MongoDB Java driver for Java applications.
 Q) What is the MongoDB Atlas? A) MongoDB Atlas is a fully managed cloud database service that provides automated backups, monitoring, and security features for MongoDB deployments. It allows you to deploy, manage, and scale MongoDB databases in the cloud without the need for manual configuration or maintenance.
-Q) How do you optimize MongoDB queries? A) You can optimize MongoDB queries by:
-• Creating Indexes: Indexes improve query performance by allowing the database to quickly locate documents based on the indexed fields.
-• Using Query Operators: Query operators, such as $eq, $gt, $lt, and $in, can be used to filter and retrieve specific documents efficiently.
-• Limiting Results: Limiting the number of results returned by a query can improve query performance by reducing the amount of data processed.
-• Using Aggregation: Aggregation operations, such as $group, $match, and $project, can be used to perform complex data processing and analysis in MongoDB.
-• Avoiding Large Result Sets: Avoiding queries that return large result sets can improve query performance by reducing the amount of data transferred between the database and the client.
-Q) What are some best practices for using MongoDB? A) Best practices for using MongoDB include:
-• Designing Data Models: Design data models that reflect the structure of your data and the queries you need to perform.
-• Creating Indexes: Create indexes on fields that are frequently queried to improve query performance.
-• Using Aggregation: Use aggregation operations to perform complex data processing and analysis in MongoDB.
-• Monitoring Performance: Monitor the performance of your MongoDB deployment to identify and address performance bottlenecks.
+Q) How do you use/launch MongoDB Atlas? A) To use/launch MongoDB Atlas, follow these steps:
+• Sign up for a MongoDB Atlas account and create a new project.
+• Configure the project settings, such as the cloud provider, region, and cluster configuration.
+• Create a new cluster and configure the cluster settings, such as the instance size, storage capacity, and backup options.
+• Connect to the cluster using the connection string provided by MongoDB Atlas.
+• Create databases, collections, and documents within the cluster using the MongoDB shell or a programming language-specific driver.
 
 PostgreSQL
 Q) What is PostgreSQL? A) PostgreSQL is an open-source relational database management system RDBMS that is known for its reliability, scalability, and extensibility. It supports a wide range of data types, indexing techniques, and advanced features for data management and analysis.
@@ -89,26 +149,13 @@ Q) What is the difference between PostgreSQL and MySQL? A) PostgreSQL and MySQL 
 • ACID Compliance: PostgreSQL is ACID-compliant by default, while MySQL requires the use of the InnoDB storage engine for ACID compliance.
 • Extensibility: PostgreSQL supports extensions and custom data types, functions, and operators, while MySQL has limited support for extending its functionality.
 • Full Text Search: PostgreSQL provides built-in full-text search capabilities, while MySQL requires the use of external plugins for full-text search.
-Q) What are some common use cases for PostgreSQL? A) Common use cases for PostgreSQL include:
-• Web Applications: PostgreSQL is well-suited for web applications that require data integrity, scalability, and extensibility.
-• Geospatial Applications: PostgreSQL supports advanced geospatial data types and indexing techniques for storing and querying location-based data.
-• Data Warehousing: PostgreSQL can handle large volumes of data and complex queries for data warehousing and analytics.
-• Content Management Systems: PostgreSQL is a popular choice for content management systems that require structured data storage and retrieval.
-• Financial Applications: PostgreSQL is used in financial applications that require transactional integrity, data consistency, and high availability.
 Q) How do you connect to PostgreSQL? A) You can connect to PostgreSQL using the psql command-line interface, a graphical user interface tool, or a programming language-specific driver, such as the psycopg2 driver for Python applications or the pgjdbc driver for Java applications.
 Q) What is the PostgreSQL pgAdmin? A) pgAdmin is a popular open-source administration and development platform for PostgreSQL that provides a graphical user interface for managing databases, tables, indexes, and other database objects. pgAdmin allows you to perform common database tasks, such as creating tables, running queries, and monitoring performance.
-Q) How do you optimize PostgreSQL queries? A) You can optimize PostgreSQL queries by:
-• Creating Indexes: Indexes improve query performance by allowing the database to quickly locate rows based on the indexed columns.
-• Analyzing Query Plans: Analyzing query plans generated by the PostgreSQL query planner can help identify performance bottlenecks and optimize query execution.
-• Using EXPLAIN: Using the EXPLAIN command to analyze query plans and identify inefficient query execution strategies.
-• Tuning Configuration Parameters: Tuning PostgreSQL configuration parameters, such as work_mem, shared_buffers, and effective_cache_size, can improve query performance by optimizing memory usage and disk I/O.
-• Using Query Optimization Techniques: Using query optimization techniques, such as rewriting queries, restructuring indexes, and denormalizing data, can improve query performance and reduce execution time.
-Q) What are some best practices for using PostgreSQL? A) Best practices for using PostgreSQL include:
-• Designing Data Models: Design data models that reflect the structure of your data and the queries you need to perform.
-• Creating Indexes: Create indexes on fields that are frequently queried to improve query performance.
-• Monitoring Performance: Monitor the performance of your PostgreSQL deployment to identify and address performance bottlenecks.
-• Backing Up Data: Regularly back up your PostgreSQL databases to prevent data loss and ensure data recovery in case of failures.
-• Securing Data: Implement security best practices, such as using SSL/TLS encryption, role-based access control, and data encryption, to protect sensitive data in PostgreSQL.
+Q) How do you use/launch PostgreSQL on pgAdmin A) To use/launch PostgreSQL on pgAdmin, follow these steps:
+• Download and install pgAdmin on your local machine.
+• Open pgAdmin and create a new server connection by providing the connection details, such as the host, port, username, and password.
+• Connect to the PostgreSQL server and navigate the database objects, such as tables, views, and indexes.
+• Perform common database tasks, such as creating tables, running queries, and monitoring performance using the pgAdmin interface.
 
 MySQL
 Q) What is MySQL? A) MySQL is an open-source relational database management system RDBMS that is known for its speed, reliability, and ease of use. It is widely used in web applications, content management systems, and e-commerce platforms.
@@ -135,12 +182,88 @@ Q) What is the difference between MySQL and PostgreSQL? A) MySQL and PostgreSQL 
 • ACID Compliance: PostgreSQL is ACID-compliant by default, while MySQL requires the use of the InnoDB storage engine for ACID compliance.
 • Extensibility: PostgreSQL supports extensions and custom data types, functions, and operators, while MySQL has limited support for extending its functionality.
 • Full Text Search: PostgreSQL provides built-in full-text search capabilities, while MySQL requires the use of external plugins for full-text search.
-Q) What are some common use cases for MySQL? A) Common use cases for MySQL include:
-• Web Applications: MySQL is well-suited for web applications that require data integrity, scalability, and ease of use.
-• Content Management Systems: MySQL is a popular choice for content management systems that require structured data storage and retrieval.
-• E-Commerce Platforms: MySQL can handle high traffic and large product catalogs for e-commerce websites.
-• Online Forums: MySQL is used in online forums and social networking platforms for storing user data and interactions.
-• Data Warehousing: MySQL can handle large volumes of data and complex queries for data warehousing and analytics.
 Q) How do you connect to MySQL? A) You can connect to MySQL using the mysql command-line interface, a graphical user interface tool, or a programming language-specific driver, such as the MySQL Connector/Python driver for Python applications or the MySQL Connector/J driver for Java applications.
 Q) What is the MySQL Workbench? A) MySQL Workbench is a visual database design and administration tool that provides a graphical user interface for managing MySQL databases. MySQL Workbench allows you to create and modify database schemas, run queries, and monitor performance using visual tools and wizards.
+Q) How do you use/launch MySQL Workbench? A) To use/launch MySQL Workbench, follow these steps:
+• Download and install MySQL Workbench on your local machine.
+• Open MySQL Workbench and create a new connection by providing the connection details, such as the host, port, username, and password.
+• Connect to the MySQL server and navigate the database objects, such as tables, views, and indexes.
+• Perform common database tasks, such as creating tables, running queries, and monitoring performance using the MySQL Workbench interface.
 
+GraphQL
+Q) What is GraphQL? A) GraphQL is a query language and runtime for APIs that allows clients to request only the data they need. It provides a flexible and efficient alternative to traditional REST APIs by enabling clients to specify the structure of the response and reduce over-fetching and under-fetching of data.
+Q) What are the key features of GraphQL? A) The key features of GraphQL include:
+• Strongly Typed Schema: GraphQL uses a schema to define the types and fields available in the API, enabling clients to query and mutate data with type safety.
+• Hierarchical Queries: GraphQL allows clients to request nested data structures in a single query, reducing the number of round trips to the server.
+• Client-Defined Responses: GraphQL enables clients to specify the structure of the response, allowing them to request only the data they need.
+• Real-Time Updates: GraphQL supports subscriptions for real-time data updates, enabling clients to receive updates as soon as the data changes.
+• Tooling: GraphQL provides a rich ecosystem of tools, such as GraphQL Playground and Apollo Client, for developing, testing, and consuming GraphQL APIs.
+Q) How does GraphQL work? A) GraphQL works by defining a schema that describes the types and fields available in the API. Clients can send queries to the server using the GraphQL query language to request specific data. The server processes the query, resolves the requested data, and returns a response in the shape defined by the query.
+Q) What is a schema in GraphQL? A) A schema in GraphQL is a collection of types and fields that define the structure of the API. The schema specifies the available queries, mutations, and subscriptions, as well as the types of data that can be queried and mutated. The schema serves as a contract between the client and the server.
+Q) What is a type in GraphQL? A) A type in GraphQL is a category of data that defines the shape of the data and the fields that can be queried or mutated. Types can be scalar types, such as String or Int, or complex types, such as Object or Enum. Types can have fields that represent attributes of the data.
+Q) What is a query in GraphQL? A) A query in GraphQL is a request for specific data from the API. Queries are written in the GraphQL query language and specify the fields and relationships to be included in the response. Queries can be nested to request data from related types in a single request.
+Q) What is a mutation in GraphQL? A) A mutation in GraphQL is a request to modify data in the API. Mutations are written in the GraphQL query language and specify the fields and data to be updated, created, or deleted. Mutations can be used to perform actions that change the state of the data in the API.
+Q) What is a subscription in GraphQL? A) A subscription in GraphQL is a request to receive real-time updates from the API. Subscriptions are written in the GraphQL query language and specify the fields and data to be monitored for changes. Subscriptions enable clients to receive updates as soon as the data changes.
+Q) What is a resolver in GraphQL? A) A resolver in GraphQL is a function that resolves the requested data for a field in the schema. Resolvers are responsible for fetching the data from the data source, transforming the data into the requested shape, and returning the data to the client. Resolvers are defined for each field in the schema.
+Q) What is the difference between GraphQL and REST? A) GraphQL and REST are both API design paradigms, but they have some key differences:
+• Data Fetching: GraphQL allows clients to request only the data they need, while REST APIs return fixed data structures.
+• Endpoints: GraphQL has a single endpoint for all queries, mutations, and subscriptions, while REST APIs have multiple endpoints for different resources.
+• Over-fetching and Under-fetching: GraphQL reduces over-fetching and under-fetching of data by enabling clients to specify the structure of the response, while REST APIs may return more or less data than needed.
+• Versioning: GraphQL does not require versioning of APIs, as clients can request specific data structures, while REST APIs may require versioning to maintain backward compatibility.
+• Tooling: GraphQL provides a rich ecosystem of tools, such as GraphQL Playground and Apollo Client, for developing, testing, and consuming APIs, while REST APIs may require additional tooling for documentation and testing.
+Q) How do you use/launch a GraphQL API? A) To use/launch a GraphQL API, follow these steps:
+• Define a schema that describes the types and fields available in the API.
+• Implement resolvers for each field in the schema to fetch and return the requested data.
+• Set up a GraphQL server that processes queries, mutations, and subscriptions and resolves the requested data.
+• Test the API using a GraphQL client, such as GraphQL Playground or Apollo Client, to send queries and mutations and receive responses.
+• Deploy the GraphQL API to a server or cloud platform to make it accessible to clients.
+
+REST
+Q) What is REST? A) REST (Representational State Transfer) is an architectural style for designing networked applications that use HTTP to communicate between clients and servers. RESTful APIs are designed around resources, which are represented as URIs, and use standard HTTP methods to perform CRUD operations.
+Q) What are the key principles of REST? A) The key principles of REST include:
+• Resources: RESTful APIs are designed around resources, which are represented as URIs and can be manipulated using standard HTTP methods.
+• Uniform Interface: RESTful APIs use a uniform interface, such as HTTP methods and status codes, to interact with resources.
+• Statelessness: RESTful APIs are stateless, meaning that each request from the client contains all the information needed to process the request.
+• Client-Server Architecture: RESTful APIs use a client-server architecture, where the client and server are separate and communicate through requests and responses.
+• Layered System: RESTful APIs are designed as a layered system, where clients interact with intermediaries, such as proxies or gateways, to access resources.
+Q) What are the key components of a RESTful API? A) The key components of a RESTful API include:
+• Resources: Entities that can be accessed and manipulated through the API, represented as URIs.
+• URIs: Uniform Resource Identifiers that uniquely identify resources in the API.
+• HTTP Methods: Standard HTTP methods, such as GET, POST, PUT, PATCH, and DELETE, used to perform CRUD operations on resources.
+• Headers: Additional information sent with the request or response, such as content type, authentication, or caching directives.
+• Status Codes: Standard HTTP status codes, such as 200 OK, 404 Not Found, and 500 Internal Server Error, used to indicate the outcome of the request.
+Q) What is a resource in a RESTful API? A) A resource in a RESTful API is an entity that can be accessed and manipulated through the API. Resources are represented as URIs and can have multiple representations, such as JSON or XML, that can be requested by clients. Resources can be created, read, updated, and deleted using standard HTTP methods.
+Q) What is a URI in a RESTful API? A) A URI (Uniform Resource Identifier) in a RESTful API is a string that uniquely identifies a resource. URIs are used to locate and access resources in the API and follow a hierarchical structure that represents the relationships between resources. URIs are composed of a scheme, host, path, and optional query parameters.
+Q) What are the standard HTTP methods used in a RESTful API? A) The standard HTTP methods used in a RESTful API include:
+• GET: Retrieve a representation of a resource.
+• POST: Create a new resource.
+• PUT: Update an existing resource with a complete representation.
+• PATCH: Update an existing resource with a partial representation.
+• DELETE: Remove a resource.
+Q) What are HTTP headers in a RESTful API? A) HTTP headers in a RESTful API are additional information sent with the request or response. Headers can include metadata, such as content type, authentication credentials, caching directives, and custom headers. Headers provide context and control over the communication between clients and servers.
+Q) What are HTTP status codes in a RESTful API? A) HTTP status codes in a RESTful API are standard codes that indicate the outcome of a request. Status codes are divided into five categories, such as 1xx informational, 2xx success, 3xx redirection, 4xx client error, and 5xx server error. Common status codes include 200 OK, 201 Created, 404 Not Found, and 500 Internal Server Error.
+
+Q) What is NoSQL? A) NoSQL (Not Only SQL) is a term used to describe non-relational databases that store and retrieve data in flexible, schema-less formats. NoSQL databases are designed for scalability, high availability, and performance, and are commonly used in web applications, big data, and real-time analytics.
+Q) What are the key features of NoSQL databases? A) The key features of NoSQL databases include:
+• Flexible Data Models: NoSQL databases support flexible data models, such as key-value, document, column-family, and graph, to accommodate diverse data types and structures.
+• Scalability: NoSQL databases can scale horizontally by adding more servers to distribute the load and support growing data volumes.
+• High Availability: NoSQL databases provide features, such as replication, sharding, and automatic failover, to ensure continuous operation and minimize downtime.
+• Performance: NoSQL databases are optimized for high performance and can handle complex queries, transactions, and data processing tasks.
+• Schema-less Design: NoSQL databases do not require a predefined schema, allowing you to change the structure of your data as your application evolves.
+Q) How to use/launch a NoSQL database? A) To use/launch a NoSQL database, follow these steps:
+• Choose a NoSQL database that best fits your application requirements, such as key-value, document, column-family, or graph.
+• Install and configure the NoSQL database on your local machine or in the cloud using the provided installation instructions.
+• Create databases, collections, and documents within the NoSQL database using the database-specific commands or APIs.
+• Connect to the NoSQL database using a programming language-specific driver or client library to interact with the data and perform common database tasks.
+
+Oracle
+Q) What is Oracle Database? A) Oracle Database is a commercial relational database management system RDBMS that is known for its scalability, security, and performance. It is widely used in enterprise applications, data warehousing, and cloud services.
+Q) What are the key features of Oracle Database? A) The key features of Oracle Database include:
+• Scalability: Oracle Database supports horizontal and vertical scaling to handle growing data volumes and increasing workloads.
+• Security: Oracle Database offers advanced security features, such as data encryption, user authentication, and access control, to protect data from unauthorized access.
+• High Availability: Oracle Database provides features, such as automatic failover and clustering, to ensure continuous operation and minimize downtime.
+• Performance: Oracle Database is optimized for high performance and can handle complex queries, transactions, and data processing tasks.
+• Extensibility: Oracle Database supports extensions and custom data types, functions, and operators to extend its functionality and meet specific business requirements.
+Q) How does Oracle Database store data? A) Oracle Database stores data in tables, which are organized into schemas. Each table contains rows and columns, where rows represent individual records and columns represent attributes of the records. Tables can have relationships with other tables through foreign keys, enabling data normalization and integrity.
+Q) When Should You Use Oracle Database? A) You should use Oracle Database when you need a commercial relational database management system RDBMS with advanced features, scalability, and security. Oracle Database is well-suited for enterprise applications, data warehousing, and cloud services that require high performance, reliability, and data integrity.
+Q) How do you connect to Oracle Database? A) You can connect to Oracle Database using the SQL*Plus command-line interface, a graphical user interface tool, or a programming language-specific driver, such as the Oracle JDBC driver for Java applications or the cx_Oracle driver for Python applications.

@@ -1,4 +1,20 @@
 FRAMEWORKS
+Q) What is a Framework? A)  
+A framework is a software platform that provides a foundation for developing applications. It includes pre-built components, libraries, and tools that help developers build, deploy, and maintain software applications more efficiently. Frameworks provide a structured approach to software development and help streamline the development process by providing reusable code and best practices.
+Q) What are the key features of a Framework? A)
+The key features of a framework include:
+• Pre-built components: Provides ready-to-use components for common tasks like user authentication, data validation, and error handling.
+• Libraries: Includes libraries for interacting with databases, handling network requests, and other common tasks.
+• Tools: Offers tools for building, testing, and deploying applications, such as compilers, debuggers, and build systems.
+• Architecture: Defines a structure and design patterns for organizing code and building applications.
+• Extensibility: Allows developers to extend and customize the framework to meet specific requirements.
+Q) What are the benefits of using a Framework? A)
+The benefits of using a framework include:
+• Faster development: Provides pre-built components and tools that help developers build applications more quickly.
+• Consistency: Enforces best practices and coding standards to ensure consistency across projects.
+• Reusability: Allows developers to reuse code and components across projects, reducing duplication of effort.
+• Scalability: Provides a structured approach to software development that scales with the complexity of the application.
+• Security: Includes built-in security features and practices to help protect against common vulnerabilities.
 
 REACT
 Q) What is React? A) 
@@ -44,17 +60,52 @@ Q) componentDidUpdate A)
 • 'componentWillUnmount’  is called just before a component is removed from the DOM.
 • It is used to perform cleanup tasks, such as canceling network requests, removing event listeners, or clearing timers to prevent memory leaks.
 • This method is essential for avoiding resource leaks when a component is no longer needed. 
+
 MIMICKING LIFECYCLE METHODS
 Q) Mimicking componentDidMount A)  
 • This 'useEffect ' hook runs once after the component is mounted similar to
 The Lifecycle method it is copying.
-
 Q) Mimicking 'componentDidUpdate’ A)  
 • This 'useEffect ' hook  runs after every render, except the first one, simulating
 the Lifecycle method it is copying.
-
 Q) Mimicking 'componentWillUnmount’ A)  
 • This 'useEffect ' hook  only once when the component is about to unmount similar to similar to the Lifecycle method it is copying.
+
+REACT HOOKS
+Q) useState A) 
+• allows functional components to manage local state.
+' It returns an array with two elements  the current state value and a function to update it.
+Q) useEffect A)
+• is used for performing side effects in functional components.
+• It can be used to mimic lifecycle methods like ‘componentDidMount’,, 'componentDidUpdate’, and ‘componentWillUnmount’.
+Q) useContext A)
+• 'useContext ' allows you to access the context data that has been provided higher up in the component tree.
+Q) useReducer A)
+• useReducer is an alternative to useState for managing complex state logic.
+' It takes a reducer function and an initial state and returns the current state and a dispatch function to update it.
+Q) useRef A)
+•  is used for accessing and interacting with DOM elements directly.
+• It can also be used to persist values across renders without causing re-renders.
+Q) useMemo A)
+• is used to memoize expensive calculations and only recompute them when the dependencies an array of values change.
+Q) useCallback A)
+• 'useCallback' is similar to 'useMemo', but it memoized functions.
+• It's useful for preventing unnecessary re-renders of components that depend on functions.
+Q) useLayoutEffect A)
+• 'useLayoutEffect ' is similar to 'useEffect', but it runs synchronously after the DOM has been updated.
+• It's often used for tasks that require immediate DOM measurements.
+Q) uselmperativeHandle A)
+• it customizes the instance value that is exposed when using
+  ‘React. forwardRef’,
+• It's useful for exposing specific methods of a child component's instance to its 
+parent.
+Q) useDebugValue A)
+• is used to display custom labels or values for custom hooks in React DevTools.
+• It aids in debugging and understanding custom hooks.
+Q) useTransition and useDeferred Value React Concurrent Mode A)
+• These hooks are part of React Concurrent Mode and allow you to work with asynchronous operations in a more efficient way.
+• 'useTransition' allows you to control when to show loading indicators or transitions during updates.
+• 'useDeferredValue' allows you to defer updates to less important data when the application is busy.
 
 REACT NATIVE
 Q) What is React Native? A)   
@@ -239,5 +290,6 @@ You can secure Ruby on Rails applications by implementing security best practice
 • Using Rails' built-in security features like CSRF protection and user authentication.
 • Implementing access control mechanisms to control access to resources and protect sensitive data.
 • Keeping dependencies up to date to address security vulnerabilities in third-party packages.
+
 
 
