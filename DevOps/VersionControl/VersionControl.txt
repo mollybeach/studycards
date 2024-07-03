@@ -1,0 +1,5 @@
+A) Version control systems used in DevOps include:
+• Git
+• SVN (Subversion)
+• Mercurial
+• Perforce

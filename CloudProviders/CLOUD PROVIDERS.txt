@@ -12,8 +12,7 @@ Q) Lambda A)  A compute service that lets you run code without provisioning or m
 Lambda executes your code only when needed and scales automatically.
 Q) CloudFront A) A content delivery network CDN service that securely delivers data, videos, applications, and APis to customers globally with low latency and high transfer speeds.
 Q)   Elasticity A) The ability to scale computing resources up or down easily, automatically adjusting capacity as computing requirements change.
-Q) High Availability  A) The ability to keep services operational during various fault conditions and ensuring minimal service disruption or downtime.
-Q) The ability to handle increasing loads by adding resources either horizontally adding more machines or vertically adding more power to existing machines.
+Q) High Availability  A) The ability to keep services operational during various fault conditions and ensuring minimal service disruption or downtime. The ability to handle increasing loads by adding resources either horizontally adding more machines or vertically adding more power to existing machines.
 Q) Fault Tolerance  A) The capability to continue operating even if some components of the system fail.
 5. Region vs. Availability Zone  A) A Region is a geographical area that consists of two or more Availability Zones, which are isolated locations within data center regions to provide redundancy and reduce latency.
 Security & Management
