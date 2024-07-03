@@ -4,33 +4,34 @@ Overview
 This repository contains flashcards for various topics that are commonly asked in coding interviews. The flashcards are hosted on Quizlet and can be accessed using the links provided above.
 
 CLOUD PROVIDER FLASHCARDS
-https://quizlet.com/927337000/cloud-services-coding-interview-flash-cards/?new
+[CLOUD PROVIDER FLASHCARDS](https://quizlet.com/927337000/cloud-services-coding-interview-flash-cards/?new)
 
 DATABASES FLASHCARDS
 
 DESIGN PATTERNS FLASHCARDS
-https://quizlet.com/927337480/design-patterns-coding-interview-flash-cards/?new
+[DESIGN PATTERNS FLASHCARDS](https://quizlet.com/927337480/design-patterns-coding-interview-flash-cards/?new)
 
 DEVOPS FLASHCARDS
-    > Collaboration Flashcards
-    > Continuous Integration Flashcards
-    > Deployment Flashcards
-    > Monitoring Flashcards
-    > Version Control Flashcards
+[DESIGN PATTERNS FLASHCARDS]()
 
 FRAMEWORKS FLASHCARDS
+[FRAMEWORKS FLASHCARDS]()
 
 LANGUAGES FLASHCARDS
+[LANGUAGES FLASHCARDS]()
 
 SECURITY FLASHCARDS
 https://quizlet.com/927336460/security-coding-interview-flash-cards/?new
 
 TESTING FLASHCARDS
+[TESTING FLASHCARDS]()
 
 TOOLS FLASHCARDS
+[TOOLS FLASHCARDS]()
 
 ALL FLASHCARDS
-https://quizlet.com/user/mollybeachj/folders/studycards?funnelUUID=dbb5bf7c-26ff-43d7-84c6-2e8c946327b8
+[ALL FLASHCARDS](https://quizlet.com/user/mollybeachj/folders/studycards?funnelUUID=dbb5bf7c-26ff-43d7-84c6-2e8c946327b8)
+
 
 
 ## To Create New Flashcard Set on Quizlet
@@ -44,9 +45,9 @@ Click the + Import
 Then Paste the all the text from one of the .txt Files in the Repository Study Guide Structure
 I'm using this format: Q) term A) definition
 Enter the Custom as show below
-Between term and definition      
+Between term and definition:      
 O Tab O Comma X Custom _A)_    
-Between cards
+Between cards:
 O New line O Semicolon X Custom _Q)_
 And then Click Import
 The Cards Should be formatted correctly
