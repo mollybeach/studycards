@@ -1,1 +1,40 @@
 agile
+
+
+cloud providers
+│   ├── IBM/
+│   ├── Oracle/
+
+frameworks flask
+
+│   ├── Authentication/
+│   ├── Authorization/
+│   ├── Encryption/
+│   ├── Hashing/
+│   ├── OWASP/
+│   ├── XSS/
+│   └── Security.txt
+
+
+│   ├── Collaboration/
+│   │   ├── Agile/
+│   │   ├── Scrum/
+│   │   ├── Kanban/
+│   │   ├── Lean/
+│   │   ├── PairProgramming/
+│   │   ├── CodeReview/
+│   │   ├── DevOps.txt
+├── Testing/
+│   ├── IntegrationTesting/
+│   │   ├── EndtoEndTesting/
+│   │   ├── SmokeTesting/
+│   │   └── IntegrationTesting.txt
+│   ├── LoadTesting/
+│   │   ├── Jest/
+│   │   ├── Mocha/
+│   │   ├── Chai/
+│   └── Testing.txt
+├── Tools/
+│   ├── AJAX/
+│   └── Tools.txt
+
