@@ -1,0 +1,28 @@
+Factory
+Q) What is the Factory design pattern?
+A) The Factory design pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. The Factory pattern defines an interface for creating objects without specifying the exact class of object to be created.
+Q) What are the key features of the Factory design pattern?
+A) The key features of the Factory design pattern include:
+• Interface: The Factory pattern defines an interface for creating objects without specifying the exact class of object to be created.
+• Concrete classes: The Factory pattern provides concrete classes that implement the interface and create specific types of objects.
+• Subclasses: The Factory pattern allows subclasses to alter the type of objects that will be created without changing the superclass.
+• Encapsulation: The Factory pattern encapsulates the object creation logic in a separate class, making it easier to manage and maintain.
+• Flexibility: The Factory pattern allows for the creation of objects based on a set of rules or conditions, providing flexibility in object creation.
+Q) What are some common use cases for the Factory design pattern?
+A) Common use cases for the Factory design pattern include:
+• Database connections: Use a factory class to create database connections based on the type of database being used.
+• Logging: Use a factory class to create different types of loggers based on the logging level or destination.
+• Configuration settings: Use a factory class to create configuration settings based on the environment or application settings.
+• User interfaces: Use a factory class to create different types of user interface components based on the platform or user preferences.
+• File formats: Use a factory class to create different types of file formats based on the file extension or content type.
+Q) What are some alternatives to the Factory design pattern?
+A) Some alternatives to the Factory design pattern include:
+• Abstract Factory pattern: The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+• Builder pattern: The Builder pattern constructs complex objects step by step and returns the final object, allowing for more control over the creation process.
+• Prototype pattern: The Prototype pattern creates new objects by cloning an existing object, allowing for the creation of new objects based on an existing object.
+• Singleton pattern: The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance, controlling the instantiation of a class.
+• Dependency Injection pattern: The Dependency Injection pattern manages the dependencies between objects and provides instances of objects when needed, allowing for more flexibility in object creation.
+Q) What is the difference between the Factory design pattern and the Abstract Factory design pattern?
+A) The Factory design pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created, while the Abstract Factory design pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. The Factory pattern creates individual objects, while the Abstract Factory pattern creates families of objects.
+Q) What is the difference between the Factory design pattern and the Builder design pattern?
+A) The Factory design pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created, while the Builder design pattern constructs complex objects step by step and returns the final object. The Factory pattern creates objects based on a set of rules or conditions, while the Builder pattern constructs objects by assembling them from parts.

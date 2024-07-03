@@ -1,0 +1,46 @@
+Azure
+Q) Name 7 Core Azure Services A)
+App Service, Blob Storage, Cosmos DB, Functions, Resource Manager, SQL Database, and Virtual Machines.
+Q) App Service A) A fully managed platform for building, deploying, and scaling web apps and APIs.
+Q) Blob Storage A) A service for storing large amounts of unstructured object data, such as text or binary data.
+Q) Cosmos DB A) A globally distributed, multi-model database service for building highly responsive and scalable applications.
+Q) Functions A) A serverless compute service that lets you run event-triggered code without having to manage infrastructure.
+Q) Resource Manager A) A service that enables you to work with the resources in your solution as a group.
+Q) SQL Database A) A managed relational database service that provides high availability, security, and scalability.
+Q) Virtual Machines A) A service that lets you create and manage virtual machines in the cloud.
+Q) Azure Active Directory A) A cloud-based identity and access management service that helps you secure your applications and resources.
+Q) Azure DevOps A) A set of services for building, testing, and deploying applications to any platform.
+Q) Azure Functions A) A serverless compute service that lets you run event-triggered code without having to manage infrastructure.
+Q) Azure Kubernetes Service A) A managed Kubernetes service that simplifies deploying, managing, and scaling containerized applications using Kubernetes.
+Q) Azure Monitor A) A service that provides full-stack monitoring, including metrics, logs, and traces, for your applications and infrastructure.
+Q) Azure Storage A) A service that provides scalable, secure, and highly available storage for your data.
+Q) Azure Virtual Network A) A service that lets you create isolated networks in the cloud, with control over IP addresses, DNS settings, security policies, and routing.
+Q) Azure Web Apps A) A fully managed platform for building, deploying, and scaling web apps and APIs.
+Q) What are Azure Cognitive Services, and how do they provide AI capabilities? A)
+• Azure Cognitive Services offer APIs for AI capabilities like vision, language, speech, and decision-making. Key services include Computer Vision, Text Analytics, Speech to Text, and Language Understanding (LUIS). These services enable developers to integrate AI capabilities into their applications without needing to build the underlying AI models.
+Q) How do you set up your development environment for integrating Azure AI Services with TypeScript? A)
+• Install Node.js and npm: TypeScript runs on Node.js, so install them from the official Node.js website.
+• Install TypeScript: Install TypeScript globally via npm.
+Q) How do you integrate Azure SDKs with TypeScript for using Azure AI Services? A)
+• Install Azure SDKs: For the Azure services you're using, install the respective Azure SDKs via npm. For example, to use the Text Analytics service, you would install the Azure AI Text Analytics SDK.
+• Import and use the SDKs: In your TypeScript code, import the necessary SDKs and use them to interact with Azure AI Services.
+Q) What are the benefits of using Azure AI Services in your applications? A)
+• Faster development: Azure AI Services provide pre-built AI capabilities that can be easily integrated into applications, reducing the time and effort required to build custom AI models.
+• Scalability: Azure AI Services are cloud-based and can scale to meet the demands of applications with varying workloads.
+• Cost-effective: Azure AI Services offer a pay-as-you-go pricing model, allowing developers to pay only for the services they use.
+• Integration: Azure AI Services can be easily integrated with other Azure services and third-party tools, enabling developers to build comprehensive AI solutions.
+Q) How do you handle authentication and authorization when using Azure AI Services in your applications? A)
+• Use Azure Active Directory: Azure AI Services support Azure Active Directory for authentication and authorization. You can configure access control policies and permissions in Azure AD to control who can access the AI services.
+• Generate API keys: Some Azure AI Services require API keys for authentication. You can generate API keys in the Azure portal and use them in your applications to authenticate requests to the services.
+• Secure communication: Ensure that communication between your applications and Azure AI Services is encrypted using HTTPS to protect sensitive data.
+Q) What are some common use cases for Azure AI Services in applications? A)
+• Sentiment analysis: Analyzing text data to determine sentiment, such as positive, negative, or neutral, for customer feedback or social media posts.
+• Image recognition: Identifying objects, people, or scenes in images for applications like content moderation or visual search.
+• Speech-to-text: Converting spoken language into text for applications like voice assistants or transcription services.
+• Language translation: Translating text between languages for multilingual applications or global communication.
+• Chatbots: Building conversational agents that can interact with users and provide information or assistance.
+Q) How do you monitor and optimize the performance of Azure AI Services in your applications? A)
+• Monitor service metrics: Use Azure Monitor to track service metrics like response times, error rates, and throughput to identify performance bottlenecks.
+• Set up alerts: Configure alerts in Azure Monitor to notify you of performance issues or anomalies in Azure AI Services.
+• Optimize resource usage: Monitor resource utilization of Azure AI Services and adjust resources as needed to optimize performance and cost.
+• Use caching: Implement caching mechanisms to store frequently accessed data and reduce the number of requests to Azure AI Services.

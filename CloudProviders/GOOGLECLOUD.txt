@@ -1,0 +1,16 @@
+Google Cloud
+Q) Name 7 Core Google Cloud Services A)
+App Engine, BigQuery, Cloud Functions, Cloud Storage, Compute Engine, Kubernetes Engine, and Pub/Sub.
+Q) App Engine A) A platform-as-a-service PaaS offering that allows you to build and deploy applications on Google's infrastructure without managing the underlying infrastructure.
+Q) BigQuery A) A fully managed, serverless data warehouse that enables you to analyze large datasets using SQL queries.
+Q) Cloud Functions A) A serverless compute service that lets you run event-driven code without provisioning or managing servers.
+Q) Cloud Storage A) A scalable object storage service that allows you to store and retrieve data in the cloud.
+Q) Compute Engine A) An infrastructure-as-a-service IaaS offering that allows you to create and manage virtual machines in the cloud.
+Q) Kubernetes Engine A) A managed Kubernetes service that simplifies deploying, managing, and scaling containerized applications using Kubernetes.
+Q) Pub/Sub A) A messaging service that enables you to send and receive messages between independent applications.
+Q) Cloud IAM A) A service that helps you manage access control for Google Cloud resources by defining roles and permissions.
+Q) Cloud SQL A) A fully managed relational database service that supports MySQL, PostgreSQL, and SQL Server.
+Q) Cloud Spanner A) A globally distributed, horizontally scalable relational database service that provides strong consistency and high availability.
+Q) Cloud Storage A) A scalable object storage service that allows you to store and retrieve data in the cloud.
+Q) Cloud CDN A) A content delivery network service that caches content at Google's edge locations to reduce latency and improve performance.
+Q) Cloud Datastore A) A NoSQL document database service that provides automatic scaling and high availability for applications.
