@@ -41,7 +41,7 @@ ALL FLASHCARDS
 
 For Algorithms, Data Structures, and Patterns
 [ALGORITHMS, DATA STRUCTURES, AND PATTERNS](https://github.com/mollybeach/polliwog)
-https://github.com/mollybeach/polliwog
+
  write a flowchart to decide which pattern to use to solve a leetcode 
 
 ## To Create New Flashcard Set on Quizlet
