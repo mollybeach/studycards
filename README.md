@@ -40,7 +40,7 @@ ALL FLASHCARDS
 [ALL FLASHCARDS](https://quizlet.com/user/mollybeachj/folders/studycards?funnelUUID=dbb5bf7c-26ff-43d7-84c6-2e8c946327b8)
 
 For Algorithms, Data Structures, and Patterns
-[ALGORITHMS, DATA STRUCTURES, AND PATTERNS](https://github.com/mollybeach/polliwog/tree/masters)
+[ALGORITHMS, DATA STRUCTURES, AND PATTERNS](https://github.com/mollybeach/polliwog)
  write a flowchart to decide which pattern to use to solve a leetcode 
 
 ## To Create New Flashcard Set on Quizlet
