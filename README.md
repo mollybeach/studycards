@@ -13,7 +13,7 @@ DATABASES FLASHCARDS
 [DATABASES FLASHCARDS](https://quizlet.com/927446706/databases-flash-cards/)
 
 DESIGN PATTERNS FLASHCARDS
-[DESIGN PATTERNS FLASHCARDS](https://quizlet.com/927482138/design-patterns-flash-cards)
+[DESIGN PATTERNS FLASHCARDS](https://quizlet.com/927483190/design-patterns-flash-cards)
 
 DEVOPS FLASHCARDS
 [DEVOPS PATTERNS FLASHCARDS](https://quizlet.com/927457153/devops-flash-cards/)
