@@ -13,7 +13,7 @@ DATABASES FLASHCARDS
 [DATABASES FLASHCARDS](https://quizlet.com/927446706/databases-flash-cards/)
 
 DESIGN PATTERNS FLASHCARDS
-[DESIGN PATTERNS FLASHCARDS](https://quizlet.com/927337480/design-patterns-coding-interview-flash-cards/?new)
+[DESIGN PATTERNS FLASHCARDS](https://quizlet.com/927482138/design-patterns-flash-cards)
 
 DEVOPS FLASHCARDS
 [DEVOPS PATTERNS FLASHCARDS](https://quizlet.com/927457153/devops-flash-cards/)
@@ -88,20 +88,10 @@ studycards/
 │   ├── GraphQL/
 │   └── Databases.txt
 ├── DesignPatterns/
-│   ├── Adapter/
-│   ├── Builder/
-│   ├── ChainofResponsibility/
-│   ├── Command/
-│   ├── Composite/
 │   ├── Decorator/
 │   ├── Factory/
-│   ├── Observer/
-│   ├── Proxy/
+│   ├── MVC/
 │   ├── Singleton/
-│   ├── State/
-│   ├── Strategy/
-│   ├── TemplateMethod/
-│   ├── Visitor/
 │   └── DesignPatterns.txt
 ├── DevOps/
 │   ├── Collaboration/
@@ -169,9 +159,12 @@ studycards/
 │   ├── XSS/
 │   └── Security.txt
 ├── Testing/
-│   ├──Jest/
-│   ├──Mocha/
 │   ├──Chai/
+│   ├──Jest/
+│   ├──JUnit/
+│   ├──Mocha/
+│   ├──Postman/
+│   ├── Selenium/
 │   └── Testing.txt
 ├── Tools/
 │   ├── AJAX/
