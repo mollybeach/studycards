@@ -41,6 +41,7 @@ ALL FLASHCARDS
 
 For Algorithms, Data Structures, and Patterns
 [ALGORITHMS, DATA STRUCTURES, AND PATTERNS](https://github.com/mollybeach/polliwog)
+[Other](https://quizlet.com/659784641/blind-75-flash-cards/)
 
  write a flowchart to decide which pattern to use to solve a leetcode 
 
