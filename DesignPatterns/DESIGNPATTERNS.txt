@@ -1,4 +1,4 @@
-DESIGN PATTERNS
+*DESIGN PATTERNS*
 Q) What are design patterns?
 A) Design patterns are reusable solutions to common software design problems, helping to create maintainable, flexible, and scalable software.
 Q) Why are design patterns important?
@@ -12,45 +12,46 @@ A) Singleton, Factory, MVC (Model-View-Controller), Observer, and Decorator.
 Q) How do you choose the right design pattern for a given problem?
 A) Consider the problem domain, design principles, common patterns, trade-offs, flexibility, and team collaboration.
 
-MVC
+*MVC*
 Q) What is the Model-View-Controller MVC pattern?
 A) MVC separates an application into model (data/business logic), view (user interface), and controller (handles user input and updates model and view).
 Q) What are the benefits of using the MVC pattern?
 A) Benefits include separation of concerns, reusability, testability, and scalability.
-Q) Write a simple example of the MVC pattern in Typescript.
-A) class Model {
-    private data: string;
-    constructor(data: string) {
-        this.data = data;
-    }
-    getData() {
-        return this.data;
-    }
-    setData(data: string) {
-        this.data = data;
-    }
-}
-class View {
-    displayData(data: string) {
-        console.log(data);
-    }
-}
-class Controller {
-    private model: Model;
-    private view: View;
-    constructor(model: Model, view: View) {
-        this.model = model;
-        this.view = view;
-    }
-    updateData(data: string) {
-        this.model.setData(data);
-        this.view.displayData(this.model.getData());
-    }
-}
-const model = new Model('Hello');
-const view = new View();
-const controller = new Controller(model, view);
-controller.updateData('World');
+Q) What are the Model the View and the Controller in React give an example of the file names or component?
+A) Model: dataModel.js, View: ViewComponent.js, Controller: App.js
+Q)  Give an example of the model in the dataModel.js file in React using React Hooks.
+A) import { useState } from 'react';
+const useModel = () => {
+    const [data, setData] = useState('Hello');
+    return { data, setData };
+};
+export default useModel;
+Q)  Give an example of the view in the ViewComponent.js file in React write a component using React Hooks.
+A) import React from 'react';
+
+const ViewComponent = ({ data }) => {
+    return <p>{data}</p>;
+};
+export default ViewComponent;
+Q) Give an example of the controller in the App.js file in React using React Hooks.
+A) import React from 'react';
+import useModel from './dataModel';
+import ViewComponent from './ViewComponent';
+const App = () => {
+    const { data, setData } = useModel();
+
+    const updateData = (newData) => {
+        setData(newData);
+    };
+
+    return (
+        <div>
+            <button onClick={() => updateData('World')}>Update Data</button>
+            <ViewComponent data={data} />
+        </div>
+    );
+};
+export default App;
 Q) How does the Model-View-Controller MVC pattern work?
 A) The controller receives user input, updates the model, and updates the view to reflect changes.
 Q) What is the role of the model in the MVC pattern?
@@ -62,7 +63,7 @@ A) The controller handles user interactions, updating the model and view accordi
 Q) How do you implement the MVC pattern in a web application?
 A) Use separate components for model, view, and controller, using frameworks like Angular, React, or Vue.js.
 
-Singleton
+*Singleton*
 Q) What is the Singleton design pattern?
 A) Singleton ensures a class has only one instance and provides a global point of access to it. Imagine you have only one special toy in a box. Whenever you want to play with that toy, you always go to that same box to get it. No matter how many times you open the box, it’s always the same toy inside.
 Q) How do you implement the Singleton design pattern in Typescript?
@@ -102,7 +103,7 @@ A) Thread-safe Data Structures are designed for safe concurrent access. They pro
 Q) What is Immutability in the context of thread safety?
 A) Immutability refers to objects that can't be changed after creation. Once an object is created, its state remains constant, preventing any modifications. Imagine blocks that can't be moved once placed on the tower. This ensures that the tower's structure remains stable and unchanged.
 
-Factory
+*Factory*
 Q) What is the Factory design pattern?
 A) Factory provides an interface for creating objects in a superclass but allows subclasses to alter the type of created objects.
 Q) What are the key features of the Factory design pattern?
@@ -151,7 +152,7 @@ A) Encapsulation hides the object creation logic from clients, allowing them to 
 Q) What is flexibility in the Factory design pattern?
 A) Flexibility allows clients to create objects without knowing the specific type, providing a level of abstraction and decoupling.
 
-Observer
+*Observer*
 Q) What is the Observer design pattern?
 A) Observer defines a one-to-many dependency where one object notifies multiple observers of changes.
 Q) What are the key features of the Observer design pattern?
@@ -206,9 +207,7 @@ A) The subscription mechanism allows observers to subscribe to and unsubscribe f
 Q) What is loose coupling in the Observer design pattern?
 A) Loose coupling allows subjects and observers to interact without knowing the specific implementation details, promoting flexibility and maintainability.
 
-
-
-Decorator
+*Decorator*
 Q) What is the Decorator design pattern?
 A) Decorator allows behavior to be added to objects dynamically without affecting other objects of the same class.
 Q) How do you implement the Decorator design pattern in Typescript?

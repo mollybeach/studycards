@@ -1,4 +1,4 @@
-FRAMEWORKS
+*FRAMEWORKS*
 Q) What is a Framework? A)  
 A framework is a software platform that provides a foundation for developing applications. It includes pre-built components, libraries, and tools that help developers build, deploy, and maintain software applications more efficiently. Frameworks provide a structured approach to software development and help streamline the development process by providing reusable code and best practices.
 Q) What are the key features of a Framework? A)
@@ -16,7 +16,7 @@ The benefits of using a framework include:
 • Scalability: Provides a structured approach to software development that scales with the complexity of the application.
 • Security: Includes built-in security features and practices to help protect against common vulnerabilities.
 
-REACT
+*REACT*
 Q) What is React? A) 
 React is a popular JavaScript library for building user interfaces. It allows developers to create interactive and reusable Ul components for web applications.
 Q) What are React Components? A)  
@@ -47,7 +47,7 @@ Q) What is the Context API in React? A)
 The Context AP| is a built-in feature in React that allows you to manage global state and pass data through the component tree without explicitly passing props at every level. It's especially useful for sharing data like themes or authentication information.
 'componentDidMount’, 'componentDidUpdate’, and ‘componentWillUnmount’ are lifecycle methods in React class components. They are used to control and manage the behavior of a component at different stages of its lifecycle.
 
-REACT LIFECYCLE METHODS
+*REACT LIFECYCLE METHODS*
 Q) componentDidMount A)  
 •is called after a component has been rendered to the DOM.
 •  it is commonly used to perform initial setup, such as fetching data from an API, subscribing to events, or setting up timers
@@ -61,7 +61,7 @@ Q) componentDidUpdate A)
 • It is used to perform cleanup tasks, such as canceling network requests, removing event listeners, or clearing timers to prevent memory leaks.
 • This method is essential for avoiding resource leaks when a component is no longer needed. 
 
-MIMICKING LIFECYCLE METHODS
+*MIMICKING LIFECYCLE METHODS*
 Q) Mimicking componentDidMount A)  
 • This 'useEffect ' hook runs once after the component is mounted similar to
 The Lifecycle method it is copying.
@@ -71,7 +71,7 @@ the Lifecycle method it is copying.
 Q) Mimicking 'componentWillUnmount’ A)  
 • This 'useEffect ' hook  only once when the component is about to unmount similar to similar to the Lifecycle method it is copying.
 
-REACT HOOKS
+*REACT HOOKS*
 Q) useState A) 
 • allows functional components to manage local state.
 ' It returns an array with two elements  the current state value and a function to update it.
@@ -107,7 +107,7 @@ Q) useTransition and useDeferred Value React Concurrent Mode A)
 • 'useTransition' allows you to control when to show loading indicators or transitions during updates.
 • 'useDeferredValue' allows you to defer updates to less important data when the application is busy.
 
-REACT NATIVE
+*REACT NATIVE*
 Q) What is React Native? A)   
 React Native is an open-source framework for building mobile applications using JavaScript and React. It was developed by Facebook and was first released in 205 React Native allows developers to create native mobile applications for iOS, Android, and other platforms using a single codebase, which is a significant advantage for reducing development time and effort.
 Q) JavaScript and React React Native  A)  React Native utilizes the popular JavaScript programming language and the React library. Developers can write their mobile app logic in JavaScript and use React components to create the user interface
@@ -120,7 +120,7 @@ Q) Code Reusability React Native A) A significant advantage of React Native is c
 Q) Updates React Native A) React Native is actively maintained, and updates are released regularly to keep up with changes in mobile platforms and technologies.
 React Native is a popular choice for mobile app development, especially for businesses or developers looking to create apps for both iOS and Android without writing separate codebases.
 
-Angular
+*Angular*
 Q) What is Angular? A)
 Angular is a popular open-source front-end web application framework developed by Google. It is used for building dynamic and interactive web applications with features like data binding, dependency injection, and routing.
 Q) What are the key features of Angular? A)
@@ -133,7 +133,7 @@ The key features of Angular include:
 Q) What is the difference between AngularJS and Angular? A)
 AngularJS is the first version of Angular, released in 2010, while Angular refers to the newer versions starting with Angular 2, released in 2016. Angular is a complete rewrite of AngularJS and introduces significant changes, such as a component-based architecture, improved performance, and better support for modern web development practices.
 
-Vue.js
+*Vue.js*
 Q) What is Vue.js? A)
 Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, meaning you can use it to build small parts of an application or scale up to build a full single-page application.
 Q) What are the key features of Vue.js? A)
@@ -172,7 +172,7 @@ Best practices for using Vue.js in web development include:
 Q) How do you handle AJAX requests in Vue.js? A)
 Vue.js provides the Vue Resource plugin for making AJAX requests. You can use Vue Resource to fetch data from an API, handle responses, and update the view based on the data received. Alternatively, you can use the Fetch API or Axios library for AJAX requests in Vue.js applications.
 
-NODE JS
+*NODE JS*
 Q) What is Node.js? A)
 Node.js is an open-source, server-side JavaScript runtime environment built on Chrome's V8 JavaScript engine. It allows you to run JavaScript code outside of a web browser and build scalable network applications.
 Q) What are the key features of Node.js? A)
@@ -193,7 +193,7 @@ Modules in Node.js are reusable blocks of code that encapsulate functionality an
 Q) How do you create a simple HTTP server in Node.js? A)
 You can create a simple HTTP server in Node.js using the built-in http module. Here's an example of creating an HTTP server that listens on port 3000 and responds with "Hello, World!" to all requests:
 
-EXPRESS
+*EXPRESS*
 Q) What is Express JS? A)
 Express.js is a popular web application framework for Node.js. It provides a set of features and tools for building web applications, such as routing, middleware, and template engines. Express.js simplifies the process of building web servers and APIs in Node.js.
 Q) How do you handle routing in Express.js? A)
@@ -225,7 +225,7 @@ You can secure Express.js applications by implementing security best practices, 
 • Implementing authentication and authorization mechanisms to control access to resources and protect sensitive data.
 • Keeping dependencies up to date to address security vulnerabilities in third-party packages.
 
-Django
+*Django*
 Q) What is Django? A)
 Django is a high-level web framework for building web applications in Python. It follows the model-view-template (MVT) architectural pattern and provides a set of tools and features for rapid development of web applications.
 Q) What are the key features of Django? A)
@@ -258,7 +258,7 @@ You can secure Django applications by implementing security best practices, such
 • Implementing access control mechanisms to control access to resources and protect sensitive data.
 • Keeping dependencies up to date to address security vulnerabilities in third-party packages.
 
-Ruby on Rails
+*Ruby on Rails*
 Q) What is Ruby on Rails? A)
 Ruby on Rails is a popular open-source web application framework written in Ruby. It follows the model-view-controller (MVC) architectural pattern and provides a set of conventions and tools for building web applications quickly and efficiently.
 Q) What are the key features of Ruby on Rails? A)

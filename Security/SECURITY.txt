@@ -1,4 +1,4 @@
-SECURITY
+*SECURITY*
 Q) What is security in the context of web development?
 A) Security in the context of web development refers to the practices, tools, and techniques used to protect web applications and websites from security threats and vulnerabilities. This includes securing user data, preventing unauthorized access, and defending against cyber attacks.
 Q) Why is security important in web development?
@@ -21,7 +21,7 @@ A) Common security threats to web applications include:
 • Using components with known vulnerabilities: Exploiting outdated or vulnerable components like libraries, frameworks, or plugins in web applications.
 • Insufficient logging and monitoring: Failing to log security events or monitor system activities to detect and respond to security incidents.
 
-OWASP Top 10
+*OWASP Top 10*
 Q) What is the OWASP Top 10?
 A) The OWASP Top 10 is a list of the top 10 most critical security risks to web applications. It is published by the Open Web Application Security Project (OWASP) and is updated regularly to reflect the latest security threats and vulnerabilities facing web applications.
 Q) What are the OWASP Top 10 security risks?
@@ -88,7 +88,7 @@ A) Insufficient logging and monitoring in web applications can be prevented by:
 • Implementing logging: Log security events, user actions, and system activities to detect and respond to security incidents in a timely manner.
 • Monitoring logs: Monitor logs for suspicious activities, unauthorized access attempts, or security events that could indicate a security breach.
 
-JWT
+*JWT*
 Q) What is JSON Web Token (JWT)?
 A) JSON Web Token (JWT) is an open standard for securely transmitting information between parties as a JSON object. JWTs are commonly used for authentication and authorization in web applications and APIs to securely exchange claims or assertions between the client and server.
 Q) How does JSON Web Token (JWT) work?
@@ -137,7 +137,7 @@ A) Common vulnerabilities associated with JSON Web Tokens (JWT) include:
 • Insecure transmission: JWTs transmitted over unencrypted channels can be intercepted and used by attackers to gain unauthorized access.
 • Excessive token lifetime: Long-lived JWTs with no expiration time can increase the risk of token reuse or replay attacks.
 
-OAuth
+*OAuth*
 Q) What is OAuth?
 A) OAuth is an open standard for access delegation that allows users to grant third-party applications access to their resources without sharing their credentials. OAuth is commonly used for authentication and authorization in web applications and APIs to securely exchange access tokens between the client and server.
 Q) How does OAuth work?
@@ -178,7 +178,7 @@ A) Best practices for using OAuth in web development include:
 • Implementing secure protocols: Use secure communication protocols like HTTPS to encrypt data transmitted between the client and server.
 • Expiring access tokens: Set expiration times on access tokens to limit their validity and prevent replay attacks or token reuse.
 
-Cryptography
+*Cryptography*
 Q) What is cryptography?
 A) Cryptography is the practice of securing communication and data by encoding it in a way that only authorized parties can access and understand. It involves techniques like encryption, decryption, hashing, and digital signatures to protect sensitive information from unauthorized access or tampering.
 Q) What are the key components of cryptography?
@@ -215,7 +215,7 @@ A) Best practices for using cryptography in web development include:
 • Implementing secure protocols: Use secure communication protocols like HTTPS to encrypt data transmitted between the client and
 • Validating input: Validate user input to ensure it conforms to expected formats and does not contain malicious code.
 
-Authentication
+*Authentication*
 Q) What is authentication?
 A) Authentication is the process of verifying the identity of a user or system to ensure that they are who they claim to be. Authentication mechanisms include passwords, biometrics, security tokens, and multi-factor authentication to protect sensitive information and prevent unauthorized access.
 Q) What are the types of authentication?
@@ -242,7 +242,7 @@ Q) What are some best practices for secure authentication in web development?
 A) Best practices for secure authentication in web development include:
 • Using strong encryption algorithms: Use strong encryption algorithms like AES (Advanced Encryption Standard) or RSA (Rivest-Shamir-Adleman) to protect sensitive data.
 
-Authorization
+*Authorization*
 Q) What is authorization?
 A) Authorization is the process of granting or denying access to resources based on the identity and permissions of a user or system. Authorization mechanisms include role-based access control (RBAC), attribute-based access control (ABAC), and access control lists (ACLs) to enforce access controls and protect sensitive information from unauthorized access.
 Q) What are the types of authorization?
@@ -269,7 +269,7 @@ A) Best practices for secure authorization in web development include:
 • Configuring access control lists ACLs: Define access rules for users or groups of users to access specific resources like files, directories, or network resources.
 • Validating access controls: Validate user access to resources to ensure that they have the necessary permissions and are authorized to access the requested resources.
 
-​​Oauth 2.0
+​*​Oauth 2.0*
 Q) What is OAuth 2.0, and why is it important? A)
 iis an authorization framework that allows third-party services to exchange web resources on behalf of a user. It's important because it enables users to grant web and desktop applications access to their information on other web services without revealing their passwords.
 Q) Can you explain the difference between authentication and authorization in the context of OAuth 2.0? A)
@@ -281,7 +281,7 @@ The four roles are:
 • Authorization Server: The server that authenticates the Resource Owner and issues access tokens to the Client after getting proper authorization.
 • Resource Server: The server hosting the protected resources. It can accept or respond to protected resource requests using access tokens.
 Q) What are the grant types supported by OAuth 2.0?  A)  
-* OAuth 2.0 defines four grant types:
+ OAuth 2.0 defines four grant types:
 • Authorization Code: Used by web and mobile apps where the client doesn't interact with the user directly.
 • Implicit: Designed for clients implemented in a browser using a scripting language such as JavaScript.
 • Resource Owner Password Credentials: Used when there is a high degree of trust between the resource owner and the client, such as the device's operating system or a highly privileged application.
@@ -294,7 +294,7 @@ They are used at the time of the request for authorization and define the level 
 Q) How does the Authorization Code grant type work? A)
 • The Authorization Code grant type involves redirecting the user to the Authorization Server to log in. After successful authentication, the user is redirected back to the application with an authorization code that the application can exchange for an access token. This method is considered secure as the application never handles the user's credentials directly, and the access token is transmitted directly to * application server without passing through the user's browser.
 
-REACT SECURITY 
+*REACT SECURITY*
 Q) What is Cross-Site Scripting XSS, and how can it be prevented in React applications? A)
 • Cross-Site Scripting XSS is a security vulnerability where attackers inject malicious scripts into web pages viewed by other users. In React applications, XSS can be prevented by:
 • Using libraries like DOMPurity to sanitize content derived from user input.
@@ -333,7 +333,7 @@ Q) How can dependency management be improved in React applications to enhance se
 • Snyk: A tool that helps find and fix known vulnerabilities in dependencies.
 Understanding these security practices and tools will help developers build more secure and robust React applications.
 
-NODE JS SECURITY
+*NODE JS SECURITY*
 A) What is an Event Loop in Node.js, and why is it crucial for security? A)
 • The Event Loop is central to Node.js's non-blocking I/O model, handling asynchronous operations. Understanding how the Event Loop works is crucial for avoiding vulnerabilities like event loop blocking that can impact security and performance.
 Q) What is the Node Package Manager npm, and how does it relate to Node.js security? A)

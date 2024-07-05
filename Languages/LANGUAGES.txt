@@ -1,4 +1,4 @@
-JavaScript
+*JavaScript*
 Q) What is JavaScript and what are its key features?
 A) JavaScript is a high-level, interpreted programming language known for its versatility and use in web development. Key features of JavaScript include:
 • Client-side scripting: JavaScript runs in the browser, allowing for dynamic and interactive web pages.
@@ -40,7 +40,7 @@ A) Modules in JavaScript are reusable pieces of code that can be exported from o
 Q) What is the Fetch API in JavaScript?
 A) The Fetch API is a modern interface for fetching resources over the network in JavaScript. It provides a more powerful and flexible way to make HTTP requests compared to traditional methods like XMLHttpRequest.
 
-TYPESCRIPT
+*TYPESCRIPT*
 Q) What is TypeScript, and what are its advantages? A)
 • Explanation of TypeScript as a superset of JavaScript that adds static typing, which helps catch errors early, improves code readability, and enables better code organization and tooling support.
 Q) What are the basic types in TypeScript? A) 
@@ -75,7 +75,7 @@ Q) What is the 'readonly' modifier in TypeScript? A)
 • Explanation of the 'readonly modifier and its use to mark properties as read-only. preventing them from being modified after initialization.
 • Example demonstrating the use of readonly' in interfaces, classes, or object literals.
 
-PYTHON
+*PYTHON*
 Q) What is Python and what are its key features?
 A) Python is a high-level, interpreted programming language known for its simplicity and readability. Key features of Python include:
 • Easy-to-read syntax: Python uses indentation to define code blocks, making it easy to read and understand.
@@ -139,7 +139,7 @@ A) A shallow copy creates a new object that references the original object's ele
 Q) How do you handle memory management in Python?
 A) Memory management in Python is handled automatically by the Python interpreter using garbage collection. Developers can optimize memory usage by managing object lifetimes and avoiding memory leaks.
 
-Java
+*Java*
 Q) What is Java and what are its key features?
 A) Java is a high-level, object-oriented programming language known for its platform independence and robustness. Key features of Java include:
 • Write once, run anywhere: Java code can run on any platform that supports the Java Virtual Machine JVM.
@@ -192,7 +192,7 @@ A) Annotations in Java provide metadata about classes, methods, and other progra
 Q) What is the difference between `@Override` and `@Overload` in Java?
 A) The `@Override` annotation in Java indicates that a method overrides a superclass method, while the `@Overload` annotation does not exist in Java and is not used for method overloading.
 
-C++
+*C++*
 Q) What is C++ and what are its key features?
 A) C++ is a high-level, general-purpose programming language known for its performance and flexibility. Key features of C++ include:
 • Object-oriented: C++ supports classes, objects, inheritance, and polymorphism for modeling real-world entities.
@@ -247,7 +247,7 @@ A) `const` in C++ declares a constant variable that cannot be modified, while `c
 Q) What is the difference between `override` and `final` in C++?
 A) The `override` keyword in C++ indicates that a method overrides a virtual function from a base class, while the `final` keyword prevents a method from being overridden in derived classes.
 
-Ruby
+*Ruby*
 Q) What is Ruby and what are its key features?
 A) Ruby is a high-level, object-oriented programming language known for its simplicity and productivity. Key features of Ruby include:
 • Elegant syntax: Ruby has a clean and readable syntax that emphasizes developer happiness.
@@ -274,7 +274,7 @@ A) A module in Ruby is a collection of methods, constants, and classes that can 
 Q) What is a mixin in Ruby?
 A) A mixin in Ruby is a way to add functionality to a class by including a module. Mixins allow classes to inherit behavior from multiple modules, promoting code reuse and modularity.
 
-Rust 
+*Rust*
 Q) What is Rust and what are its key features?
 A) Rust is a systems programming language known for its safety, speed, and concurrency. Key features of Rust include:   
 • Memory safety: Rust guarantees memory safety without garbage collection through its ownership system and borrowing rules.
@@ -324,7 +324,7 @@ A) `match` in Rust is a control flow construct that allows for exhaustive patter
 Q) What is the difference between `const` and `static` in Rust?
 A) `const` in Rust declares a compile-time constant that is inlined wherever it is used, while `static` declares a global variable with a fixed memory address. `const` is used for constants that do not require memory allocation, while `static` is used for global variables.
 
-Go
+*Go*
 Q) What is Go and what are its key features?
 A) Go is a statically typed, compiled programming language known for its simplicity, efficiency, and concurrency support. Key features of Go include:
 • Fast compilation: Go compiles quickly to machine code, enabling fast development and deployment.

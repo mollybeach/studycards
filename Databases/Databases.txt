@@ -1,4 +1,4 @@
-Databases
+*Databases*
 
 Q) What are databases and how are they used in software development?
 A) Databases are organized collections of data that store, retrieve, and manage information for software applications.
@@ -9,7 +9,7 @@ A) Types include relational, NoSQL, document, key-value, and graph databases.
 Q) Name some popular relational database management systems (RDBMS).
 A) Popular RDBMS include MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server.
 
-CRUD Operations
+*CRUD Operations*
 
 Q) What do the 4 CRUD operations stand for?
 A) Create, Read, Update, Delete.
@@ -24,8 +24,7 @@ A) Removes data from the database.
 Q) How are CRUD operations typically mapped to HTTP methods?
 A) Create: POST, Read: GET, Update: PUT or PATCH, Delete: DELETE.
 
-AWS Databases
-AWS Databases
+*AWS Databases*
 
 Q) What is Amazon RDS?
 A) Amazon RDS is a managed database service that makes it easy to set up, operate, and scale relational databases in the cloud.
@@ -36,21 +35,21 @@ A) Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built 
 Q) What is Amazon DynamoDB?
 A) Amazon DynamoDB is a fully managed NoSQL database service designed for fast and predictable performance with seamless scalability.
 
-MongoDB
+*MongoDB*
 
 Q) What is MongoDB?
 A) MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.
 Q) What are the key features of MongoDB?
 A) Features include document-oriented storage, scalability, high performance, flexible schema, and a rich query language.
 
-PostgreSQL
+*PostgreSQL*
 
 Q) What is PostgreSQL?
 A) PostgreSQL is an open-source RDBMS known for its reliability, scalability, and extensibility.
 Q) What are the key features of PostgreSQL?
 A) Features include ACID compliance, extensibility, advanced data types, indexing, and full-text search.
 
-MySQL
+*MySQL*
 
 Q) What is MySQL?
 A) MySQL is an open-source RDBMS known for its speed, reliability, and ease of use.
@@ -80,7 +79,7 @@ Q) How do you use/launch MySQL Workbench? A) To use/launch MySQL Workbench, foll
 • Connect to the MySQL server and navigate the database objects, such as tables, views, and indexes.
 • Perform common database tasks, such as creating tables, running queries, and monitoring performance using the MySQL Workbench interface.
 
-GraphQL
+*GraphQL*
 Q) What is GraphQL? A) GraphQL is a query language and runtime for APIs that allows clients to request only the data they need. It provides a flexible and efficient alternative to traditional REST APIs by enabling clients to specify the structure of the response and reduce over-fetching and under-fetching of data.
 Q) What are the key features of GraphQL? A) The key features of GraphQL include:
 • Strongly Typed Schema: GraphQL uses a schema to define the types and fields available in the API, enabling clients to query and mutate data with type safety.
@@ -108,7 +107,7 @@ Q) How do you use/launch a GraphQL API? A) To use/launch a GraphQL API, follow t
 • Test the API using a GraphQL client, such as GraphQL Playground or Apollo Client, to send queries and mutations and receive responses.
 • Deploy the GraphQL API to a server or cloud platform to make it accessible to clients.
 
-REST
+*REST*
 Q) What is REST? A) REST (Representational State Transfer) is an architectural style for designing networked applications that use HTTP to communicate between clients and servers. RESTful APIs are designed around resources, which are represented as URIs, and use standard HTTP methods to perform CRUD operations.
 Q) What are the key principles of REST? A) The key principles of REST include:
 • Resources: RESTful APIs are designed around resources, which are represented as URIs and can be manipulated using standard HTTP methods.
@@ -146,7 +145,7 @@ Q) How to use/launch a NoSQL database? A) To use/launch a NoSQL database, follow
 • Create databases, collections, and documents within the NoSQL database using the database-specific commands or APIs.
 • Connect to the NoSQL database using a programming language-specific driver or client library to interact with the data and perform common database tasks.
 
-Oracle
+*Oracle*
 Q) What is Oracle Database? A) Oracle Database is a commercial relational database management system RDBMS that is known for its scalability, security, and performance. It is widely used in enterprise applications, data warehousing, and cloud services.
 Q) What are the key features of Oracle Database? A) The key features of Oracle Database include:
 • Scalability: Oracle Database supports horizontal and vertical scaling to handle growing data volumes and increasing workloads.

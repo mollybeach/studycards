@@ -1,5 +1,9 @@
-CLOUD PROVIDERS
-AWS
+*CLOUD PROVIDERS*
+Q) What is the Cloud?
+A) The cloud refers to a network of remote servers hosted on the internet that store, manage, and process data, rather than a local server or a personal computer.
+Q) What are the benefits of using the cloud?
+A) Scalability, cost-effectiveness, flexibility, reliability, security, and accessibility.
+*AWS*
 Q) Name 7 Core AWS Services A)
 CloudFront, EC2 Elastic Compute Cloud, IAM Identity and Access Management, Lambda, RDS Relational Database Service, S3 Simple Storage Service, and VPC Virtual Private Cloud.
 Q)  EC2 Elastic Compute Cloud A)  A web service that provides resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers. 
@@ -27,7 +31,7 @@ Cost Management
 Q) Reserved Instances  A) Provide you with a significant discount compared to On-Demand instance pricing and provide a capacity reservation when used in a specific Availability Zone.
 Q) Spot Instances  A) Allow you to bid on unused EC2 capacity and run those instances for as long as your bid exceeds the current spot price. 
 
-Azure
+*Azure*
 Q) Name 7 Core Azure Services A)
 App Service, Blob Storage, Cosmos DB, Functions, Resource Manager, SQL Database, and Virtual Machines.
 Q) App Service A) A fully managed platform for building, deploying, and scaling web apps and APIs.
@@ -74,7 +78,7 @@ Q) How do you monitor and optimize the performance of Azure AI Services in your 
 • Optimize resource usage: Monitor resource utilization of Azure AI Services and adjust resources as needed to optimize performance and cost.
 • Use caching: Implement caching mechanisms to store frequently accessed data and reduce the number of requests to Azure AI Services.
 
-Google Cloud
+*Google Cloud*
 Q) Name 7 Core Google Cloud Services A)
 App Engine, BigQuery, Cloud Functions, Cloud Storage, Compute Engine, Kubernetes Engine, and Pub/Sub.
 Q) App Engine A) A platform-as-a-service PaaS offering that allows you to build and deploy applications on Google's infrastructure without managing the underlying infrastructure.

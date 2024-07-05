@@ -38,3 +38,17 @@ frameworks flask
 │   ├── AJAX/
 │   └── Tools.txt
 
+
+Unix command line tools
+I filled in the list below from good tools.
+bash
+cat
+grep
+sed
+awk
+curl or wget
+sort
+tr
+uniq
+strace
+tcpdump
