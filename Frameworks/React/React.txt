@@ -1,0 +1,30 @@
+*REACT*
+Q) What is React? A) 
+React is a popular JavaScript library for building user interfaces. It allows developers to create interactive and reusable Ul components for web applications.
+Q) What are React Components? A)  
+React components are reusable, self-contained building blocks for building user interfaces. They can be either functional components or class components.
+Q) What is JSX? A)  
+JavaScript XML is a syntax extension for JavaScript that allows you to write HTML-like code within your JS code. React uses JSX to describe the Ul elements.
+Q) What is the difference between functional and class components? A)  
+Functional components are simple JavaScript functions, while class components are ES6 classes.
+Both can be used to create React components, but functional components are more commonly used, especially with the introduction of React Hooks.
+Q) What are React Hooks? A)  
+React Hooks are functions that allow functional components to manage state and side effects.
+They were introduced in React 16.8 and provide an alternative to using class components for state management.
+Q) What is the Virtual DOM in React? A)  
+The Virtual DOM is a concept in React where a lightweight representation of the actual DOM is created in memory. React uses this Virtual DOM to efficiently update the real DOM when changes occur, which helps improve performance.
+Q) What is the difference between Props and State in React? A)  
+Props short for properties are used to pass data from a parent component to a child component, while state is used to manage data that can change within a component. Props are read-only, while state can be modified using the 'setState' method.
+Q) What is Redux? A)  
+Redux is a state management library for React and other JavaScript frameworks. It helps manage the global state of an application and provides a predictable way to handle data flow.
+Q) What is React Router? A)  
+React Router is a popular library for adding routing and navigation to React applications. It allows you to define routes and render different components based on the URL.
+Q) What are React Lifecycle methods? A)  
+In class components, lifecycle methods are special methods that are automatically invoked at different stages of a component's lifecycle, such as when it's mounted or updated. With the introduction of hooks, some of these methods are no longer used as frequently.
+Q) What is the purpose of the 'key' prop in React lists? A)  
+The 'key' prop is used to give a unique identity to each element in a list of components. It helps React efficiently update and re-render the list when items are added, removed, or reordered.
+Q) How can you pass data from child to parent components in React? A)  
+You can pass data from child to parent components by defining callback functions in the parent and passing them as props to the child. The child component can then call these callbacks to communicate with the parent.
+Q) What is the Context API in React? A) 
+The Context AP| is a built-in feature in React that allows you to manage global state and pass data through the component tree without explicitly passing props at every level. It's especially useful for sharing data like themes or authentication information.
+'componentDidMount’, 'componentDidUpdate’, and ‘componentWillUnmount’ are lifecycle methods in React class components. They are used to control and manage the behavior of a component at different stages of its lifecycle.

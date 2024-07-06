@@ -1,0 +1,32 @@
+*Ruby on Rails*
+Q) What is Ruby on Rails? A)
+Ruby on Rails is a popular open-source web application framework written in Ruby. It follows the model-view-controller (MVC) architectural pattern and provides a set of conventions and tools for building web applications quickly and efficiently.
+Q) What are the key features of Ruby on Rails? A)
+The key features of Ruby on Rails include:
+• Convention over configuration: Provides a set of conventions that reduce the need for configuration and boilerplate code.
+• Active Record: An object-relational mapping (ORM) library that simplifies database interactions using Ruby objects.
+• Scaffolding: Automatically generates code for common tasks like creating models, views, and controllers.
+• Routing: Maps URLs to controller actions and provides a clean and flexible way to define routes.
+• Asset pipeline: Compiles and compresses assets like JavaScript and CSS files to improve performance.
+Q) What is Active Record in Ruby on Rails? A)
+Active Record is an object-relational mapping (ORM) library in Ruby on Rails that simplifies database interactions using Ruby objects. It provides a way to map database tables to Ruby classes and perform CRUD operations on database records using Ruby methods.
+Q) How do you define models in Ruby on Rails? A)
+In Ruby on Rails, models are defined as Ruby classes that inherit from the ActiveRecord::Base class. Each model
+class represents a database table, and each attribute of the class represents a database column. You can define associations like has_many, belongs_to, and has_and_belongs_to_many to specify relationships between models.
+Q) What is scaffolding in Ruby on Rails? A)
+Scaffolding in Ruby on Rails is a feature that automatically generates code for common tasks like creating models, views, and controllers. It provides a quick way to set up the basic structure of a web application and get started with development.
+Q) How do you create controllers in Ruby on Rails? A)
+In Ruby on Rails, controllers are defined as Ruby classes that inherit from the ApplicationController class. Each controller class represents a set of related actions that handle HTTP requests and return HTTP responses. You can define actions as methods that respond to different HTTP methods like GET, POST, PUT, and DELETE.
+Q) What is the asset pipeline in Ruby on Rails? A)
+The asset pipeline in Ruby on Rails is a feature that compiles and compresses assets like JavaScript and CSS files to improve performance. It provides a way to organize and manage assets in a web application and includes tools for minification, concatenation, and fingerprinting of asset files.
+Q) How do you handle forms in Ruby on Rails? A)
+Ruby on Rails provides form helpers that allow you to create and handle HTML forms in a Ruby-centric way. You can use form helpers to generate form elements, validate user input, and process form submissions in controllers. Rails also provides built-in support for CSRF protection and form validation.
+Q) What is the Ruby on Rails API mode? A)
+The Ruby on Rails API mode is a lightweight version of Rails that is optimized for building JSON APIs. It removes unnecessary middleware and features from the Rails stack to improve performance and reduce the overhead of rendering HTML views.
+Q) How do you secure Ruby on Rails applications? A)
+You can secure Ruby on Rails applications by implementing security best practices, such as:
+• Using HTTPS to encrypt data transmitted between the client and server.
+• Implementing input validation to prevent common security vulnerabilities like SQL injection and cross-site scripting.
+• Using Rails' built-in security features like CSRF protection and user authentication.
+• Implementing access control mechanisms to control access to resources and protect sensitive data.
+• Keeping dependencies up to date to address security vulnerabilities in third-party packages.

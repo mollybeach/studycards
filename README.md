@@ -39,9 +39,15 @@ TOOLS FLASHCARDS
 ALL FLASHCARDS
 [ALL FLASHCARDS](https://quizlet.com/user/mollybeachj/folders/studycards?funnelUUID=dbb5bf7c-26ff-43d7-84c6-2e8c946327b8)
 
-For Algorithms, Data Structures, and Patterns
-[ALGORITHMS, DATA STRUCTURES, AND PATTERNS](https://github.com/mollybeach/polliwog)
-[Other](https://quizlet.com/659784641/blind-75-flash-cards/)
+BLIND 75 FLASHCARDS
+[BLIND 75 FLASHCARDS](https://quizlet.com/659784641/blind-75-flash-cards/)
+
+ALGORITHMS PATTERNS REPOSITORY
+[ALGORITHMS REPO](https://github.com/mollybeach/polliwog)
+
+LEETCODE PAIR PROGRAMMING REPLIT
+[LEETCODE PAIR PROGRAMMING REPLIT ](https://replit.com/@MollyBeach/spaghettibrain#index.js)
+
 
  write a flowchart to decide which pattern to use to solve a leetcode 
 
@@ -70,17 +76,19 @@ Click Done
 ```
 
 studycards/
-├── CloudProviders
-│   ├── AWS/
-│   ├── Azure/
-│   ├── GCP/
-│   └── CloudProviders.txt
+
+
 ├── Blockchain/
 │   ├── Ethereum/
 │   ├── SmartContracts/
 │   ├── DeFi/
 │   ├── Blockchain Security/
 │   └── Blockchain.txt
+├── CloudProviders
+│   ├── AWS/
+│   ├── Azure/
+│   ├── GCP/
+│   └── CloudProviders.txt
 ├── Databases/
 │   ├── AWS/
 │   ├── MongoDB/
