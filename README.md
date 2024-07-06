@@ -49,8 +49,6 @@ LEETCODE PAIR PROGRAMMING REPLIT
 [LEETCODE PAIR PROGRAMMING REPLIT ](https://replit.com/@MollyBeach/spaghettibrain#index.js)
 
 
- write a flowchart to decide which pattern to use to solve a leetcode 
-
 ## To Create New Flashcard Set on Quizlet
 ```
 Go to https://quizlet.com/ 
