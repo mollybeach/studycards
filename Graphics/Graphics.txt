@@ -1,4 +1,5 @@
-@ @  THREEJS
+@ GRAPHICS
+@@ THREEJS
 Q) Three.js and why is it used? A) 
 Three.js is a lightweight, cross-browser JavaScript library/API used to create and display animated 3D computer graphics in a web browser using WebGL. It abstracts the complexity of WebGL, allowing developers to create 3D content with more ease and efficiency. It's used for web applications that require 3D visualizations such as games, data visualizations, interactive simulations, and virtual reality experiences.
 Q) How do you set up a basic Three.js scene? A)
@@ -20,7 +21,7 @@ The core components include:
 Q) How does Three.js handle animations? A)
 Animations in Three.js are commonly handled using the 'requestAnimationFrame' function, which calls a function before the next repaint. This function is used in a loop to update objects' positions, rotations, or any other properties over time, and then render the scene again with those updates, creating the animation effect.
 
-@ @  INTERMEDIATE THREEJS
+@@ INTERMEDIATE THREEJS
 Q) Explain the difference between Orthographic and Perspective cameras in Three.js. A)
 PerspectiveCamera simulates the way the human eye sees; it's used for realistic 3D scenes where objects further away appear smaller. OrthographicCamera renders objects in uniform size, regardless of their distance from the camera, useful for 2D simulations or UI elements in 3D spaces.
 Q) How can you add lighting to a Three.js scene? What are the different types of lights available in Three.js? A)
@@ -89,7 +90,7 @@ To implement physics simulations in Three.js, you can use libraries like Ammo.js
 Q) What is the role of shaders in Three.js and how can they be customized? A)
 Shaders in Three.js are small programs written in GLSL that run on the GPU and determine how vertices and pixels are processed to render the graphical effects seen on the screen. Shaders can be customized by defining custom vertex and fragment shaders using the 'ShaderMaterial' or 'RawShaderMaterial' classes in Three.js. By writing custom GLSL code, you can create unique visual effects, textures, lighting, and materials that are not available with the standard materials. Custom shaders allow you to achieve specific rendering results and create visually stunning 3D graphics in your application.
 
-@ @  THREE JS SCENARIOS
+@@ THREE JS SCENARIOS
 Q) You need to create a web application that visualizes large datasets in 3D. How would you approach this using Three.js? A)
 • For large datasets, consider using instancing with 'THREE, Instancedesh@  to render many objects with a single draw call. Employ Level of Detail LOD to present simpler models for objects that are further away. Additionally, optimize the data structure for quick access and manipulation, and consider using workers for processing data off the main thread.
 Q) How would you implement VR or AR experiences using Threejs? A)

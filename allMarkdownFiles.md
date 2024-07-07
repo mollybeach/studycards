@@ -3488,7 +3488,9 @@ You can secure Ruby on Rails applications by implementing security best practice
 
 
 
-# @  THREEJS
+# GRAPHICS
+
+## THREEJS
 
 ### Three.js and why is it used: A)
 
@@ -3532,7 +3534,7 @@ Animations in Three.js are commonly handled using the 'requestAnimationFrame' fu
 
 
 
-# @  INTERMEDIATE THREEJS
+## INTERMEDIATE THREEJS
 
 ### Explain the difference between Orthographic and Perspective cameras in Three.js. A)
 
@@ -3670,7 +3672,7 @@ Shaders in Three.js are small programs written in GLSL that run on the GPU and d
 
 
 
-# @  THREE JS SCENARIOS
+## THREE JS SCENARIOS
 
 ### You need to create a web application that visualizes large datasets in 3D. How would you approach this using Three.js: A)
 
