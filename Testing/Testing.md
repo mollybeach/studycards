@@ -2,11 +2,11 @@
 
 ### What is Testing in Programming:
 
-Testing in programming refers to the process of evaluating software to ensure that it meets specified requirements and functions correctly. Testing involves executing the software with test cases, identifying defects or errors, and verifying that the software behaves as expected. Testing helps improve software quality, reliability, and user satisfaction.
+  - Testing in programming refers to the process of evaluating software to ensure that it meets specified requirements and functions correctly. Testing involves executing the software with test cases, identifying defects or errors, and verifying that the software behaves as expected. Testing helps improve software quality, reliability, and user satisfaction.
 
 ### Why is Testing important in Programming:
 
-Testing is important in programming because it:
+  - Testing is important in programming because it:
 
 • Validates software functionality and behavior against requirements
 
@@ -20,7 +20,7 @@ Testing is important in programming because it:
 
 ### What are the different types of Testing in Programming:
 
-Different types of testing in programming include:
+  - Different types of testing in programming include:
 
 • Unit testing: Testing individual units or components of the software in isolation
 
@@ -36,7 +36,7 @@ Different types of testing in programming include:
 
 ### What are some common Testing frameworks and tools:
 
-Common testing frameworks and tools include:
+  - Common testing frameworks and tools include:
 
 • Jest: JavaScript testing framework for unit and integration testing
 
@@ -52,7 +52,7 @@ Common testing frameworks and tools include:
 
 ### How to Write Effective Test Cases:
 
-To write effective test cases, follow these best practices:
+  - To write effective test cases, follow these best practices:
 
 • Define clear objectives and expected outcomes for each test case
 
@@ -72,11 +72,11 @@ To write effective test cases, follow these best practices:
 
 ### What is Jest and how is it used in Programming:
 
-Jest is a JavaScript testing framework used in programming for unit and integration testing. It provides a simple and intuitive API for writing test cases, mocking dependencies, and running tests in parallel. Jest helps developers write reliable and maintainable tests for JavaScript applications.
+  - Jest is a JavaScript testing framework used in programming for unit and integration testing. It provides a simple and intuitive API for writing test cases, mocking dependencies, and running tests in parallel. Jest helps developers write reliable and maintainable tests for JavaScript applications.
 
 ### What are some key features of Jest:
 
-Key features of Jest include:
+  - Key features of Jest include:
 
 • Zero configuration: Out-of-the-box setup for testing JavaScript applications
 
@@ -90,7 +90,7 @@ Key features of Jest include:
 
 ### How to Use/Install Jest:
 
-To use/install Jest, follow these steps:
+  - To use/install Jest, follow these steps:
 
 • Install Jest using npm or yarn: npm install --save-dev jest
 
@@ -108,11 +108,11 @@ Postman
 
 ### What is Postman and how is it used in Programming:
 
-Postman is an API testing tool used in programming for testing RESTful APIs. It provides a user-friendly interface for creating, executing, and automating API requests, validating responses, and monitoring API performance. Postman helps developers test and debug APIs, collaborate on API development, and streamline API testing workflows.
+  - Postman is an API testing tool used in programming for testing RESTful APIs. It provides a user-friendly interface for creating, executing, and automating API requests, validating responses, and monitoring API performance. Postman helps developers test and debug APIs, collaborate on API development, and streamline API testing workflows.
 
 ### What are some key features of Postman:
 
-Key features of Postman include:
+  - Key features of Postman include:
 
 • API request builder: Create and send API requests using different HTTP methods and parameters
 
@@ -126,7 +126,7 @@ Key features of Postman include:
 
 ### How to Use/Install Postman:
 
-To use/install Postman, follow these steps:
+  - To use/install Postman, follow these steps:
 
 • Download and install the Postman desktop application or use the web version
 
@@ -144,11 +144,11 @@ To use/install Postman, follow these steps:
 
 ### What is JUnit and how is it used in Programming:
 
-JUnit is a Java testing framework used in programming for unit testing. It provides annotations, assertions, and test runners for writing and executing test cases in Java applications. JUnit helps developers validate the behavior and output of Java code, identify defects, and improve software quality.
+  - JUnit is a Java testing framework used in programming for unit testing. It provides annotations, assertions, and test runners for writing and executing test cases in Java applications. JUnit helps developers validate the behavior and output of Java code, identify defects, and improve software quality.
 
 ### What are some key features of JUnit:
 
-Key features of JUnit include:
+  - Key features of JUnit include:
 
 • Annotations: Define test methods, setup, and teardown methods using annotations
 
@@ -162,7 +162,7 @@ Key features of JUnit include:
 
 ### How to Use/Install JUnit:
 
-To use/install JUnit, follow these steps:
+  - To use/install JUnit, follow these steps:
 
 • Add JUnit dependencies to the project build file using build tools like Maven or Gradle
 
@@ -180,11 +180,11 @@ To use/install JUnit, follow these steps:
 
 ### What is Mocha and how is it used in Programming:
 
-Mocha is a JavaScript testing framework used in programming for asynchronous testing. It provides a flexible and feature-rich API for writing test cases, organizing test suites, and running tests in various environments. Mocha helps developers test JavaScript applications with different testing styles and frameworks.
+  - Mocha is a JavaScript testing framework used in programming for asynchronous testing. It provides a flexible and feature-rich API for writing test cases, organizing test suites, and running tests in various environments. Mocha helps developers test JavaScript applications with different testing styles and frameworks.
 
 ### What are some key features of Mocha:
 
-Key features of Mocha include:
+  - Key features of Mocha include:
 
 • Test suites and hooks: Organize test cases into suites and define setup and teardown hooks
 
@@ -198,7 +198,7 @@ Key features of Mocha include:
 
 ### How to Use/Install Mocha:
 
-To use/install Mocha, follow these steps:
+  - To use/install Mocha, follow these steps:
 
 • Install Mocha using npm or yarn: npm install --save-dev mocha
 
@@ -216,11 +216,11 @@ To use/install Mocha, follow these steps:
 
 ### What is Chai and how is it used in Programming:
 
-Chai is a JavaScript assertion library used in programming for writing test assertions. It provides a fluent and expressive API for defining expectations, assertions, and matchers in test cases. Chai helps developers validate the behavior and output of JavaScript code in unit and integration tests.
+  - Chai is a JavaScript assertion library used in programming for writing test assertions. It provides a fluent and expressive API for defining expectations, assertions, and matchers in test cases. Chai helps developers validate the behavior and output of JavaScript code in unit and integration tests.
 
 ### What are some key features of Chai:
 
-Key features of Chai include:
+  - Key features of Chai include:
 
 • Assertion styles: Support different assertion styles like should, expect, and assert
 
@@ -234,7 +234,7 @@ Key features of Chai include:
 
 ### How to Use/Install Chai:
 
-To use/install Chai, follow these steps:
+  - To use/install Chai, follow these steps:
 
 • Install Chai using npm or yarn: npm install --save-dev chai
 
@@ -252,11 +252,11 @@ To use/install Chai, follow these steps:
 
 ### What is Selenium and how is it used in Programming:
 
-Selenium is a web browser automation tool used in programming for testing web applications. It provides a suite of tools and APIs for automating browser interactions, simulating user actions, and verifying web page behavior. Selenium helps developers write automated tests for web applications across different browsers and platforms.
+  - Selenium is a web browser automation tool used in programming for testing web applications. It provides a suite of tools and APIs for automating browser interactions, simulating user actions, and verifying web page behavior. Selenium helps developers write automated tests for web applications across different browsers and platforms.
 
 ### What are some key features of Selenium:
 
-Key features of Selenium include:
+  - Key features of Selenium include:
 
 • Browser support: Automate interactions with popular web browsers like Chrome, Firefox, and Safari
 
@@ -270,7 +270,7 @@ Key features of Selenium include:
 
 ### How to Use/Install Selenium:
 
-To use/install Selenium, follow these steps:
+  - To use/install Selenium, follow these steps:
 
 • Download and install the Selenium WebDriver for the desired browser
 

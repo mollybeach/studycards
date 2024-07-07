@@ -1,6 +1,5 @@
 import fs from 'fs';
-// current file path: /Users/mollybeach/Documents/git/studycards/combineFiles.mjs
-// make an object to store the file names and their contents
+
 let files = {
     'Blockchain.txt': './Blockchain/Blockchain.txt',
     'Cloud.txt': './Cloud/Cloud.txt',

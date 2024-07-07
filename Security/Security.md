@@ -2,7 +2,7 @@
 
 ### Web Development Security:
 
-Refers to the practices, tools, and techniques used to protect web applications and websites from security threats and vulnerabilities. securing user data, preventing unauthorized access, and defending against cyber attacks.
+  - Refers to the practices, tools, and techniques used to protect web applications and websites from security threats and vulnerabilities. securing user data, preventing unauthorized access, and defending against cyber attacks.
 
 
 
@@ -10,11 +10,11 @@ Refers to the practices, tools, and techniques used to protect web applications 
 
 ### OWASP Top 10:
 
-A list of the top 10 most critical security risks to web applications. Published Open Web Application Security Project (OWASP) and is updated regularly to reflect the latest security threats and vulnerabilities facing web applications.
+  - A list of the top 10 most critical security risks to web applications. Published Open Web Application Security Project (OWASP) and is updated regularly to reflect the latest security threats and vulnerabilities facing web applications.
 
 ### OWASP Top 10 security risks:
 
-1. Injection
+  - 1. Injection
 
 2. Broken Authentication
 
@@ -36,15 +36,15 @@ A list of the top 10 most critical security risks to web applications. Published
 
 ### Injection Attacks:
 
-OWASP Security vulnerability #1 that allow attackers to inject malicious code or commands into web applications.
+  - OWASP Security vulnerability #1 that allow attackers to inject malicious code or commands into web applications.
 
 ### Broken Authentication:
 
-OWASP Security vulnerability #2 that allows attackers to bypass authentication mechanisms and gain unauthorized access to user accounts, passwords, and sensitive data.
+  - OWASP Security vulnerability #2 that allows attackers to bypass authentication mechanisms and gain unauthorized access to user accounts, passwords, and sensitive data.
 
 ### Sensitive Data Exposure:
 
-OWASP Security vulnerability #3 when sensitive information like passwords, credit card numbers, or personal data is exposed to unauthorized users due to insecure transmission, storage, or access controls.
+  - OWASP Security vulnerability #3 when sensitive information like passwords, credit card numbers, or personal data is exposed to unauthorized users due to insecure transmission, storage, or access controls.
 
 ### XML External Entities (XXE) attacks:
 
@@ -52,7 +52,7 @@ A)OWASP Security vulnerability #4 allows attackers to exploit XML parsers and in
 
 ### Broken Access Control:
 
-OWASP Security vulnerability #5 allows attackers to bypass access controls and gain unauthorized access to sensitive resources, files, or data in web applications.
+  - OWASP Security vulnerability #5 allows attackers to bypass access controls and gain unauthorized access to sensitive resources, files, or data in web applications.
 
 ### Security Misconfiguration:
 
@@ -60,19 +60,19 @@ A)OWASP Security vulnerability #6 allows attackers to exploit misconfigured sett
 
 ### Cross-Site Scripting (XSS) attacks:
 
-OWASP Security vulnerability #7 allows attackers to inject malicious scripts into web pages viewed by other users, leading to data theft, session hijacking, and unauthorized access.
+  - OWASP Security vulnerability #7 allows attackers to inject malicious scripts into web pages viewed by other users, leading to data theft, session hijacking, and unauthorized access.
 
 ### Insecure Deserialization:
 
-OWASP Security vulnerability #8 that allows attackers to manipulate serialized objects and execute arbitrary code on the server, leading to data tampering, privilege escalation, and denial-of-service attacks.
+  - OWASP Security vulnerability #8 that allows attackers to manipulate serialized objects and execute arbitrary code on the server, leading to data tampering, privilege escalation, and denial-of-service attacks.
 
 ### Using Components with Known Vulnerabilities:
 
-OWASP Security vulnerability #9 that allows attackers to exploit known vulnerabilities in libraries, frameworks, or dependencies used in web applications to gain unauthorized access, expose sensitive data, or perform denial-of-service attacks.
+  - OWASP Security vulnerability #9 that allows attackers to exploit known vulnerabilities in libraries, frameworks, or dependencies used in web applications to gain unauthorized access, expose sensitive data, or perform denial-of-service attacks.
 
 ### Insufficient Logging and Monitoring:
 
-OWASP Security vulnerability #10 that allows attackers to exploit weak or missing logging and monitoring mechanisms in web applications to hide their activities, evade detection, and perform unauthorized actions.
+  - OWASP Security vulnerability #10 that allows attackers to exploit weak or missing logging and monitoring mechanisms in web applications to hide their activities, evade detection, and perform unauthorized actions.
 
 
 
@@ -80,7 +80,7 @@ OWASP Security vulnerability #10 that allows attackers to exploit weak or missin
 
 ### Types of injection attacks:
 
- • SQL Injection
+  -  • SQL Injection
 
 • Command Injection
 
@@ -90,7 +90,7 @@ OWASP Security vulnerability #10 that allows attackers to exploit weak or missin
 
 ### Prevent Injection Attacks:
 
-• Using parameterized queries
+  - • Using parameterized queries
 
 • Validating input
 
@@ -100,31 +100,31 @@ OWASP Security vulnerability #10 that allows attackers to exploit weak or missin
 
 ### SQL Injection:
 
-Attackers inject malicious SQL queries into web applications to manipulate databases, steal sensitive data, and gain unauthorized access.
+  - Attackers inject malicious SQL queries into web applications to manipulate databases, steal sensitive data, and gain unauthorized access.
 
 ### Command Injection:
 
-Attackers inject system commands into web applications to execute arbitrary commands on the server.
+  - Attackers inject system commands into web applications to execute arbitrary commands on the server.
 
 ### LDAP Injection:
 
-Attackers inject LDAP queries into web applications to manipulate directory services and gain unauthorized access.
+  - Attackers inject LDAP queries into web applications to manipulate directory services and gain unauthorized access.
 
 ### LDAP queries:
 
-Lightweight directory access protocol (LDAP) queries are used to search and retrieve information from directory services like Active Directory.
+  - Lightweight directory access protocol (LDAP) queries are used to search and retrieve information from directory services like Active Directory.
 
 ### XPath Injection:
 
-Attackers inject XPath queries into web applications to manipulate XML data and extract sensitive information.
+  - Attackers inject XPath queries into web applications to manipulate XML data and extract sensitive information.
 
 ### XPath:
 
-XPath is a query language used to navigate and select nodes in XML documents.
+  - XPath is a query language used to navigate and select nodes in XML documents.
 
 ### XML documents:
 
-XML (Extensible Markup Language) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+  - XML (Extensible Markup Language) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
 
 
 
@@ -134,7 +134,7 @@ XML (Extensible Markup Language) is a markup language that defines a set of rule
 
 ### Types of Broken Authentication:
 
- • Weak passwords
+  -  • Weak passwords
 
 • Insecure password storage
 
@@ -146,7 +146,7 @@ XML (Extensible Markup Language) is a markup language that defines a set of rule
 
 ### Prevent Broken Authentication:
 
-• Using strong passwords
+  - • Using strong passwords
 
 • Implementing multi-factor authentication
 
@@ -156,23 +156,23 @@ XML (Extensible Markup Language) is a markup language that defines a set of rule
 
 ### Weak passwords:
 
-Weak passwords are easy to guess or crack, making user accounts vulnerable to unauthorized access.
+  - Weak passwords are easy to guess or crack, making user accounts vulnerable to unauthorized access.
 
 ### Insecure password storage:
 
-Insecure password storage exposes user passwords to theft or compromise, allowing attackers to access user accounts and steal sensitive data.
+  - Insecure password storage exposes user passwords to theft or compromise, allowing attackers to access user accounts and steal sensitive data.
 
 ### Session Fixation Attacks:
 
-Attackers fix or set the session ID before the user logs in, allowing them to access the user's account and perform unauthorized actions.
+  - Attackers fix or set the session ID before the user logs in, allowing them to access the user's account and perform unauthorized actions.
 
 ### Brute Force Attacks:
 
-Attackers try multiple combinations of usernames and passwords until they find the correct one.
+  - Attackers try multiple combinations of usernames and passwords until they find the correct one.
 
 ### Credential Stuffing:
 
-Attackers use stolen usernames and passwords from data breaches to log in to other websites or applications.
+  - Attackers use stolen usernames and passwords from data breaches to log in to other websites or applications.
 
 
 
@@ -180,7 +180,7 @@ Attackers use stolen usernames and passwords from data breaches to log in to oth
 
 ### Prevent Sensitive Data Exposure:
 
-• Encrypting data in transit
+  - • Encrypting data in transit
 
 • Encrypting data at rest
 
@@ -188,15 +188,15 @@ Attackers use stolen usernames and passwords from data breaches to log in to oth
 
 ### Insecure transmission:
 
-Sensitive data transmitted over unencrypted channels can be intercepted and stolen by attackers.
+  - Sensitive data transmitted over unencrypted channels can be intercepted and stolen by attackers.
 
 ### Insecure storage:
 
-Sensitive data stored on servers or databases without encryption can be accessed and stolen by attackers.
+  - Sensitive data stored on servers or databases without encryption can be accessed and stolen by attackers.
 
 ### Insufficient access controls:
 
-Weak access controls on sensitive data can allow unauthorized users to access and steal it.
+  - Weak access controls on sensitive data can allow unauthorized users to access and steal it.
 
 
 
@@ -204,7 +204,7 @@ Weak access controls on sensitive data can allow unauthorized users to access an
 
 ### Types of Sensitive Data Exposure:
 
-• Insecure transmission
+  - • Insecure transmission
 
 • Insecure storage
 
@@ -212,7 +212,7 @@ Weak access controls on sensitive data can allow unauthorized users to access an
 
 ### Prevent XML External Entities (XXE) attacks:
 
-• Disabling external entity processing
+  - • Disabling external entity processing
 
 • Using secure XML parsers
 
@@ -220,19 +220,19 @@ Weak access controls on sensitive data can allow unauthorized users to access an
 
 ### XML External Entities (XXE) attacks:
 
-Attackers exploit XML parsers and include external entities in XML documents to access sensitive information, execute arbitrary code, and perform denial-of-service attacks.
+  - Attackers exploit XML parsers and include external entities in XML documents to access sensitive information, execute arbitrary code, and perform denial-of-service attacks.
 
 ### Entity Expansion:
 
-Attackers create large XML documents with nested entities to consume server resources and perform denial-of-service attacks.
+  - Attackers create large XML documents with nested entities to consume server resources and perform denial-of-service attacks.
 
 ### External Entity Injection:
 
-Attackers inject external entities into XML documents to access sensitive information and execute arbitrary code.
+  - Attackers inject external entities into XML documents to access sensitive information and execute arbitrary code.
 
 ### XML Bomb:
 
-Attackers create large XML documents with nested entities to consume server resources and perform denial-of-service attacks.
+  - Attackers create large XML documents with nested entities to consume server resources and perform denial-of-service attacks.
 
 
 
@@ -240,7 +240,7 @@ Attackers create large XML documents with nested entities to consume server reso
 
 ### Types of Broken Access Control:
 
-• Insecure direct object references
+  - • Insecure direct object references
 
 • Missing function-level access controls
 
@@ -252,7 +252,7 @@ Attackers create large XML documents with nested entities to consume server reso
 
 ### Prevent Broken Access Control:
 
-• Implementing access controls
+  - • Implementing access controls
 
 • Validating user input
 
@@ -260,23 +260,23 @@ Attackers create large XML documents with nested entities to consume server reso
 
 ### Insecure direct object references:
 
-Attackers access sensitive resources or files directly without proper authorization or access controls.
+  - Attackers access sensitive resources or files directly without proper authorization or access controls.
 
 ### Missing function-level access controls:
 
-Attackers bypass access controls and gain unauthorized access to sensitive resources or data in web applications.
+  - Attackers bypass access controls and gain unauthorized access to sensitive resources or data in web applications.
 
 ### Insecure indirect object references:
 
-Attackers access sensitive resources or files indirectly through other objects or references without proper authorization or access controls.
+  - Attackers access sensitive resources or files indirectly through other objects or references without proper authorization or access controls.
 
 ### Privilege Escalation:
 
-Attackers gain higher levels of access or permissions than they are authorized to have in web applications.
+  - Attackers gain higher levels of access or permissions than they are authorized to have in web applications.
 
 ### Insecure Defaults:
 
-Attackers exploit insecure default settings or configurations in web applications to gain unauthorized access, expose sensitive data, or perform denial-of-service attacks.
+  - Attackers exploit insecure default settings or configurations in web applications to gain unauthorized access, expose sensitive data, or perform denial-of-service attacks.
 
 
 
@@ -284,7 +284,7 @@ Attackers exploit insecure default settings or configurations in web application
 
 ### Types of Cross-Site Scripting (XSS) attacks:
 
-• Reflected XSS
+  - • Reflected XSS
 
 • Stored XSS
 
@@ -292,7 +292,7 @@ Attackers exploit insecure default settings or configurations in web application
 
 ### Prevent Cross-Site Scripting (XSS) attacks:
 
-• Validating input
+  - • Validating input
 
 • Escaping output
 
@@ -300,7 +300,7 @@ Attackers exploit insecure default settings or configurations in web application
 
 ### Cross-Site Scripting (XSS) attacks:
 
-Attackers inject malicious scripts into web pages viewed by other users, leading to data theft, session hijacking, and unauthorized access.
+  - Attackers inject malicious scripts into web pages viewed by other users, leading to data theft, session hijacking, and unauthorized access.
 
 
 
@@ -308,13 +308,13 @@ Attackers inject malicious scripts into web pages viewed by other users, leading
 
 ### Types of Insecure Deserialization:
 
-• Serialized object tampering
+  - • Serialized object tampering
 
 • Serialized object injection
 
 ### Prevent Insecure Deserialization:
 
-• Using secure serialization formats
+  - • Using secure serialization formats
 
 • Validating input
 
@@ -322,7 +322,7 @@ Attackers inject malicious scripts into web pages viewed by other users, leading
 
 ### Insecure deserialization:
 
-Attackers manipulate serialized objects and execute arbitrary code on the server, leading to data tampering, privilege escalation, and denial-of-service attacks.
+  - Attackers manipulate serialized objects and execute arbitrary code on the server, leading to data tampering, privilege escalation, and denial-of-service attacks.
 
 
 
@@ -330,7 +330,7 @@ Attackers manipulate serialized objects and execute arbitrary code on the server
 
 ### Types of Using Components with Known Vulnerabilities:
 
-• Outdated libraries
+  - • Outdated libraries
 
 • Unpatched frameworks
 
@@ -338,7 +338,7 @@ Attackers manipulate serialized objects and execute arbitrary code on the server
 
 ### Prevent Using Components with Known Vulnerabilities:
 
-• Keeping components up to date
+  - • Keeping components up to date
 
 • Monitoring security advisories
 
@@ -346,7 +346,7 @@ Attackers manipulate serialized objects and execute arbitrary code on the server
 
 ### Using components with known vulnerabilities:
 
-Attackers exploit known vulnerabilities in libraries, frameworks, or dependencies used in web applications to gain unauthorized access, expose sensitive data, or perform denial-of-service attacks.
+  - Attackers exploit known vulnerabilities in libraries, frameworks, or dependencies used in web applications to gain unauthorized access, expose sensitive data, or perform denial-of-service attacks.
 
 
 
@@ -354,7 +354,7 @@ Attackers exploit known vulnerabilities in libraries, frameworks, or dependencie
 
 ### Types of Insufficient Logging and Monitoring:
 
-• Incomplete logs
+  - • Incomplete logs
 
 • Lack of alerts
 
@@ -364,13 +364,13 @@ Attackers exploit known vulnerabilities in libraries, frameworks, or dependencie
 
 ### Prevent Insufficient Logging and Monitoring:
 
-• Implementing logging
+  - • Implementing logging
 
 • Monitoring logs
 
 ### Insufficient logging and monitoring:
 
-Attackers exploit weak or missing logging and monitoring mechanisms in web applications to hide their activities, evade detection, and perform unauthorized actions.
+  - Attackers exploit weak or missing logging and monitoring mechanisms in web applications to hide their activities, evade detection, and perform unauthorized actions.
 
 
 
@@ -378,15 +378,15 @@ Attackers exploit weak or missing logging and monitoring mechanisms in web appli
 
 ### JSON Web Token (JWT):
 
-JSON Web Token (JWT) is an open standard for securely transmitting information between parties as a JSON object. JWTs are commonly used for authentication and authorization in web applications and APIs to securely exchange claims or assertions between the client and server.
+  - JSON Web Token (JWT) is an open standard for securely transmitting information between parties as a JSON object. JWTs are commonly used for authentication and authorization in web applications and APIs to securely exchange claims or assertions between the client and server.
 
 ### How does JSON Web Token (JWT) work:
 
-JSON Web Token (JWT) works by encoding claims or assertions as a JSON object and signing them with a secret key or public-private key pair. The JWT is then sent to the client, who can include it in subsequent requests to authenticate and authorize access to protected resources on the server. The server verifies the JWT signature to ensure its integrity and authenticity before processing the claims.
+  - JSON Web Token (JWT) works by encoding claims or assertions as a JSON object and signing them with a secret key or public-private key pair. The JWT is then sent to the client, who can include it in subsequent requests to authenticate and authorize access to protected resources on the server. The server verifies the JWT signature to ensure its integrity and authenticity before processing the claims.
 
 ### Components of a JSON Web Token (JWT):
 
-The components of a JSON Web Token (JWT) include:
+  - The components of a JSON Web Token (JWT) include:
 
 • Header: Contains metadata about the JWT, such as the type of token and the signing algorithm used.
 
@@ -396,7 +396,7 @@ The components of a JSON Web Token (JWT) include:
 
 ### What are the types of JSON Web Tokens (JWT):
 
-The types of JSON Web Tokens (JWT) include:
+  - The types of JSON Web Tokens (JWT) include:
 
 • Signed JWT: Contains a signature that is used to verify the integrity and authenticity of the JWT.
 
@@ -406,7 +406,7 @@ The types of JSON Web Tokens (JWT) include:
 
 ### How can you use JSON Web Tokens (JWT) for authentication in web applications:
 
-JSON Web Tokens (JWT) can be used for authentication in web applications by:
+  - JSON Web Tokens (JWT) can be used for authentication in web applications by:
 
 • Generating a JWT: Create a JWT with claims or assertions about the user, such as the user ID, roles, or permissions.
 
@@ -418,7 +418,7 @@ JSON Web Tokens (JWT) can be used for authentication in web applications by:
 
 ### What are the benefits of using JSON Web Tokens (JWT) for authentication:
 
-The benefits of using JSON Web Tokens (JWT) for authentication include:
+  - The benefits of using JSON Web Tokens (JWT) for authentication include:
 
 • Stateless authentication: JWTs are self-contained and do not require server-side storage of session data, making them ideal for stateless authentication in web applications and APIs.
 
@@ -430,7 +430,7 @@ The benefits of using JSON Web Tokens (JWT) for authentication include:
 
 ### What are some best practices for using JSON Web Tokens (JWT) in web development:
 
-Best practices for using JSON Web Tokens (JWT) in web development include:
+  - Best practices for using JSON Web Tokens (JWT) in web development include:
 
 • Using strong encryption algorithms: Use strong encryption algorithms like HMAC, RSA, or ECDSA to sign and verify JWTs.
 
@@ -444,7 +444,7 @@ Best practices for using JSON Web Tokens (JWT) in web development include:
 
 ### How can you secure JSON Web Tokens (JWT) in web applications:
 
-JSON Web Tokens (JWT) can be secured in web applications by:
+  - JSON Web Tokens (JWT) can be secured in web applications by:
 
 • Using strong encryption algorithms: Use strong encryption algorithms like HMAC, RSA, or ECDSA to sign and verify JWTs.
 
@@ -458,7 +458,7 @@ JSON Web Tokens (JWT) can be secured in web applications by:
 
 ### What are some common vulnerabilities associated with JSON Web Tokens (JWT):
 
-Common vulnerabilities associated with JSON Web Tokens (JWT) include:
+  - Common vulnerabilities associated with JSON Web Tokens (JWT) include:
 
 • Insecure key management: Weak or compromised secret keys can lead to unauthorized access or misuse of JWTs.
 
@@ -476,11 +476,11 @@ Common vulnerabilities associated with JSON Web Tokens (JWT) include:
 
 ### What is OAuth:
 
-OAuth is an open standard for access delegation that allows users to grant third-party applications access to their resources without sharing their credentials. OAuth is commonly used for authentication and authorization in web applications and APIs to securely exchange access tokens between the client and server.
+  - OAuth is an open standard for access delegation that allows users to grant third-party applications access to their resources without sharing their credentials. OAuth is commonly used for authentication and authorization in web applications and APIs to securely exchange access tokens between the client and server.
 
 ### How does OAuth work:
 
-OAuth works by allowing users to grant third-party applications access to their resources on a server without sharing their credentials. The OAuth flow involves several steps:
+  - OAuth works by allowing users to grant third-party applications access to their resources on a server without sharing their credentials. The OAuth flow involves several steps:
 
 1. Authorization request: The client requests authorization from the user to access their resources on the server.
 
@@ -492,7 +492,7 @@ OAuth works by allowing users to grant third-party applications access to their 
 
 ### What are the components of OAuth:
 
-The components of OAuth include:
+  - The components of OAuth include:
 
 • Resource owner: The user who owns the resources and grants permission to third-party applications to access them.
 
@@ -504,7 +504,7 @@ The components of OAuth include:
 
 ### What are the types of OAuth grants:
 
-The types of OAuth grants include:
+  - The types of OAuth grants include:
 
 • Authorization Code Grant: Used for server-side applications that can securely store client secrets and exchange authorization codes for access tokens.
 
@@ -516,7 +516,7 @@ The types of OAuth grants include:
 
 ### How can you use OAuth for authentication in web applications:
 
-OAuth can be used for authentication in web applications by:
+  - OAuth can be used for authentication in web applications by:
 
 • Implementing OAuth flow: Follow the OAuth flow to request authorization, exchange authorization grants for access tokens, and use access tokens to authenticate and authorize access to protected resources.
 
@@ -528,7 +528,7 @@ OAuth can be used for authentication in web applications by:
 
 ### What are the benefits of using OAuth for authentication:
 
-The benefits of using OAuth for authentication include:
+  - The benefits of using OAuth for authentication include:
 
 • Secure access delegation: OAuth allows users to grant third-party applications access to their resources without sharing their credentials, enhancing security and privacy.
 
@@ -540,7 +540,7 @@ The benefits of using OAuth for authentication include:
 
 ### What are some best practices for using OAuth in web development:
 
-Best practices for using OAuth in web development include:
+  - Best practices for using OAuth in web development include:
 
 • Using secure OAuth providers: Choose reputable OAuth providers like Google, Facebook, or GitHub to authenticate users and issue access tokens.
 
@@ -558,11 +558,11 @@ Best practices for using OAuth in web development include:
 
 ### What is cryptography:
 
-Cryptography is the practice of securing communication and data by encoding it in a way that only authorized parties can access and understand. It involves techniques like encryption, decryption, hashing, and digital signatures to protect sensitive information from unauthorized access or tampering.
+  - Cryptography is the practice of securing communication and data by encoding it in a way that only authorized parties can access and understand. It involves techniques like encryption, decryption, hashing, and digital signatures to protect sensitive information from unauthorized access or tampering.
 
 ### What are the key components of cryptography:
 
-The key components of cryptography include:
+  - The key components of cryptography include:
 
 • Encryption: The process of encoding data in a way that only authorized parties can access and understand it.
 
@@ -574,7 +574,7 @@ The key components of cryptography include:
 
 ### What are the types of cryptography:
 
-The types of cryptography include:
+  - The types of cryptography include:
 
 • Symmetric cryptography: Uses a single key to encrypt and decrypt data, suitable for secure communication between trusted parties.
 
@@ -586,23 +586,23 @@ The types of cryptography include:
 
 ### What is symmetric cryptography:
 
-Symmetric cryptography is a type of cryptography that uses a single key to encrypt and decrypt data. The same key is used for both encryption and decryption, making it suitable for secure communication between trusted parties. Common symmetric encryption algorithms include AES (Advanced Encryption Standard) and DES (Data Encryption Standard).
+  - Symmetric cryptography is a type of cryptography that uses a single key to encrypt and decrypt data. The same key is used for both encryption and decryption, making it suitable for secure communication between trusted parties. Common symmetric encryption algorithms include AES (Advanced Encryption Standard) and DES (Data Encryption Standard).
 
 ### What is asymmetric cryptography:
 
-Asymmetric cryptography is a type of cryptography that uses a pair of public and private keys to encrypt and decrypt data. The public key is used to encrypt data, while the private key is used to decrypt it. Asymmetric cryptography is suitable for secure communication over untrusted networks and for verifying the authenticity and integrity of digital messages. Common asymmetric encryption algorithms include RSA (Rivest-Shamir-Adleman) and ECC (Elliptic Curve Cryptography).\
+  - Asymmetric cryptography is a type of cryptography that uses a pair of public and private keys to encrypt and decrypt data. The public key is used to encrypt data, while the private key is used to decrypt it. Asymmetric cryptography is suitable for secure communication over untrusted networks and for verifying the authenticity and integrity of digital messages. Common asymmetric encryption algorithms include RSA (Rivest-Shamir-Adleman) and ECC (Elliptic Curve Cryptography).\
 
 ### What is hashing:
 
-Hashing is the process of generating a fixed-length string of characters from input data. Hashing algorithms take an input message and produce a hash value that is unique to that message. Hashing is commonly used for data integrity verification, password storage, and digital signatures. Common hashing algorithms include MD5 (Message Digest Algorithm 5), SHA-1 (Secure Hash Algorithm 1), and SHA-256 (Secure Hash Algorithm 256).
+  - Hashing is the process of generating a fixed-length string of characters from input data. Hashing algorithms take an input message and produce a hash value that is unique to that message. Hashing is commonly used for data integrity verification, password storage, and digital signatures. Common hashing algorithms include MD5 (Message Digest Algorithm 5), SHA-1 (Secure Hash Algorithm 1), and SHA-256 (Secure Hash Algorithm 256).
 
 ### What are digital signatures:
 
-Digital signatures are cryptographic signatures that verify the authenticity and integrity of digital messages or documents. Digital signatures use public-key cryptography to sign messages with a private key and verify the signatures with a corresponding public key. Digital signatures are used to ensure that messages have not been tampered with during transmission and to verify the identity of the sender. Common digital signature algorithms include RSA (Rivest-Shamir-Adleman) and DSA (Digital Signature Algorithm).
+  - Digital signatures are cryptographic signatures that verify the authenticity and integrity of digital messages or documents. Digital signatures use public-key cryptography to sign messages with a private key and verify the signatures with a corresponding public key. Digital signatures are used to ensure that messages have not been tampered with during transmission and to verify the identity of the sender. Common digital signature algorithms include RSA (Rivest-Shamir-Adleman) and DSA (Digital Signature Algorithm).
 
 ### How can you use cryptography to secure data in web applications:
 
-Cryptography can be used to secure data in web applications by:
+  - Cryptography can be used to secure data in web applications by:
 
 • Encrypting sensitive data: Use encryption algorithms to encrypt sensitive data like passwords, credit card numbers, and personal information to prevent unauthorized access.
 
@@ -614,7 +614,7 @@ Cryptography can be used to secure data in web applications by:
 
 ### What are some best practices for using cryptography in web development:
 
-Best practices for using cryptography in web development include:
+  - Best practices for using cryptography in web development include:
 
 • Using strong encryption algorithms: Use strong encryption algorithms like AES (Advanced Encryption Standard) or RSA (Rivest-Shamir-Adleman) to protect sensitive data.
 
@@ -632,11 +632,11 @@ Best practices for using cryptography in web development include:
 
 ### What is authentication:
 
-Authentication is the process of verifying the identity of a user or system to ensure that they are who they claim to be. Authentication mechanisms include passwords, biometrics, security tokens, and multi-factor authentication to protect sensitive information and prevent unauthorized access.
+  - Authentication is the process of verifying the identity of a user or system to ensure that they are who they claim to be. Authentication mechanisms include passwords, biometrics, security tokens, and multi-factor authentication to protect sensitive information and prevent unauthorized access.
 
 ### What are the types of authentication:
 
-The types of authentication include:
+  - The types of authentication include:
 
 • Password authentication: Users provide a username and password to access a system or application.
 
@@ -648,23 +648,23 @@ The types of authentication include:
 
 ### What is password authentication:
 
-Password authentication is a type of authentication where users provide a username and password to access a system or application. Passwords are commonly used to verify the identity of users and protect sensitive information from unauthorized access. Best practices for password authentication include using strong, unique passwords, enforcing password policies, and implementing secure password storage mechanisms.
+  - Password authentication is a type of authentication where users provide a username and password to access a system or application. Passwords are commonly used to verify the identity of users and protect sensitive information from unauthorized access. Best practices for password authentication include using strong, unique passwords, enforcing password policies, and implementing secure password storage mechanisms.
 
 ### What is biometric authentication:
 
-Biometric authentication is a type of authentication where users provide biometric data like fingerprints, facial recognition, or iris scans to verify their identity. Biometric authentication is used to enhance security, prevent unauthorized access, and provide a convenient and user-friendly authentication experience. Biometric data is unique to each individual and difficult to forge, making it a secure form of authentication.
+  - Biometric authentication is a type of authentication where users provide biometric data like fingerprints, facial recognition, or iris scans to verify their identity. Biometric authentication is used to enhance security, prevent unauthorized access, and provide a convenient and user-friendly authentication experience. Biometric data is unique to each individual and difficult to forge, making it a secure form of authentication.
 
 ### What is security token authentication:
 
-Security token authentication is a type of authentication where users provide a physical or virtual security token like a smart card or one-time code to verify their identity. Security tokens are used to enhance security, prevent unauthorized access, and provide an additional layer of authentication beyond passwords. Security tokens can be used in conjunction with passwords or biometric data to provide multi-factor authentication.
+  - Security token authentication is a type of authentication where users provide a physical or virtual security token like a smart card or one-time code to verify their identity. Security tokens are used to enhance security, prevent unauthorized access, and provide an additional layer of authentication beyond passwords. Security tokens can be used in conjunction with passwords or biometric data to provide multi-factor authentication.
 
 ### What is multi-factor authentication:
 
-Multi-factor authentication is a type of authentication where users provide multiple forms of identification like a password, security token, or biometric data to access a system. Multi-factor authentication is used to enhance security, prevent unauthorized access, and provide a higher level of assurance that the user is who they claim to be. Common forms of multi-factor authentication include two-factor authentication (2FA) and three-factor authentication (3FA).
+  - Multi-factor authentication is a type of authentication where users provide multiple forms of identification like a password, security token, or biometric data to access a system. Multi-factor authentication is used to enhance security, prevent unauthorized access, and provide a higher level of assurance that the user is who they claim to be. Common forms of multi-factor authentication include two-factor authentication (2FA) and three-factor authentication (3FA).
 
 ### How can you implement secure authentication in web applications:
 
-Secure authentication in web applications can be implemented by:
+  - Secure authentication in web applications can be implemented by:
 
 • Using strong passwords: Enforce password policies that require users to create strong, unique passwords and change them regularly.
 
@@ -676,7 +676,7 @@ Secure authentication in web applications can be implemented by:
 
 ### What are some best practices for secure authentication in web development:
 
-Best practices for secure authentication in web development include:
+  - Best practices for secure authentication in web development include:
 
 • Using strong encryption algorithms: Use strong encryption algorithms like AES (Advanced Encryption Standard) or RSA (Rivest-Shamir-Adleman) to protect sensitive data.
 
@@ -686,11 +686,11 @@ Best practices for secure authentication in web development include:
 
 ### What is authorization:
 
-Authorization is the process of granting or denying access to resources based on the identity and permissions of a user or system. Authorization mechanisms include role-based access control (RBAC), attribute-based access control (ABAC), and access control lists (ACLs) to enforce access controls and protect sensitive information from unauthorized access.
+  - Authorization is the process of granting or denying access to resources based on the identity and permissions of a user or system. Authorization mechanisms include role-based access control (RBAC), attribute-based access control (ABAC), and access control lists (ACLs) to enforce access controls and protect sensitive information from unauthorized access.
 
 ### What are the types of authorization:
 
-The types of authorization include:
+  - The types of authorization include:
 
 • Role-based access control RBAC : Users are assigned roles or permissions that determine their access to resources.
 
@@ -700,19 +700,19 @@ The types of authorization include:
 
 ### What is role-based access control RBAC :
 
-Role-based access control RBAC is an authorization mechanism where users are assigned roles or permissions that determine their access to resources. Users are assigned roles like admin, user, or guest, and permissions like read, write, or delete, based on their responsibilities and access requirements. RBAC simplifies access control management by grouping users into roles and assigning permissions to roles rather than individual users.
+  - Role-based access control RBAC is an authorization mechanism where users are assigned roles or permissions that determine their access to resources. Users are assigned roles like admin, user, or guest, and permissions like read, write, or delete, based on their responsibilities and access requirements. RBAC simplifies access control management by grouping users into roles and assigning permissions to roles rather than individual users.
 
 ### What is attribute-based access control ABAC:
 
-Attribute-based access control ABAC is an authorization mechanism where users are granted access based on attributes like user roles, location, or time of day. ABAC policies define access rules based on user attributes, resource attributes, and environmental attributes to enforce fine-grained access controls. ABAC allows for dynamic and context-aware access decisions based on the attributes of the user, resource, and environment.
+  - Attribute-based access control ABAC is an authorization mechanism where users are granted access based on attributes like user roles, location, or time of day. ABAC policies define access rules based on user attributes, resource attributes, and environmental attributes to enforce fine-grained access controls. ABAC allows for dynamic and context-aware access decisions based on the attributes of the user, resource, and environment.
 
 ### What are access control lists ACLs:
 
-Access control lists ACLs are authorization mechanisms where users are granted access to specific resources based on predefined lists of permissions. ACLs define access rules for users or groups of users to access resources like files, directories, or network resources. ACLs can be configured at the object level to control who can read, write, or execute specific resources.
+  - Access control lists ACLs are authorization mechanisms where users are granted access to specific resources based on predefined lists of permissions. ACLs define access rules for users or groups of users to access resources like files, directories, or network resources. ACLs can be configured at the object level to control who can read, write, or execute specific resources.
 
 ### How can you implement secure authorization in web applications:
 
-Secure authorization in web applications can be implemented by:
+  - Secure authorization in web applications can be implemented by:
 
 • Using role-based access control RBAC: Assign users roles or permissions that determine their access to resources based on their responsibilities and access requirements.
 
@@ -724,7 +724,7 @@ Secure authorization in web applications can be implemented by:
 
 ### What are some best practices for secure authorization in web development:
 
-Best practices for secure authorization in web development include:
+  - Best practices for secure authorization in web development include:
 
 • Using role-based access control RBAC: Assign users roles or permissions that determine their access to resources based on their responsibilities and access requirements.
 
@@ -866,7 +866,7 @@ Understanding these security practices and tools will help developers build more
 
 *NODE JS SECURITY*
 
-What is an Event Loop in Node.js, and why is it crucial for security: A)
+  - What is an Event Loop in Node.js, and why is it crucial for security: A)
 
 • The Event Loop is central to Node.js's non-blocking I/O model, handling asynchronous operations. Understanding how the Event Loop works is crucial for avoiding vulnerabilities like event loop blocking that can impact security and performance.
 

@@ -2,7 +2,7 @@
 
 ### What is DevOps and what are its key principles:
 
-DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency in delivering software. Key principles of DevOps include:
+  - DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency in delivering software. Key principles of DevOps include:
 
 • Continuous integration: Developers integrate code changes frequently to detect and fix issues early.
 
@@ -16,13 +16,13 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 
 ### What does DevOps Stand for:
 
-DevOps stands for Development and Operations.
+  - DevOps stands for Development and Operations.
 
 ### What are the benefits of DevOps:
 
 ### Name 7 Types DevOps:
 
-• Collaboration: Slack, Jira
+  - • Collaboration: Slack, Jira
 
 • Configuration Management: Ansible, Chef, Puppet
 
@@ -38,13 +38,13 @@ DevOps stands for Development and Operations.
 
 ### List 2 Collaboration Tools used in DevOps:
 
-Slack: Messaging platform for team communication and collaboration
+  - Slack: Messaging platform for team communication and collaboration
 
 Jira: Project management tool for tracking tasks, issues, and workflows
 
 ### List 3 Configuration Management Tools used in DevOps:
 
-Ansible: Agentless automation tool for configuration management, provisioning, and application deployment
+  - Ansible: Agentless automation tool for configuration management, provisioning, and application deployment
 
 Chef: Configuration management tool for defining infrastructure as code and managing server configurations
 
@@ -52,13 +52,13 @@ Puppet: Configuration management tool for automating infrastructure provisioning
 
 ### List 2 Containerization Tools used in DevOps:
 
-Docker: Container platform for building, running, and managing containers
+  - Docker: Container platform for building, running, and managing containers
 
 Kubernetes: Container orchestration platform for automating container deployments and scaling
 
 ### List 3 Continuous Integration Tools used in DevOps:
 
-Jenkins: Open-source automation server for building, testing, and deploying software
+  - Jenkins: Open-source automation server for building, testing, and deploying software
 
 Travis CI: Cloud-based continuous integration service for testing and deploying applications
 
@@ -66,15 +66,15 @@ CircleCI: Continuous integration and delivery platform for automating software w
 
 ### List 3 Monitoring Tools used in DevOps:
 
-Prometheus: Open-source monitoring and alerting toolkit for collecting and querying metrics
+  - Prometheus: Open-source monitoring and alerting toolkit for collecting and querying metrics
 
 Grafana: Visualization and monitoring platform for creating dashboards and alerts
 
 Nagios: Monitoring and alerting system for tracking network, server, and application performance
 
-List 4 Version Control Tools used in DevOps:
+  - List 4 Version Control Tools used in DevOps:
 
-Bitbucket: Git repository management tool for version control and collaboration
+  - Bitbucket: Git repository management tool for version control and collaboration
 
 Git: Distributed version control system for tracking changes in code and files
 
@@ -86,21 +86,21 @@ GitLab: DevOps platform with integrated version control, CI/CD, and collaboratio
 
 ### What is continuous delivery in DevOps:
 
-Continuous delivery is a software development practice where code changes are automatically built, tested, and deployed to production environments. This enables faster and more reliable software releases.
+  - Continuous delivery is a software development practice where code changes are automatically built, tested, and deployed to production environments. This enables faster and more reliable software releases.
 
 ### What is infrastructure as code in DevOps:
 
-Infrastructure as code is a practice where infrastructure is managed and provisioned using code and automation tools. This allows for consistent, repeatable, and scalable infrastructure deployments.Q) What is the role of collaboration and communication in DevOps:
+  - Infrastructure as code is a practice where infrastructure is managed and provisioned using code and automation tools. This allows for consistent, repeatable, and scalable infrastructure deployments.Q) What is the role of collaboration and communication in DevOps:
 
-Collaboration and communication are essential in DevOps to foster teamwork and alignment between development and operations teams. Effective communication and collaboration help teams work together towards common goals and deliver high-quality software.
+  - Collaboration and communication are essential in DevOps to foster teamwork and alignment between development and operations teams. Effective communication and collaboration help teams work together towards common goals and deliver high-quality software.
 
 ### What is the difference between DevOps and Agile:
 
-DevOps and Agile are both software development methodologies that focus on collaboration, flexibility, and continuous improvement. The main difference is that Agile primarily focuses on the development process, while DevOps extends this to include operations and deployment aspects.
+  - DevOps and Agile are both software development methodologies that focus on collaboration, flexibility, and continuous improvement. The main difference is that Agile primarily focuses on the development process, while DevOps extends this to include operations and deployment aspects.
 
 ### What is the difference between DevOps and SRE (Site Reliability Engineering):
 
-DevOps and SRE (Site Reliability Engineering) are both approaches to improving software delivery and reliability. DevOps focuses on collaboration between development and operations teams, while SRE focuses on ensuring the reliability and performance of systems. SRE incorporates principles of software engineering into operations to create scalable and reliable systems.
+  - DevOps and SRE (Site Reliability Engineering) are both approaches to improving software delivery and reliability. DevOps focuses on collaboration between development and operations teams, while SRE focuses on ensuring the reliability and performance of systems. SRE incorporates principles of software engineering into operations to create scalable and reliable systems.
 
 
 
@@ -108,11 +108,11 @@ DevOps and SRE (Site Reliability Engineering) are both approaches to improving s
 
 ### What is collaboration in the context of DevOps:
 
-Collaboration in DevOps refers to the practice of development and operations teams working together to achieve common goals. This includes sharing knowledge, aligning priorities, and fostering a culture of teamwork and communication.
+  - Collaboration in DevOps refers to the practice of development and operations teams working together to achieve common goals. This includes sharing knowledge, aligning priorities, and fostering a culture of teamwork and communication.
 
 ### How does collaboration benefit DevOps teams:
 
-Collaboration benefits DevOps teams by:
+  - Collaboration benefits DevOps teams by:
 
 • Improving communication and alignment between development and operations
 
@@ -126,7 +126,7 @@ Collaboration benefits DevOps teams by:
 
 ### What are some collaboration tools used in DevOps:
 
-Collaboration tools used in DevOps include:
+  - Collaboration tools used in DevOps include:
 
 • Slack: Messaging platform for team communication and collaboration
 
@@ -140,11 +140,11 @@ Collaboration tools used in DevOps include:
 
 ### What is Jira and how is it used in DevOps:
 
-Jira is a project management tool used in DevOps to track tasks, issues, and workflows. It helps teams plan, prioritize, and collaborate on software development projects, enabling better coordination and visibility across the development lifecycle.
+  - Jira is a project management tool used in DevOps to track tasks, issues, and workflows. It helps teams plan, prioritize, and collaborate on software development projects, enabling better coordination and visibility across the development lifecycle.
 
 ### What are some key features of Jira:
 
-Key features of Jira include:
+  - Key features of Jira include:
 
 • Issue tracking: Create, assign, and track tasks and issues throughout the development process
 
@@ -158,7 +158,7 @@ Key features of Jira include:
 
 ### What are some common Jira plugins and integrations:
 
-Common Jira plugins and integrations include:
+  - Common Jira plugins and integrations include:
 
 • Bitbucket: Integration with Git repositories for code management
 
@@ -172,7 +172,7 @@ Common Jira plugins and integrations include:
 
 ### How to Use/Install Jira:
 
-To use/install Jira, follow these steps:
+  - To use/install Jira, follow these steps:
 
 • Sign up for a Jira account or install Jira on-premises
 
@@ -186,11 +186,11 @@ To use/install Jira, follow these steps:
 
 ### What is Slack and how is it used in DevOps:
 
-Slack is a messaging platform used in DevOps for team communication, collaboration, and coordination. It provides channels for group discussions, direct messaging for one-on-one conversations, and integrations with other tools to streamline workflows.
+  - Slack is a messaging platform used in DevOps for team communication, collaboration, and coordination. It provides channels for group discussions, direct messaging for one-on-one conversations, and integrations with other tools to streamline workflows.
 
 ### How can Slack improve collaboration in DevOps teams:
 
-Slack can improve collaboration in DevOps teams by:
+  - Slack can improve collaboration in DevOps teams by:
 
 • Providing a central platform for team communication and coordination
 
@@ -204,7 +204,7 @@ Slack can improve collaboration in DevOps teams by:
 
 ### How to Use/Install Slack:
 
-To use/install Slack, follow these steps:
+  - To use/install Slack, follow these steps:
 
 • Sign up for a Slack account or create a workspace
 
@@ -216,11 +216,11 @@ To use/install Slack, follow these steps:
 
 ### What is configuration management in DevOps:
 
-Configuration management in DevOps refers to the practice of managing and provisioning infrastructure using code and automation tools. This includes defining, tracking, and controlling the configuration of servers, applications, and other resources to ensure consistency and reliability.
+  - Configuration management in DevOps refers to the practice of managing and provisioning infrastructure using code and automation tools. This includes defining, tracking, and controlling the configuration of servers, applications, and other resources to ensure consistency and reliability.
 
 ### Why is configuration management important in DevOps:
 
-Configuration management is important in DevOps because it:
+  - Configuration management is important in DevOps because it:
 
 • Ensures consistency and repeatability in infrastructure deployments
 
@@ -234,7 +234,7 @@ Configuration management is important in DevOps because it:
 
 ### What are some common configuration management tools used in DevOps:
 
-Common configuration management tools used in DevOps include:
+  - Common configuration management tools used in DevOps include:
 
 • Ansible: Agentless automation tool for configuration management, provisioning, and application deployment
 
@@ -248,11 +248,11 @@ Common configuration management tools used in DevOps include:
 
 ### What is Ansible and how is it used in DevOps:
 
-Ansible is an open-source automation tool used in DevOps for configuration management, application deployment, and orchestration. It uses simple YAML syntax and SSH connections to automate tasks across servers and environments.
+  - Ansible is an open-source automation tool used in DevOps for configuration management, application deployment, and orchestration. It uses simple YAML syntax and SSH connections to automate tasks across servers and environments.
 
 ### What are some key features of Ansible:
 
-Key features of Ansible include:
+  - Key features of Ansible include:
 
 • Agentless architecture: Ansible does not require agents to be installed on managed nodes
 
@@ -266,7 +266,7 @@ Key features of Ansible include:
 
 ### How does Ansible compare to other configuration management tools:
 
-Ansible differs from other configuration management tools like Chef and Puppet in several ways:
+  - Ansible differs from other configuration management tools like Chef and Puppet in several ways:
 
 • Agentless architecture: Ansible does not require agents to be installed on managed nodes
 
@@ -280,7 +280,7 @@ Ansible differs from other configuration management tools like Chef and Puppet i
 
 ### How to Use/Install Ansible:
 
-To use/install Ansible, follow these steps:
+  - To use/install Ansible, follow these steps:
 
 • Install Ansible on a control node using package managers or source code
 
@@ -298,11 +298,11 @@ To use/install Ansible, follow these steps:
 
 ### What is Chef and how is it used in DevOps:
 
-Chef is a configuration management tool used in DevOps for defining infrastructure as code and managing server configurations. It uses a declarative Ruby-based DSL to automate tasks such as provisioning, configuration, and application deployment.
+  - Chef is a configuration management tool used in DevOps for defining infrastructure as code and managing server configurations. It uses a declarative Ruby-based DSL to automate tasks such as provisioning, configuration, and application deployment.
 
 ### What are some key components of Chef:
 
-Key components of Chef include:
+  - Key components of Chef include:
 
 • Chef Infra: Configuration management tool for defining infrastructure configurations and policies
 
@@ -316,7 +316,7 @@ Key components of Chef include:
 
 ### How can Chef help automate infrastructure tasks in DevOps:
 
-Chef can help automate infrastructure tasks in DevOps by:
+  - Chef can help automate infrastructure tasks in DevOps by:
 
 • Using a declarative Ruby-based DSL to define infrastructure configurations
 
@@ -328,7 +328,7 @@ Chef can help automate infrastructure tasks in DevOps by:
 
 • Providing visibility and auditability into infrastructure changes and configurations
 
-To use/install Chef, follow these steps:
+  - To use/install Chef, follow these steps:
 
 • Install Chef Workstation on a development machine for authoring and testing cookbooks
 
@@ -348,11 +348,11 @@ To use/install Chef, follow these steps:
 
 ### What is Puppet and how is it used in DevOps:
 
-Puppet is a configuration management tool used in DevOps for automating infrastructure provisioning, configuration, and management. It uses a declarative Puppet DSL to define infrastructure as code and enforce configurations across servers and environments.
+  - Puppet is a configuration management tool used in DevOps for automating infrastructure provisioning, configuration, and management. It uses a declarative Puppet DSL to define infrastructure as code and enforce configurations across servers and environments.
 
 ### What are some key features of Puppet:
 
-Key features of Puppet include:
+  - Key features of Puppet include:
 
 • Puppet DSL: Declarative language for defining infrastructure configurations and policies
 
@@ -366,7 +366,7 @@ Key features of Puppet include:
 
 ### How can Puppet simplify infrastructure management in DevOps:
 
-Puppet can simplify infrastructure management in DevOps by:
+  - Puppet can simplify infrastructure management in DevOps by:
 
 • Using a declarative Puppet DSL to define infrastructure configurations and policies
 
@@ -380,13 +380,13 @@ Puppet can simplify infrastructure management in DevOps by:
 
 ### How does Puppet compare to other configuration management tools:
 
-Puppet differs from other configuration management tools like Ansible and Chef in several ways:
+  - Puppet differs from other configuration management tools like Ansible and Chef in several ways:
 
 • Puppet DSL: Puppet uses a declarative language for defining infrastructure configurations
 
 • Puppet Forge: Puppet Forge provides a community repository for sharing and distributing Puppet modules
 
-To use/install Puppet, follow these steps:
+  - To use/install Puppet, follow these steps:
 
 • Install Puppet Server on a central server to manage configurations
 
@@ -406,11 +406,11 @@ To use/install Puppet, follow these steps:
 
 ### What is containerization in DevOps:
 
-Containerization in DevOps refers to the practice of packaging applications and their dependencies into lightweight, portable containers. Containers isolate applications from the underlying infrastructure, enabling consistent and reliable deployments across different environments.
+  - Containerization in DevOps refers to the practice of packaging applications and their dependencies into lightweight, portable containers. Containers isolate applications from the underlying infrastructure, enabling consistent and reliable deployments across different environments.
 
 ### Why is containerization important in DevOps:
 
-Containerization is important in DevOps because it:
+  - Containerization is important in DevOps because it:
 
 • Improves consistency and repeatability in application deployments
 
@@ -424,7 +424,7 @@ Containerization is important in DevOps because it:
 
 ### What are some common containerization tools used in DevOps:
 
-Common containerization tools used in DevOps include:
+  - Common containerization tools used in DevOps include:
 
 • Docker: Container platform for building, running, and managing containers
 
@@ -434,7 +434,7 @@ Common containerization tools used in DevOps include:
 
 ### How do containerization tools work in DevOps:
 
-Containerization tools work in DevOps by:
+  - Containerization tools work in DevOps by:
 
 • Packaging applications and dependencies into containers using container images
 
@@ -452,11 +452,11 @@ Containerization tools work in DevOps by:
 
 ### What is Docker and how is it used in DevOps:
 
-Docker is a container platform used in DevOps for building, running, and managing containers. It enables developers to package applications and dependencies into lightweight, portable containers that can run on any infrastructure.
+  - Docker is a container platform used in DevOps for building, running, and managing containers. It enables developers to package applications and dependencies into lightweight, portable containers that can run on any infrastructure.
 
 ### What are some key features of Docker:
 
-Key features of Docker include:
+  - Key features of Docker include:
 
 • Container images: Portable packages that contain applications and dependencies
 
@@ -470,7 +470,7 @@ Key features of Docker include:
 
 ### How can Docker simplify application deployments in DevOps:
 
-Docker can simplify application deployments in DevOps by:
+  - Docker can simplify application deployments in DevOps by:
 
 • Packaging applications and dependencies into containers for consistent deployments
 
@@ -484,7 +484,7 @@ Docker can simplify application deployments in DevOps by:
 
 ### How does Docker compare to other containerization tools:
 
-Docker differs from other containerization tools like Kubernetes and OpenShift in several ways:
+  - Docker differs from other containerization tools like Kubernetes and OpenShift in several ways:
 
 • Container platform: Docker is a container platform for building, running, and managing containers
 
@@ -498,7 +498,7 @@ Docker differs from other containerization tools like Kubernetes and OpenShift i
 
 ### How to Use/Install Docker:
 
-To use/install Docker, follow these steps:
+  - To use/install Docker, follow these steps:
 
 • Install Docker Engine on your system by downloading the Docker package from the official website
 
@@ -520,11 +520,11 @@ To use/install Docker, follow these steps:
 
 ### What is Kubernetes and how is it used in DevOps:
 
-Kubernetes is a container orchestration platform used in DevOps for automating container deployments, scaling, and management. It enables organizations to run containerized applications in production environments and manage container clusters at scale.
+  - Kubernetes is a container orchestration platform used in DevOps for automating container deployments, scaling, and management. It enables organizations to run containerized applications in production environments and manage container clusters at scale.
 
 ### What are some key features of Kubernetes:
 
-Key features of Kubernetes include:
+  - Key features of Kubernetes include:
 
 • Container orchestration: Automate container deployments, scaling, and management
 
@@ -538,7 +538,7 @@ Key features of Kubernetes include:
 
 ### How to Use/Install Kubernetes:
 
-To use/install Kubernetes, follow these steps:
+  - To use/install Kubernetes, follow these steps:
 
 • Install Kubernetes on a cluster of nodes using a container runtime like Docker
 
@@ -558,11 +558,11 @@ To use/install Kubernetes, follow these steps:
 
 ### What is continuous integration in DevOps:
 
-Continuous integration is a software development practice where developers frequently integrate code changes into a shared repository. Each integration triggers automated builds and tests to detect and fix issues early in the development process.
+  - Continuous integration is a software development practice where developers frequently integrate code changes into a shared repository. Each integration triggers automated builds and tests to detect and fix issues early in the development process.
 
 ### Why is continuous integration important in DevOps:
 
-Continuous integration is important in DevOps because it:
+  - Continuous integration is important in DevOps because it:
 
 • Detects and fixes integration issues early in the development process
 
@@ -576,7 +576,7 @@ Continuous integration is important in DevOps because it:
 
 ### What are some common continuous integration tools used in DevOps:
 
-Common continuous integration tools used in DevOps include:
+  - Common continuous integration tools used in DevOps include:
 
 • Jenkins: Open-source automation server for building, testing, and deploying software
 
@@ -592,11 +592,11 @@ Common continuous integration tools used in DevOps include:
 
 ### What is Jenkins and how is it used in DevOps:
 
-Jenkins is an open-source automation server used in DevOps for building, testing, and deploying software. It provides a platform for automating software workflows, integrating with version control systems, and orchestrating continuous integration and delivery pipelines.
+  - Jenkins is an open-source automation server used in DevOps for building, testing, and deploying software. It provides a platform for automating software workflows, integrating with version control systems, and orchestrating continuous integration and delivery pipelines.
 
 ### What are some key features of Jenkins:
 
-Key features of Jenkins include:
+  - Key features of Jenkins include:
 
 • Continuous integration: Automate code builds, tests, and deployments
 
@@ -610,7 +610,7 @@ Key features of Jenkins include:
 
 ### How can Jenkins simplify continuous integration in DevOps:
 
-Jenkins can simplify continuous integration in DevOps by:
+  - Jenkins can simplify continuous integration in DevOps by:
 
 • Automating code builds, tests, and deployments in a centralized platform
 
@@ -624,7 +624,7 @@ Jenkins can simplify continuous integration in DevOps by:
 
 ### How does Jenkins compare to other continuous integration tools:
 
-Jenkins differs from other continuous integration tools like Travis CI and CircleCI in several ways:
+  - Jenkins differs from other continuous integration tools like Travis CI and CircleCI in several ways:
 
 • Open-source: Jenkins is an open-source automation server with a large community and plugin ecosystem
 
@@ -638,7 +638,7 @@ Jenkins differs from other continuous integration tools like Travis CI and Circl
 
 ### How to Use/Install Jenkins:
 
-To use/install Jenkins, follow these steps:
+  - To use/install Jenkins, follow these steps:
 
 • Install Jenkins on a server using package managers or source code
 
@@ -658,11 +658,11 @@ To use/install Jenkins, follow these steps:
 
 ### What is Travis CI and how is it used in DevOps:
 
-Travis CI is a cloud-based continuous integration service used in DevOps for testing and deploying applications. It provides a platform for automating software workflows, integrating with version control systems, and orchestrating continuous integration and delivery pipelines.
+  - Travis CI is a cloud-based continuous integration service used in DevOps for testing and deploying applications. It provides a platform for automating software workflows, integrating with version control systems, and orchestrating continuous integration and delivery pipelines.
 
 ### What are some key features of Travis CI:
 
-Key features of Travis CI include:
+  - Key features of Travis CI include:
 
 • Cloud-based: Hosted continuous integration service for testing and deploying applications
 
@@ -676,7 +676,7 @@ Key features of Travis CI include:
 
 ### How to Use/Install Travis CI:
 
-To use/install Travis CI, follow these steps:
+  - To use/install Travis CI, follow these steps:
 
 • Sign up for a Travis CI account or connect Travis CI with GitHub repositories
 
@@ -696,11 +696,11 @@ To use/install Travis CI, follow these steps:
 
 ### What is CircleCI and how is it used in DevOps:
 
-CircleCI is a continuous integration and delivery platform used in DevOps for automating software workflows. It provides a cloud-based service for building, testing, and deploying applications, integrating with version control systems, and orchestrating continuous integration and delivery pipelines.
+  - CircleCI is a continuous integration and delivery platform used in DevOps for automating software workflows. It provides a cloud-based service for building, testing, and deploying applications, integrating with version control systems, and orchestrating continuous integration and delivery pipelines.
 
 ### What are some key features of CircleCI:
 
-Key features of CircleCI include:
+  - Key features of CircleCI include:
 
 • Cloud-based: Hosted continuous integration and delivery platform for automating software workflows
 
@@ -714,7 +714,7 @@ Key features of CircleCI include:
 
 ### How to Use/Install CircleCI:
 
-To use/install CircleCI, follow these steps:
+  - To use/install CircleCI, follow these steps:
 
 • Sign up for a CircleCI account or connect CircleCI with version control repositories
 
@@ -734,11 +734,11 @@ To use/install CircleCI, follow these steps:
 
 ### What are methodologies in the context of DevOps:
 
-Methodologies in DevOps refer to software development practices and frameworks that guide teams in delivering software efficiently and collaboratively. These methodologies emphasize flexibility, collaboration, and continuous improvement to achieve common goals.
+  - Methodologies in DevOps refer to software development practices and frameworks that guide teams in delivering software efficiently and collaboratively. These methodologies emphasize flexibility, collaboration, and continuous improvement to achieve common goals.
 
 ### How do methodologies support DevOps practices:
 
-Methodologies support DevOps practices by:
+  - Methodologies support DevOps practices by:
 
 • Providing guidelines and best practices for software development and delivery
 
@@ -752,7 +752,7 @@ Methodologies support DevOps practices by:
 
 ### What are some common methodologies used in DevOps:
 
-Common methodologies used in DevOps include:
+  - Common methodologies used in DevOps include:
 
 • Agile: Iterative and incremental software development methodology focused on flexibility and collaboration
 
@@ -772,11 +772,11 @@ Common methodologies used in DevOps include:
 
 ### What is Agile and how does it relate to DevOps:
 
-Agile is a software development methodology that emphasizes flexibility, collaboration, and iterative development. DevOps extends Agile principles by incorporating operations and deployment aspects into the development process, enabling faster and more reliable software delivery.
+  - Agile is a software development methodology that emphasizes flexibility, collaboration, and iterative development. DevOps extends Agile principles by incorporating operations and deployment aspects into the development process, enabling faster and more reliable software delivery.
 
 ### What are the key principles of Agile:
 
-Key principles of Agile include:
+  - Key principles of Agile include:
 
 • Customer collaboration over contract negotiation
 
@@ -794,11 +794,11 @@ Key principles of Agile include:
 
 ### What is Scrum and how is it used in DevOps:
 
-Scrum is a framework for managing product development using short iterations called sprints. It is used in DevOps to facilitate collaboration, flexibility, and continuous improvement in software delivery. Scrum ceremonies such as sprint planning, daily standups, and retrospectives help teams work together towards common goals.
+  - Scrum is a framework for managing product development using short iterations called sprints. It is used in DevOps to facilitate collaboration, flexibility, and continuous improvement in software delivery. Scrum ceremonies such as sprint planning, daily standups, and retrospectives help teams work together towards common goals.
 
 ### What are some key roles and artifacts in Scrum:
 
-Key roles and artifacts in Scrum include:
+  - Key roles and artifacts in Scrum include:
 
 • Scrum Master: Facilitator and coach who helps the team follow Scrum practices and principles
 
@@ -820,11 +820,11 @@ Key roles and artifacts in Scrum include:
 
 ### What is Kanban and how is it used in DevOps:
 
-Kanban is a visual management method for tracking work and limiting work in progress. It is used in DevOps to visualize workflows, identify bottlenecks, and optimize processes for delivering software efficiently. Kanban boards and cards help teams prioritize tasks, monitor progress, and collaborate on work items.
+  - Kanban is a visual management method for tracking work and limiting work in progress. It is used in DevOps to visualize workflows, identify bottlenecks, and optimize processes for delivering software efficiently. Kanban boards and cards help teams prioritize tasks, monitor progress, and collaborate on work items.
 
 ### What are some key principles of Kanban:
 
-Key principles of Kanban include:
+  - Key principles of Kanban include:
 
 • Visualize work: Represent work items and tasks on a Kanban board to track progress
 
@@ -842,11 +842,11 @@ Key principles of Kanban include:
 
 ### What is Lean and how is it used in DevOps:
 
-Lean is a set of principles and practices for optimizing processes and eliminating waste. It is used in DevOps to improve efficiency, reduce lead times, and deliver value to customers faster. Lean practices such as value stream mapping, continuous improvement, and waste reduction help teams streamline workflows and deliver software more effectively.
+  - Lean is a set of principles and practices for optimizing processes and eliminating waste. It is used in DevOps to improve efficiency, reduce lead times, and deliver value to customers faster. Lean practices such as value stream mapping, continuous improvement, and waste reduction help teams streamline workflows and deliver software more effectively.
 
 ### What are some key principles of Lean:
 
-Key principles of Lean include:
+  - Key principles of Lean include:
 
 • Value: Focus on delivering value to customers and eliminating waste
 
@@ -864,11 +864,11 @@ Key principles of Lean include:
 
 ### What is pair programming and how is it used in DevOps:
 
-Pair programming is a collaborative software development practice where two developers work together on the same code. It is used in DevOps to improve code quality, knowledge sharing, and collaboration between team members. Pair programming helps teams write better code, catch errors early, and foster a culture of teamwork and communication.
+  - Pair programming is a collaborative software development practice where two developers work together on the same code. It is used in DevOps to improve code quality, knowledge sharing, and collaboration between team members. Pair programming helps teams write better code, catch errors early, and foster a culture of teamwork and communication.
 
 ### What are some benefits of pair programming in DevOps:
 
-Benefits of pair programming in DevOps include:
+  - Benefits of pair programming in DevOps include:
 
 • Improved code quality: Two developers review and validate each other's code, leading to higher quality software
 
@@ -886,11 +886,11 @@ Benefits of pair programming in DevOps include:
 
 ### What is code review and how is it used in DevOps:
 
-Code review is the process of reviewing and providing feedback on code changes to improve quality and maintainability. It is used in DevOps to catch errors, enforce coding standards, and share knowledge among team members. Code reviews help teams write better code, identify issues early, and deliver high-quality software.
+  - Code review is the process of reviewing and providing feedback on code changes to improve quality and maintainability. It is used in DevOps to catch errors, enforce coding standards, and share knowledge among team members. Code reviews help teams write better code, identify issues early, and deliver high-quality software.
 
 ### What are some best practices for code review in DevOps:
 
-Best practices for code review in DevOps include:
+  - Best practices for code review in DevOps include:
 
 • Review early and often: Review code changes frequently to catch errors and provide feedback
 
@@ -908,11 +908,11 @@ Best practices for code review in DevOps include:
 
 ### What is monitoring in DevOps:
 
-Monitoring in DevOps involves tracking and analyzing the performance, reliability, and user experience of systems and applications. This feedback helps teams identify and address issues to improve overall system health. Monitoring tools and practices enable teams to detect problems early, optimize performance, and deliver high-quality software.
+  - Monitoring in DevOps involves tracking and analyzing the performance, reliability, and user experience of systems and applications. This feedback helps teams identify and address issues to improve overall system health. Monitoring tools and practices enable teams to detect problems early, optimize performance, and deliver high-quality software.
 
 ### Why is monitoring important in DevOps:
 
-Monitoring is important in DevOps because it:
+  - Monitoring is important in DevOps because it:
 
 • Provides visibility into system performance, reliability, and user experience
 
@@ -926,7 +926,7 @@ Monitoring is important in DevOps because it:
 
 ### What are some common monitoring tools used in DevOps:
 
-Common monitoring tools used in DevOps include:
+  - Common monitoring tools used in DevOps include:
 
 • Prometheus: Open-source monitoring and alerting toolkit for collecting and querying metrics
 
@@ -942,11 +942,11 @@ Common monitoring tools used in DevOps include:
 
 ### What is Prometheus and how is it used in DevOps:
 
-Prometheus is an open-source monitoring and alerting toolkit used in DevOps for collecting and querying metrics. It provides a time-series database, a query language, and alerting capabilities to track system performance, reliability, and user experience. Prometheus helps teams monitor and analyze metrics to detect issues and optimize system health.
+  - Prometheus is an open-source monitoring and alerting toolkit used in DevOps for collecting and querying metrics. It provides a time-series database, a query language, and alerting capabilities to track system performance, reliability, and user experience. Prometheus helps teams monitor and analyze metrics to detect issues and optimize system health.
 
 ### What are some key features of Prometheus:
 
-Key features of Prometheus include:
+  - Key features of Prometheus include:
 
 • Time-series database: Store and query time-series data for tracking metrics
 
@@ -960,7 +960,7 @@ Key features of Prometheus include:
 
 !) How to Use/Install Prometheus:
 
-To use/install Prometheus, follow these steps:
+  - To use/install Prometheus, follow these steps:
 
 • Download and install Prometheus on a server or container
 
@@ -978,11 +978,11 @@ To use/install Prometheus, follow these steps:
 
 ### What is Grafana and how is it used in DevOps:
 
-Grafana is a visualization and monitoring platform used in DevOps for creating dashboards and alerts. It provides a user-friendly interface for visualizing metrics, analyzing data, and tracking system performance. Grafana helps teams monitor and optimize system health, detect issues early, and deliver high-quality software.
+  - Grafana is a visualization and monitoring platform used in DevOps for creating dashboards and alerts. It provides a user-friendly interface for visualizing metrics, analyzing data, and tracking system performance. Grafana helps teams monitor and optimize system health, detect issues early, and deliver high-quality software.
 
 ### What are some key features of Grafana:
 
-Key features of Grafana include:
+  - Key features of Grafana include:
 
 • Data visualization: Create interactive and customizable dashboards for monitoring metrics
 
@@ -994,7 +994,7 @@ Key features of Grafana include:
 
 ### How to Use/Install Grafana:
 
-To use/install Grafana, follow these steps:
+  - To use/install Grafana, follow these steps:
 
 • Download and install Grafana on a server or container
 
@@ -1014,11 +1014,11 @@ To use/install Grafana, follow these steps:
 
 ### What is Nagios and how is it used in DevOps:
 
-Nagios is a monitoring and alerting system used in DevOps for tracking network, server, and application performance. It provides a platform for monitoring system health, detecting issues, and alerting teams to potential problems. Nagios helps teams maintain system reliability, optimize performance, and deliver high-quality software.
+  - Nagios is a monitoring and alerting system used in DevOps for tracking network, server, and application performance. It provides a platform for monitoring system health, detecting issues, and alerting teams to potential problems. Nagios helps teams maintain system reliability, optimize performance, and deliver high-quality software.
 
 ### What are some key features of Nagios:
 
-Key features of Nagios include:
+  - Key features of Nagios include:
 
 • Monitoring engine: Monitor network, server, and application performance using plugins
 
@@ -1032,7 +1032,7 @@ Key features of Nagios include:
 
 ### How to Use/Install Nagios:
 
-To use/install Nagios, follow these steps:
+  - To use/install Nagios, follow these steps:
 
 • Download and install Nagios on a server or container
 
@@ -1052,11 +1052,11 @@ To use/install Nagios, follow these steps:
 
 ### What is Datadog and how is it used in DevOps:
 
-Datadog is a cloud-based monitoring and analytics platform used in DevOps for tracking infrastructure and application performance. It provides a centralized platform for monitoring metrics, visualizing data, and analyzing system health. Datadog helps teams optimize performance, detect issues early, and deliver high-quality software.
+  - Datadog is a cloud-based monitoring and analytics platform used in DevOps for tracking infrastructure and application performance. It provides a centralized platform for monitoring metrics, visualizing data, and analyzing system health. Datadog helps teams optimize performance, detect issues early, and deliver high-quality software.
 
 ### What are some key features of Datadog:
 
-Key features of Datadog include:
+  - Key features of Datadog include:
 
 • Infrastructure monitoring: Track system performance, resource utilization, and availability
 
@@ -1070,7 +1070,7 @@ Key features of Datadog include:
 
 ### How to Use/Install Datadog:
 
-To use/install Datadog, follow these steps:
+  - To use/install Datadog, follow these steps:
 
 • Sign up for a Datadog account or start a free trial
 
@@ -1090,11 +1090,11 @@ To use/install Datadog, follow these steps:
 
 ### What is security in DevOps:
 
-Security in DevOps involves integrating security practices and controls into the software development and delivery process. It focuses on identifying and mitigating security risks, vulnerabilities, and threats to protect systems and data. Security in DevOps helps teams build secure software, detect and respond to security incidents, and comply with security standards and regulations.
+  - Security in DevOps involves integrating security practices and controls into the software development and delivery process. It focuses on identifying and mitigating security risks, vulnerabilities, and threats to protect systems and data. Security in DevOps helps teams build secure software, detect and respond to security incidents, and comply with security standards and regulations.
 
 ### Why is security important in DevOps:
 
-Security is important in DevOps because it:
+  - Security is important in DevOps because it:
 
 • Protects systems and data from security risks, vulnerabilities, and threats
 
@@ -1108,7 +1108,7 @@ Security is important in DevOps because it:
 
 ### What are some common security practices in DevOps:
 
-Common security practices in DevOps include:
+  - Common security practices in DevOps include:
 
 • Secure coding: Follow secure coding practices and guidelines to prevent vulnerabilities
 
@@ -1122,7 +1122,7 @@ Common security practices in DevOps include:
 
 ### What are some common security tools used in DevOps:
 
-Common security tools used in DevOps include:
+  - Common security tools used in DevOps include:
 
 • OWASP ZAP: Open-source web application security scanner for detecting vulnerabilities
 
@@ -1132,11 +1132,11 @@ Common security tools used in DevOps include:
 
 ### What is OWASP ZAP and how is it used in DevOps:
 
-OWASP ZAP is an open-source web application security scanner used in DevOps for detecting vulnerabilities in web applications. It provides automated scanning and testing capabilities to identify security weaknesses, misconfigurations, and vulnerabilities. OWASP ZAP helps teams secure web applications, prevent data breaches, and comply with security standards.
+  - OWASP ZAP is an open-source web application security scanner used in DevOps for detecting vulnerabilities in web applications. It provides automated scanning and testing capabilities to identify security weaknesses, misconfigurations, and vulnerabilities. OWASP ZAP helps teams secure web applications, prevent data breaches, and comply with security standards.
 
 ### What are some key features of OWASP ZAP:
 
-Key features of OWASP ZAP include:
+  - Key features of OWASP ZAP include:
 
 • Automated scanning: Scan web applications for security vulnerabilities and weaknesses
 
@@ -1150,7 +1150,7 @@ Key features of OWASP ZAP include:
 
 ### How to Use/Install OWASP ZAP:
 
-To use/install OWASP ZAP, follow these steps:
+  - To use/install OWASP ZAP, follow these steps:
 
 • Download and install OWASP ZAP on a system or container
 
@@ -1166,11 +1166,11 @@ To use/install OWASP ZAP, follow these steps:
 
 ### What is version control in DevOps:
 
-Version control in DevOps refers to the practice of tracking changes to code, documents, and other files using version control systems. It enables teams to collaborate, track changes, and manage code repositories effectively. Version control helps teams maintain code quality, track changes, and collaborate on software development projects.
+  - Version control in DevOps refers to the practice of tracking changes to code, documents, and other files using version control systems. It enables teams to collaborate, track changes, and manage code repositories effectively. Version control helps teams maintain code quality, track changes, and collaborate on software development projects.
 
 ### Why is version control important in DevOps:
 
-Version control is important in DevOps because it:
+  - Version control is important in DevOps because it:
 
 • Tracks changes to code, documents, and files to maintain a history of revisions
 
@@ -1184,7 +1184,7 @@ Version control is important in DevOps because it:
 
 ### What are some common version control systems used in DevOps:
 
-Common version control systems used in DevOps include:
+  - Common version control systems used in DevOps include:
 
 • Git: Distributed version control system for tracking changes to code and files
 
@@ -1200,11 +1200,11 @@ Common version control systems used in DevOps include:
 
 ### What is Git and how is it used in DevOps:
 
-Git is a distributed version control system used in DevOps for tracking changes to code and files. It provides a platform for collaborating on software development projects, managing code repositories, and tracking revisions. Git helps teams maintain code quality, track changes, and automate software workflows.
+  - Git is a distributed version control system used in DevOps for tracking changes to code and files. It provides a platform for collaborating on software development projects, managing code repositories, and tracking revisions. Git helps teams maintain code quality, track changes, and automate software workflows.
 
 ### What are some key features of Git:
 
-Key features of Git include:
+  - Key features of Git include:
 
 • Distributed version control: Track changes to code and files in a distributed environment
 
@@ -1218,7 +1218,7 @@ Key features of Git include:
 
 ### How to Use/Install Git:
 
-To use/install Git, follow these steps:
+  - To use/install Git, follow these steps:
 
 • Install Git on your system using package managers or source code
 
@@ -1236,7 +1236,7 @@ To use/install Git, follow these steps:
 
 ### Common Git Commands
 
-Common Git commands used in DevOps include:
+  - Common Git commands used in DevOps include:
 
 • `git init`: Initialize a new Git repository in a project directory
 
@@ -1256,11 +1256,11 @@ Common Git commands used in DevOps include:
 
 ### What is GitHub and how is it used in DevOps:
 
-GitHub is a web-based platform for hosting Git repositories and collaborating on software development projects. It provides features for code hosting, version control, code reviews, issue tracking, and collaboration. GitHub helps teams manage code repositories, track changes, and automate software workflows.
+  - GitHub is a web-based platform for hosting Git repositories and collaborating on software development projects. It provides features for code hosting, version control, code reviews, issue tracking, and collaboration. GitHub helps teams manage code repositories, track changes, and automate software workflows.
 
 ### What are some key features of GitHub:
 
-Key features of GitHub include:
+  - Key features of GitHub include:
 
 • Code hosting: Host Git repositories and manage code versions
 
@@ -1274,7 +1274,7 @@ Key features of GitHub include:
 
 ### How to Use/Install GitHub:
 
-To use/install GitHub, follow these steps:
+  - To use/install GitHub, follow these steps:
 
 • Sign up for a GitHub account or create a new organization
 
@@ -1294,11 +1294,11 @@ To use/install GitHub, follow these steps:
 
 ### What is Bitbucket and how is it used in DevOps:
 
-Bitbucket is a Git repository management system used in DevOps for hosting and managing code repositories. It provides features for code hosting, version control, code reviews, and collaboration. Bitbucket helps teams track changes, manage code repositories, and automate software workflows.
+  - Bitbucket is a Git repository management system used in DevOps for hosting and managing code repositories. It provides features for code hosting, version control, code reviews, and collaboration. Bitbucket helps teams track changes, manage code repositories, and automate software workflows.
 
 ### What are some key features of Bitbucket:
 
-Key features of Bitbucket include:
+  - Key features of Bitbucket include:
 
 • Code hosting: Host Git repositories and manage code versions
 
@@ -1312,7 +1312,7 @@ Key features of Bitbucket include:
 
 ### How to Use/Install Bitbucket:
 
-To use/install Bitbucket, follow these steps:
+  - To use/install Bitbucket, follow these steps:
 
 • Sign up for a Bitbucket account or create a new workspace
 
@@ -1332,11 +1332,11 @@ To use/install Bitbucket, follow these steps:
 
 ### What is GitLab and how is it used in DevOps:
 
-GitLab is a web-based Git repository manager used in DevOps for hosting and managing code repositories. It provides features for code hosting, version control, code reviews, CI/CD pipelines, and collaboration. GitLab helps teams track changes, manage code repositories, and automate software workflows.
+  - GitLab is a web-based Git repository manager used in DevOps for hosting and managing code repositories. It provides features for code hosting, version control, code reviews, CI/CD pipelines, and collaboration. GitLab helps teams track changes, manage code repositories, and automate software workflows.
 
 ### What are some key features of GitLab:
 
-Key features of GitLab include:
+  - Key features of GitLab include:
 
 • Code hosting: Host Git repositories and manage code versions
 
@@ -1350,7 +1350,7 @@ Key features of GitLab include:
 
 ### How to Use/Install GitLab:
 
-To use/install GitLab, follow these steps:
+  - To use/install GitLab, follow these steps:
 
 • Sign up for a GitLab account or create a new project
 

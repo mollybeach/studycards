@@ -35,8 +35,8 @@ const convertTxtToMd = (inputFilePath, outputFilePath) => {
                 markdownContent += `# ${line.substring(1).trim()}\n\n`;
             } else if (line.startsWith('Q) ')) {
                 markdownContent += `### ${line.replace('Q) ', '').replace('?', ':')}\n\n`;
-            } else if (line.startsWith('A) ') && !inCodeBlock) {
-                markdownContent += `${line.replace('A) ', '').replace('?', ':')}\n\n`;
+            } else if (line.match(/^\s*A\) /)) {
+                markdownContent += `  - ${line.replace(/^\s*A\) /, '').replace('?', ':')}\n\n`;
             } else if (line.startsWith('```') && inCodeBlock) {
                 markdownContent += '```\n\n';
                 inCodeBlock = false;
@@ -58,12 +58,17 @@ const convertTxtToMd = (inputFilePath, outputFilePath) => {
 };
 
 let allMarkdownContent = '';
-// add Table of Contents
-let tableOfContentsMarkdownFile = './TableOfContents.md';
-allMarkdownContent += fs.readFileSync(tableOfContentsMarkdownFile, 'utf8');
+// Add Table of Contents
+allMarkdownContent += `# Table of Contents\n\n`;
+for (let file in allFiles) {
+    const sectionId = file.toUpperCase().replace(/ /g, '');
+    allMarkdownContent += `- [${file}](#${sectionId})\n`;
+}
+allMarkdownContent += '\n\n';
+
 for (let file in allFiles) {
     convertTxtToMd(allFiles[file].input, allFiles[file].output);
-    console.log('Conversion from txt to md for' + allFiles[file] + 'completed.');
+    console.log(`Conversion from txt to md for '${file}' completed.`);
     allMarkdownContent += fs.readFileSync(allFiles[file].output, 'utf8');
 }
 
