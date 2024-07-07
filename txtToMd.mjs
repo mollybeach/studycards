@@ -58,6 +58,9 @@ const convertTxtToMd = (inputFilePath, outputFilePath) => {
 };
 
 let allMarkdownContent = '';
+// add Table of Contents
+let tableOfContentsMarkdownFile = './TableOfContents.md';
+allMarkdownContent += fs.readFileSync(tableOfContentsMarkdownFile, 'utf8');
 for (let file in allFiles) {
     convertTxtToMd(allFiles[file].input, allFiles[file].output);
     console.log('Conversion from txt to md for' + allFiles[file] + 'completed.');

@@ -1,4 +1,4 @@
-# DESIGN PATTERNS
+# DESIGN-PATTERNS
 
 ### Design patterns:
 

@@ -1,4 +1,22 @@
-*$BASIC SOLIDITY$*
+# Table of Contents
+
+- [Blockchain](#BLOCKCHAIN)
+- [Cloud](#CLOUD)
+- [Databases](#DATABASES)
+- [Design Patterns](#DESIGN-PATTERNS)
+- [DevOps](#DEVOPS)
+- [Frameworks](#FRAMEWORKS)
+- [Graphics](#GRAPHICS)
+- [Languages](#LANGUAGES)
+- [Security](#SECURITY)
+- [Testing](#TESTING)
+- [Tools](#TOOLS)
+
+
+
+# BLOCKCHAIN
+
+# BASIC SOLIDITY
 
 ### What is Solidity: A)
 
@@ -18,7 +36,7 @@
 
 In Solidity, every operation has a gas cost, and optimizing contracts for lower gas consumption is a crucial aspect of development.
 
-*$INTERMEDIATE SOLIDITY$*
+# INTERMEDIATE SOLIDITY
 
 ### What are events in Solidity, and how are they used: A)
 
@@ -36,7 +54,7 @@ In Solidity, every operation has a gas cost, and optimizing contracts for lower 
 
 • 'storage' variables are stored permanently on the blockchain, while "memory" variables are temporary and erased between external function calls. The choice between them affects gas consumption and contract logic.
 
-*$ADVANCED SOLIDITY$*
+# ADVANCED SOLIDITY
 
 ### Discuss the concept of inheritance in Solidity contracts. A)
 
@@ -60,7 +78,7 @@ ERC-20 is for fungible tokens identical and divisible, while ERC-721 is for non-
 
 • Upgradable contracts allow for the modification of a contract's behavior without changing its address. This is often achieved using proxies that delegate calls to implementation contracts, allowing for bug fixes and upgrades.
 
-*$DEFI*
+# DEFI*
 
 ### What is the Ethereum Virtual Machine EVM: A)
 
@@ -102,7 +120,7 @@ ERC-20 is for fungible tokens identical and divisible, while ERC-721 is for non-
 
 • Impermanent loss occurs in liquidity pools when the price ratio of deposited tokens changes after depositing them into a pool. It's called "impermanent" because the loss is only realized if the liquidity is withdrawn at the unfavorable price ratio.
 
-*$STAKING*
+# STAKING*
 
 ### What is staking in the context of blockchain and cryptocurrencies: A)
 
@@ -168,7 +186,7 @@ Regulatory and Ethical Considerations
 
 • Ethical considerations include ensuring equitable access to financial services, protecting users from scams and excessive risks, and addressing environmental concerns related to blockchain.
 
-*$Optimism*
+# Optimism*
 
 ### What is Optimism, and how does it implement layer-2 scaling for Ethereum: A)
 
@@ -286,7 +304,7 @@ Step 10: Verify and Publish Your Contract Source Code
 
 After deployment, consider verifying and publishing your contract's source code on platforms like Etherscan. This step increases transparency and trust, allowing others to interact with your contract.
 
-*$GRAMMATIC / COMPRESSED NFTS*
+# GRAMMATIC / COMPRESSED NFTS*
 
 ### What are Grammatic or Compressed NFTs: A)
 
@@ -342,7 +360,7 @@ Blockchain Security
 
 • Node security refers to the measures taken to secure the individual nodes on a blockchain network, including protection against unauthorized access and ensuring reliable and secure communication between nodes. Node security is crucial for maintaining the integrity and security of the blockchain network, preventing attacks, and ensuring the proper functioning of the consensus mechanism.
 
-*$Smart Contracts*
+# Smart Contracts*
 
 ### What is a smart contract, and how does it work: A)
 
@@ -378,7 +396,7 @@ Blockchain Security
 
 Best Practices in Blockchain and Smart Contract Security
 
-*$Smart Contract Security$*
+# Smart Contract Security
 
 ### What are the best practices for smart contract security audits: A)
 
@@ -474,7 +492,7 @@ Each type of distributed ledger has its unique structure and operation, offering
 
 known as the Byzantine Generals' Problem, ensuring security with minimal trust and promoting consensus in distributed networks.
 
-*$Blockchain Trilemma$*
+# Blockchain Trilemma
 
 ### What is the Blockchain Trilemma, and why is it a challenge in blockchain design: A)
 
@@ -516,7 +534,7 @@ known as the Byzantine Generals' Problem, ensuring security with minimal trust a
 
 • Polkadot: Facilitates a network of blockchains that can operate independently but securely share information and transactions, offering a scalable and secure solution to the challenges of the Blockchain Trilemma.
 
-*$Formal Verification$*
+# Formal Verification
 
 ### What is formal verification, and how does it ensure the correctness of smart contracts: A)
 
@@ -542,7 +560,7 @@ Security Patterns and Best Practices
 
 • Bug Bounties: Programs offered by many blockchain projects to reward individuals who find and report bugs, particularly those related to exploits and vulnerabilities.
 
-*$Fuzz Testing$*
+# Fuzz Testing
 
 ### What is fuzz testing, and how does it help identify vulnerabilities in smart contracts: A)
 
@@ -1072,7 +1090,7 @@ A)
 
 ### How do you connect to Oracle Database: A) Using the SQLPlus command-line interface, a graphical user interface tool, or a programming language-specific driver, such as the Oracle JDBC driver for Java applications or the cx_Oracle driver for Python applications.
 
-# DESIGN PATTERNS
+# DESIGN-PATTERNS
 
 ### Design patterns:
 
@@ -5440,7 +5458,7 @@ What is an Event Loop in Node.js, and why is it crucial for security: A)
 
 
 
-# Testing
+# TESTING
 
 ### What is Testing in Programming:
 

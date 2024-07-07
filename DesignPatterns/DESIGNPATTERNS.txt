@@ -1,4 +1,4 @@
-@ DESIGN PATTERNS
+@ DESIGN-PATTERNS
 Q) Design patterns?
 A) Design patterns are reusable solutions to common software design problems, helping to create maintainable, flexible, and scalable software.
 Q) Why are design patterns important?
