@@ -1,7 +1,7 @@
 agile
 
 Teraform
-cloud providers
+Cloud
 │   ├── IBM/
 │   ├── Oracle/
 

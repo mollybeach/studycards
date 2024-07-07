@@ -1,4 +1,4 @@
-*Testing*
+@ Testing
 Q) What is Testing in Programming?
 A) Testing in programming refers to the process of evaluating software to ensure that it meets specified requirements and functions correctly. Testing involves executing the software with test cases, identifying defects or errors, and verifying that the software behaves as expected. Testing helps improve software quality, reliability, and user satisfaction.
 Q) Why is Testing important in Programming?
@@ -33,7 +33,7 @@ A) To write effective test cases, follow these best practices:
 • Keep test cases independent, reusable, and maintainable
 • Review and validate test cases with stakeholders and team members
 
-*Jest*
+@ Jest
 Q) What is Jest and how is it used in Programming?
 A) Jest is a JavaScript testing framework used in programming for unit and integration testing. It provides a simple and intuitive API for writing test cases, mocking dependencies, and running tests in parallel. Jest helps developers write reliable and maintainable tests for JavaScript applications.
 Q) What are some key features of Jest?
@@ -69,7 +69,7 @@ A) To use/install Postman, follow these steps:
 • Run API tests and monitor performance using Postman's testing and monitoring features
 • Collaborate with team members on API development and testing using Postman workspaces
 
-*JUnit*
+@ JUnit
 Q) What is JUnit and how is it used in Programming?
 A) JUnit is a Java testing framework used in programming for unit testing. It provides annotations, assertions, and test runners for writing and executing test cases in Java applications. JUnit helps developers validate the behavior and output of Java code, identify defects, and improve software quality.
 Q) What are some key features of JUnit?
@@ -87,7 +87,7 @@ A) To use/install JUnit, follow these steps:
 • Analyze test results and customize test reports to improve test visibility and feedback
 • Integrate JUnit with continuous integration pipelines for automated testing and reporting
 
-*Mocha*
+@ Mocha
 Q) What is Mocha and how is it used in Programming?
 A) Mocha is a JavaScript testing framework used in programming for asynchronous testing. It provides a flexible and feature-rich API for writing test cases, organizing test suites, and running tests in various environments. Mocha helps developers test JavaScript applications with different testing styles and frameworks.
 Q) What are some key features of Mocha?
@@ -105,7 +105,7 @@ A) To use/install Mocha, follow these steps:
 • Configure Mocha settings, reporters, and plugins in the mocha.config.js file
 • Analyze test results and customize test reports to improve test visibility and feedback
 
-*Chai*
+@ Chai
 Q) What is Chai and how is it used in Programming?
 A) Chai is a JavaScript assertion library used in programming for writing test assertions. It provides a fluent and expressive API for defining expectations, assertions, and matchers in test cases. Chai helps developers validate the behavior and output of JavaScript code in unit and integration tests.
 Q) What are some key features of Chai?
@@ -123,7 +123,7 @@ A) To use/install Chai, follow these steps:
 • Run tests using testing frameworks like Mocha or Jest that support Chai assertions
 • Customize Chai settings, plugins, and matchers to meet specific testing requirements
 
-*Selenium*
+@ Selenium
 Q) What is Selenium and how is it used in Programming?
 A) Selenium is a web browser automation tool used in programming for testing web applications. It provides a suite of tools and APIs for automating browser interactions, simulating user actions, and verifying web page behavior. Selenium helps developers write automated tests for web applications across different browsers and platforms.
 Q) What are some key features of Selenium?

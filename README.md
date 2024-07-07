@@ -82,11 +82,11 @@ studycards/
 │   ├── DeFi/
 │   ├── Blockchain Security/
 │   └── Blockchain.txt
-├── CloudProviders
+├── Cloud
 │   ├── AWS/
 │   ├── Azure/
 │   ├── GCP/
-│   └── CloudProviders.txt
+│   └── Cloud.txt
 ├── Databases/
 │   ├── AWS/
 │   ├── MongoDB/

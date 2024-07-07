@@ -1,5 +1,5 @@
-*Tools*
-*AJAX*
+@ TOOLS
+@@ AJAX
 Q) What is AJAX and how does it work?
 A) AJAX stands for Asynchronous JavaScript and XML. It is a set of web development techniques that allow web pages to be updated asynchronously by exchanging data with a web server in the background. AJAX enables web pages to load content dynamically without requiring a full page refresh, providing a more seamless and interactive user experience.
 Q) What are the key components of AJAX?

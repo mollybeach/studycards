@@ -237,11 +237,11 @@ AJAX
 
 
 studycards/
-├── CloudProviders
+├── Cloud
 │   ├── AWS/
 │   ├── Azure/
 │   ├── GCP/
-│   └── CloudProviders.txt
+│   └── Cloud.txt
 ├── Blockchain/
 │   ├── Ethereum/
 │   ├── SmartContracts/

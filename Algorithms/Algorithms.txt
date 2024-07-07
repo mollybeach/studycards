@@ -1,6 +1,5 @@
-Please write the answer to all blind 75 like this 
-*$Algorithms*$
-Title: Two Sum
+@ Algorithms
+@@ Two Sum
 Q) Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 A) Use a hash map to store the difference between the target and the current number and the index of the current number. If the current number is in the hash map, return the index of the current number and the index of the number in the hash map.
 Algorithm used: Hash Map
@@ -19,7 +18,7 @@ Space Complexity: O(n)
     }
 };
 ```
-Title: Best Time to Buy and Sell Stock
+@@ Best Time to Buy and Sell Stock
 Q: Determine the maximum profit by buying and selling stocks from an array.
 A: Use a single pass approach, keeping track of the minimum price encountered so far and calculating the profit for each day. Update the maximum profit accordingly.
 Algorithm used: Single Pass
@@ -41,7 +40,7 @@ const maxProfit = function(prices) {
     return maxProfit;
 };
 ```
-Title: Add Two Numbers
+@@ Add Two Numbers
 Q) You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 A) Traverse both linked lists and add the values of the nodes and the carry. If the sum is greater than 9, set the carry to 1 and the sum to sum % 10. Create a new node with the sum and move to the next node in the linked list. If there is a carry after the last node, create a new node with the carry.
 Algorithm used: Linked List
@@ -78,7 +77,7 @@ const addTwoNumbers = function(l1, l2) {
     return dummy.next;
 };
 
-Title: Longest Substring Without Repeating Characters
+@@ Longest Substring Without Repeating Characters
 Q) Given a string, find the length of the longest substring without repeating characters.
 A) Use a hash map to store the index of the characters in the string. Use two pointers to traverse the string. If the character is in the hash map, move the left pointer to the index of the character in the hash map + 1. Update the maximum length of the substring.
 Algorithm used: Hash Map
@@ -100,7 +99,7 @@ const lengthOfLongestSubstring = function(s) {
     return max;
 };
 
-Title: Median of Two Sorted Arrays
+@@ Median of Two Sorted Arrays
 Q) There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays.
 A) Merge the two sorted arrays into a single sorted array. If the length of the merged array is odd, return the middle element. If the length of the merged array is even, return the average of the two middle elements.
 Algorithm used: Merge Sort
@@ -137,7 +136,7 @@ const findMedianSortedArrays = function(nums1, nums2) {
     }
 };
 
-Title: Longest Palindromic Substring
+@@ Longest Palindromic Substring
 Q) Given a string s, find the longest palindromic substring in s.
 A) Use dynamic programming to store the palindromic substrings. Traverse the string and expand around the center for odd and even length palindromic substrings. Update the longest palindromic substring.
 Algorithm used: Dynamic Programming
@@ -173,7 +172,7 @@ const longestPalindrome = function(s) {
     return s.substring(start, start + max);
 };
 
-Title: ZigZag Conversion
+@@ ZigZag Conversion
 Q) The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 A) Use an array of strings to store the characters in each row. Traverse the string and add the characters to the corresponding row. Concatenate the rows to get the zigzag pattern.
 Algorithm used: Array
@@ -201,7 +200,7 @@ const convert = function(s, numRows) {
     return rows.join('');
 };
 
-Title: Reverse Integer
+@@ Reverse Integer
 Q) Given a 32-bit signed integer, reverse digits of an integer.
 A) Use the modulo operator to get the last digit of the integer and the division operator to remove the last digit of the integer. Multiply the reversed integer by 10 and add the last digit. Check for overflow.
 Algorithm used: Math
@@ -222,7 +221,7 @@ const reverse = function(x) {
     return reversed;
 };
 
-Title: String to Integer (atoi)
+@@ String to Integer (atoi)
 Q) Implement atoi which converts a string to an integer.
 A) Trim the string and check for the sign of the integer. Traverse the string and convert the characters to integers. Check for overflow.
 Algorithm used: Math
