@@ -1,5 +1,6 @@
 # Table of Contents
 
+- [Algorithms](#ALGORITHMS)
 - [Blockchain](#BLOCKCHAIN)
 - [Cloud](#CLOUD)
 - [Databases](#DATABASES)

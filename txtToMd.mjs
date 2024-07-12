@@ -1,6 +1,7 @@
 import fs from 'fs';
 
 let allFiles = {
+    'Algorithms': { 'input': './Algorithms/Algorithms.txt', 'output': './Algorithms/Algorithms.md' },
     'Blockchain': { 'input': './Blockchain/Blockchain.txt', 'output': './Blockchain/Blockchain.md' },
     'Cloud': { 'input': './Cloud/Cloud.txt', 'output': './Cloud/Cloud.md' },
     'Databases': { 'input': './Databases/Databases.txt', 'output': './Databases/Databases.md' },
