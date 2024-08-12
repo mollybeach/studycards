@@ -1,5 +1,5 @@
 @ BLOCKCHAIN
-@ BASIC SOLIDITY
+@@ BASIC SOLIDITY
 Q) Solidity?
 A) Solidity is a statically typed, contract-oriented, high-level programming language for implementing smart contracts on various blockchain platforms, primarily Ethereum.
 Q) Smart contract?
@@ -9,7 +9,7 @@ A) A 'view' function reads from the blockchain but does not modify it. A 'pure' 
 Q) Gas and its relation to Solidity contracts?
 A) Gas is the execution fee for operations on the Ethereum network. Optimizing contracts for lower gas consumption is crucial in Solidity development.
 
-@ INTERMEDIATE SOLIDITY
+@@ INTERMEDIATE SOLIDITY
 Q) Events in Solidity?
 A) Events are used by contracts to communicate occurrences on the blockchain, triggering external actions and logging transaction details.
 Q) Significance of the "payable" keyword in Solidity?
@@ -19,7 +19,7 @@ A) Modifiers are code snippets that can modify function behavior, often for acce
 Q) Differences between 'memory' and 'storage' variables in Solidity?
 A) 'storage' variables persist on the blockchain, while 'memory' variables are temporary and erased between function calls.
 
-@ ADVANCED SOLIDITY
+@@ ADVANCED SOLIDITY
 Q) Inheritance in Solidity contracts?
 A) Solidity supports multiple inheritance, enabling contracts to inherit properties and functions for code reusability.
 Q) Error handling in Solidity?
@@ -31,7 +31,7 @@ A) 'delegatecall' allows contracts to execute code in another contract's context
 Q) Concept of upgradable contracts in Solidity?
 A) Upgradable contracts modify behavior without changing addresses, often using proxies for upgrades and bug fixes.
 
-@ DEFI
+@@ DEFI
 Q) Ethereum Virtual Machine EVM?
 A) The EVM is Ethereum's runtime environment for executing smart contract bytecode.
 Q) Transactions in Ethereum?
@@ -53,7 +53,7 @@ A) AMMs automate token trading using liquidity pools, determining prices via mat
 Q) Impermanent loss definition?
 A) Impermanent loss occurs in liquidity pools when token price ratios change after depositing.
 
-@ STAKING
+@@ STAKING
 Q) Staking in blockchain and cryptocurrencies?
 A) Staking validates transactions on PoS blockchains by locking cryptocurrency as collateral for rewards.
 Q) Difference between staking and mining?
@@ -75,7 +75,7 @@ A) Staking secures networks by incentivizing honesty and distributing power amon
 Q) Popular PoS blockchains supporting staking?
 A) Ethereum 2.0, Cardano, Polkadot, Tezos, and Cosmos are popular PoS blockchains.
 
-@ Optimism
+@@ Optimism
 Q) Optimism and layer-2 scaling for Ethereum?
 A) Optimism scales Ethereum with Optimistic Rollups, processing transactions off-chain for lower fees.
 Q) Optimistic Rollups vs. ZK-Rollups?

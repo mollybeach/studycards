@@ -1,0 +1,13 @@
+@ FundamentalsofComputerScience
+
+@ Introduction to Computers
+Q) What is the history of computers?
+A) The history of computers dates back to ancient times with the abacus. Modern computing began in the 20th century with the invention of electronic computers.
+Q) Who is considered the father of computers?
+A) Charles Babbage is considered the father of computers. He designed the Analytical Engine, which is considered the first mechanical computer.
+Q) What was the first programmable computer?
+A) The Z3, designed by Konrad Zuse in 1941, is considered the first programmable computer.
+Q) What are the major milestones in computer history?
+A) Major milestones include the invention of the transistor in 1947, the development of integrated circuits in the 1950s, and the creation of the personal computer in the 1970s and 1980s.
+Q) How has computer technology evolved over time?
+A) Computer technology has evolved from mechanical and vacuum tube-based systems to transistors and integrated circuits, leading to powerful and compact modern computers.

@@ -32,6 +32,20 @@ A) To write effective test cases, follow these best practices:
 • Cover positive and negative scenarios, edge cases, and boundary conditions
 • Keep test cases independent, reusable, and maintainable
 • Review and validate test cases with stakeholders and team members
+Q) What are the 4 testing Methodologies?
+A) Test-driven Development (TDD), Behavior-driven Development (BDD), Specification by Example (SBE), Acceptance Test-driven Development (ATDD)
+Q) What is Test-driven Development (TDD)?
+A) Test-driven Development (TDD) is a software development methodology that emphasizes writing tests before writing code. In TDD, developers write automated test cases that define the desired behavior of the software, then write code to make the tests pass. TDD helps improve code quality, design, and test coverage.
+Q) What is Behavior-driven Development (BDD)?
+A) Behavior-driven Development (BDD) is a software development methodology that focuses on defining software behavior in terms of user stories or scenarios. BDD uses natural language specifications and examples to describe software requirements and expected behaviors. BDD helps improve collaboration, communication, and understanding between developers, testers, and stakeholders.
+Q) What is Specification by Example (SBE)?
+A) Specification by Example (SBE) is a software development methodology that emphasizes using examples to define software requirements and behavior. SBE uses concrete examples, scenarios, and acceptance criteria to clarify and validate software requirements. SBE helps ensure that software meets user expectations and business needs.
+Q) What is Acceptance Test-driven Development (ATDD)?
+A) Acceptance Test-driven Development (ATDD) is a software development methodology that emphasizes collaboration between developers, testers, and business stakeholders. In ATDD, teams define acceptance criteria and automated acceptance tests based on user stories or requirements. ATDD helps ensure that software meets user expectations and business needs.
+Q) What is the difference between Black Box Testing and White Box Testing?
+A) Black Box Testing focuses on testing the software's functionality without knowledge of its internal structure or code. White Box Testing focuses on testing the software's internal logic, code paths, and data structures. Black Box Testing is typically used for system and acceptance testing, while White Box Testing is used for unit and integration testing.
+Q) What is the difference between Manual Testing and Automated Testing?
+A) Manual Testing involves executing test cases manually without the use of automated tools or scripts. Automated Testing involves using tools and scripts to execute test cases automatically. Manual Testing is labor-intensive and time-consuming but allows for exploratory testing and human judgment. Automated Testing is efficient, repeatable, and scalable but requires initial setup and maintenance.
 
 @ Jest
 Q) What is Jest and how is it used in Programming?
